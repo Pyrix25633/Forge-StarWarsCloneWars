@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[40,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="star_wars"
+version="1.2.2"
+displayName="Star Wars"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://pyrix25633.github.io/official_website"
+logoFile="logo.png"
+authors="Pyrix25633"
+description='''
+A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers
+'''
+
+[[dependencies.star_wars]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+

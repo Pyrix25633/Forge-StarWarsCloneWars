@@ -1,0 +1,6 @@
+{
+  "parent": "star_wars:custom/thermal_detonator",
+  "textures": {
+    "particle": "star_wars:items/thermal_detonator"
+  }
+}

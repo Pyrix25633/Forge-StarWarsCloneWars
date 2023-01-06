@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 3,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      },
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      },
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeluciaRedWood"
+    },
+    "name": "felucia_red_wood_recipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plastoid_sword",
+    "customModelName": "Normal",
+    "name": "Plastoid Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Materials"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.6,
+    "enchantability": 15,
+    "damageVsEntity": 8.0,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

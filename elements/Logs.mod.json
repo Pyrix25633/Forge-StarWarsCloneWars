@@ -1,0 +1,23 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:FeluciaBlueLog"
+      },
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowLog"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "logs",
+    "namespace": "minecraft"
+  }
+}

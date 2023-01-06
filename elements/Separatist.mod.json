@@ -1,0 +1,11 @@
+{
+  "_fv": 34,
+  "_type": "tab",
+  "definition": {
+    "name": "Separatist",
+    "icon": {
+      "value": "CUSTOM:MusicDiskSeparatist"
+    },
+    "showSearch": false
+  }
+}

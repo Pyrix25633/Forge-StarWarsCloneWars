@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "star_wars:block/radar"
+    },
+    "facing=east": {
+      "model": "star_wars:block/radar",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "star_wars:block/radar",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "star_wars:block/radar",
+      "y": 270
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/bookshelf" },
+			{ "model": "block/bookshelf1" },
+			{ "model": "block/bookshelf2" }
+        ]
+    }
+}

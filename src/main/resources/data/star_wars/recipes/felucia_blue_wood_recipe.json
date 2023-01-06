@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:felucia_blue_log"
+    },
+    "1": {
+      "item": "star_wars:felucia_blue_log"
+    },
+    "2": {
+      "item": "star_wars:felucia_blue_log"
+    },
+    "3": {
+      "item": "star_wars:felucia_blue_log"
+    }
+  },
+  "result": {
+    "item": "star_wars:felucia_blue_wood",
+    "count": 3
+  }
+}

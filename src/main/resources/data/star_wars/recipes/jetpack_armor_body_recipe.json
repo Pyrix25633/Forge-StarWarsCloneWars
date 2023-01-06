@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "2": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "3": {
+      "item": "minecraft:firework_rocket"
+    },
+    "4": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "5": {
+      "item": "minecraft:firework_rocket"
+    },
+    "6": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "7": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "8": {
+      "item": "star_wars:plastoid_plate"
+    }
+  },
+  "result": {
+    "item": "star_wars:jetpack_armor_chestplate",
+    "count": 1
+  }
+}

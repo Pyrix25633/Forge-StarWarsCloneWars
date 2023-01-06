@@ -1,0 +1,49 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_all",
+	"texture_size": [32, 32],
+	"textures": {
+		"0": "StarWars:blocks/radar",
+		"particle": "StarWars:blocks/radar"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 4],
+			"to": [16, 8, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 4], "texture": "#0"},
+				"east": {"uv": [8, 0, 14, 4], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 4], "texture": "#0"},
+				"west": {"uv": [8, 0, 14, 4], "texture": "#0"},
+				"up": {"uv": [8, 0, 14, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [10, 0, 16, 8], "rotation": 270, "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 8, 7],
+			"to": [16, 16, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [8, 0, 16, 4.5], "texture": "#0"},
+				"east": {"uv": [8, 0, 12.5, 4], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 4.5], "texture": "#0"},
+				"west": {"uv": [8, 0, 12.5, 4], "texture": "#0"},
+				"up": {"uv": [8, 0, 12.5, 8], "rotation": 90, "texture": "#0"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16.02, 17.02, 1.02],
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8, 0, 1]},
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8.5], "texture": "#0"},
+				"east": {"uv": [0, 0, 0.5, 8.5], "texture": "#0"},
+				"south": {"uv": [8, 0, 16, 8.5], "texture": "#0"},
+				"west": {"uv": [0, 0, 0.5, 8.5], "texture": "#0"},
+				"up": {"uv": [0, 0, 0.5, 8], "rotation": 90, "texture": "#0"},
+				"down": {"uv": [0, 0, 0.5, 8], "rotation": 270, "texture": "#0"}
+			}
+		}
+	]
+}

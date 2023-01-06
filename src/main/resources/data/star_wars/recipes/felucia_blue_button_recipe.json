@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:felucia_blue_planks"
+    }
+  },
+  "result": {
+    "item": "star_wars:felucia_blue_button",
+    "count": 4
+  }
+}

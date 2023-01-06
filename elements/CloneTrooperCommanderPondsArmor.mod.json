@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "clone_armor_item_ponds_helmet",
+    "enableBody": true,
+    "textureBody": "clone_armor_item_ponds_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "clone_armor_item_ponds_leggings",
+    "enableBoots": true,
+    "textureBoots": "clone_armor_item_ponds_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Republic"
+    },
+    "armorTextureFile": "clone_armor_armor_ponds_",
+    "helmetName": "Clone Commander Ponds Helmet",
+    "bodyName": "Clone Commander Ponds Chestplate",
+    "leggingsName": "Clone Commander Ponds Leggings",
+    "bootsName": "Clone Commander Ponds Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modela_h",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "clone_armor_armor_ponds_layer_helmet.png",
+    "bodyModelName": "Modela_c",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modelb_l",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "clone_armor_armor_ponds_layer_leggings.png",
+    "bootsModelName": "Modela_b",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 70,
+    "damageValueHelmet": 10,
+    "damageValueBody": 22,
+    "damageValueLeggings": 26,
+    "damageValueBoots": 10,
+    "enchantability": 15,
+    "toughness": 2.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ]
+  }
+}

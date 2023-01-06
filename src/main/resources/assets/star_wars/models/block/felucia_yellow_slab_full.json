@@ -1,0 +1,8 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "bottom": "star_wars:blocks/felucia_yellow_planks",
+    "top": "star_wars:blocks/felucia_yellow_planks",
+    "side": "star_wars:blocks/felucia_yellow_planks"
+  }
+}

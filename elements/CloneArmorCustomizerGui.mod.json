@@ -1,0 +1,132 @@
+{
+  "_fv": 34,
+  "_type": "gui",
+  "definition": {
+    "type": 1,
+    "width": 176,
+    "height": 166,
+    "inventoryOffsetX": 0,
+    "inventoryOffsetY": 0,
+    "renderBgLayer": true,
+    "doesPauseGame": false,
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "Clone Armor Customizer",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "Clone Armor Customizer",
+          "x": 133,
+          "y": 42
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 0,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #0",
+          "x": 133,
+          "y": 73
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 1,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #1",
+          "x": 169,
+          "y": 73
+        }
+      },
+      {
+        "type": "outputslot",
+        "data": {
+          "id": 3,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #3",
+          "x": 259,
+          "y": 73
+        }
+      },
+      {
+        "type": "button",
+        "data": {
+          "text": "Customize",
+          "onClick": {
+            "name": "CloneArmorCustomizerCustomize"
+          },
+          "width": 70,
+          "height": 20,
+          "name": "Customize",
+          "x": 178,
+          "y": 95
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": ".png",
+          "use1Xscale": false,
+          "name": ".png",
+          "x": 151,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "arrow.png",
+          "use1Xscale": false,
+          "name": "arrow.png",
+          "x": 228,
+          "y": 72
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": ".png",
+          "use1Xscale": false,
+          "name": ".png",
+          "x": 187,
+          "y": 72
+        }
+      },
+      {
+        "type": "inputslot",
+        "data": {
+          "inputLimit": {
+            "value": ""
+          },
+          "id": 2,
+          "disableStackInteraction": false,
+          "dropItemsWhenNotBound": true,
+          "name": "Slot #2",
+          "x": 205,
+          "y": 73
+        }
+      }
+    ],
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

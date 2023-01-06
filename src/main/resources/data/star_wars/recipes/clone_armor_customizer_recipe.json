@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:titanium_ingot"
+    },
+    "1": {
+      "item": "star_wars:titanium_ingot"
+    },
+    "2": {
+      "tag": "minecraft:planks"
+    },
+    "3": {
+      "tag": "minecraft:planks"
+    }
+  },
+  "result": {
+    "item": "star_wars:clone_armor_customizer",
+    "count": 1
+  }
+}

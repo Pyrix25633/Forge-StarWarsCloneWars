@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_wars:blocks/clone_armor_customizer_bottom",
+    "up": "star_wars:blocks/clone_armor_customizer_top",
+    "north": "star_wars:blocks/clone_armor_customizer_front",
+    "east": "star_wars:blocks/clone_armor_customizer_side",
+    "south": "star_wars:blocks/clone_armor_customizer_front",
+    "west": "star_wars:blocks/clone_armor_customizer_side",
+    "particle": "star_wars:blocks/clone_armor_customizer_bottom"
+  }
+}

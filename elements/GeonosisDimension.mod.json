@@ -1,0 +1,52 @@
+{
+  "_fv": 34,
+  "_type": "dimension",
+  "definition": {
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:Geonosis"
+      },
+      {
+        "value": "CUSTOM:GeonosisMountains"
+      },
+      {
+        "value": "CUSTOM:GeonosisPlains"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "Blocks.STONE#0"
+    },
+    "fluidBlock": {
+      "value": "Blocks.FLOWING_WATER"
+    },
+    "airColor": {
+      "value": -3368704,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": false,
+    "isDark": false,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": true,
+    "imitateOverworldBehaviour": true,
+    "portalFrame": {
+      "value": "Blocks.RED_SANDSTONE#2"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Geonosis Dimension Portal Igniter",
+    "igniterTab": {
+      "value": "CUSTOM:Materials"
+    },
+    "texture": "geonosis_dimension_portal_igniter",
+    "portalTexture": "geonosis_portal",
+    "enablePortal": true
+  }
+}

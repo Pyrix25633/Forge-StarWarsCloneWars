@@ -1,0 +1,24 @@
+{
+  "_fv": 34,
+  "_type": "structure",
+  "definition": {
+    "structure": "laat_i",
+    "randomlyRotateStructure": true,
+    "surfaceDetectionType": "First motion blocking block",
+    "spawnProbability": 2500,
+    "minCountPerChunk": 1,
+    "maxCountPerChunk": 1,
+    "spawnLocation": "Ground",
+    "spawnHeightOffset": 15,
+    "spawnXOffset": 0,
+    "spawnZOffset": 0,
+    "spawnWorldTypes": [
+      "CUSTOM:GeonosisDimension",
+      "CUSTOM:KashyyykDimension",
+      "CUSTOM:FeluciaDimension"
+    ],
+    "restrictionBlocks": [],
+    "restrictionBiomes": [],
+    "ignoreBlocks": "STRUCTURE_BLOCK"
+  }
+}

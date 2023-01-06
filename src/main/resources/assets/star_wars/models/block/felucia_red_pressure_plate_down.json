@@ -1,0 +1,6 @@
+{
+  "parent": "block/pressure_plate_down",
+  "textures": {
+    "texture": "star_wars:blocks/felucia_red_planks"
+  }
+}

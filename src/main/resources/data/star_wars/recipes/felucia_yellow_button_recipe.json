@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "star_wars:felucia_yellow_planks"
+    }
+  ],
+  "result": {
+    "item": "star_wars:felucia_yellow_button",
+    "count": 1
+  }
+}

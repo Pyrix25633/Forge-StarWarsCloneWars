@@ -1,0 +1,44 @@
+{
+  "_fv": 34,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:integer:therm_det_num>",
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "name": "<VAR:integer:therm_det_num>",
+          "x": 141,
+          "y": 188
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "thermal_detonator.png",
+          "use1Xscale": false,
+          "name": "thermal_detonator.png",
+          "x": 123,
+          "y": 179
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "displayCondition": {
+      "name": "ThermalDetonatorCountProcedure"
+    },
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

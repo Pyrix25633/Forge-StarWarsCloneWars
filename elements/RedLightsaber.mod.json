@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 1,
+    "texture": "plastoid_sword",
+    "customModelName": "lightsaber_red:default",
+    "name": "Red Lightsaber",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Separatist"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 1.8,
+    "enchantability": 15,
+    "damageVsEntity": 10.0,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": true,
+    "repairItems": [
+      {
+        "value": "CUSTOM:TitaniumIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

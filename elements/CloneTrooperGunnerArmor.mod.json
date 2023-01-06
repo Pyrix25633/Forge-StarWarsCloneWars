@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "clone_armor_item_gunner_helmet",
+    "enableBody": true,
+    "textureBody": "clone_armor_item_gunner_chestplate",
+    "enableLeggings": false,
+    "textureLeggings": "jetpack_leggings",
+    "enableBoots": false,
+    "textureBoots": "jetpack_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Republic"
+    },
+    "armorTextureFile": "clone_armor_armor_gunner_",
+    "helmetName": "Clone Trooper Gunner Helmet",
+    "bodyName": "Clone Trooper Gunner Chestplate",
+    "leggingsName": "Jetpack Leggings",
+    "bootsName": "Jetpack Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modela_h",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "clone_armor_armor_gunner_layer_helmet.png",
+    "bodyModelName": "Modela_c",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 70,
+    "damageValueHelmet": 10,
+    "damageValueBody": 24,
+    "damageValueLeggings": 26,
+    "damageValueBoots": 10,
+    "enchantability": 15,
+    "toughness": 2.0,
+    "knockbackResistance": 0.05,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ]
+  }
+}

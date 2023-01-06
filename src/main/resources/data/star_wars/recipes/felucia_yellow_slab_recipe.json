@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:felucia_yellow_planks"
+    },
+    "1": {
+      "item": "star_wars:felucia_yellow_planks"
+    },
+    "2": {
+      "item": "star_wars:felucia_yellow_planks"
+    }
+  },
+  "result": {
+    "item": "star_wars:felucia_yellow_slab",
+    "count": 6
+  }
+}

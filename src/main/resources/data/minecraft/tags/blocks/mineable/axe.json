@@ -1,0 +1,16 @@
+{
+  "replace": false,
+  "values": [
+    "star_wars:republic_outpost_box",
+    "star_wars:clone_armor_customizer",
+    "star_wars:felucia_blue_wood",
+    "star_wars:felucia_blue_log",
+    "star_wars:felucia_blue_planks",
+    "star_wars:felucia_red_wood",
+    "star_wars:felucia_red_log",
+    "star_wars:felucia_red_planks",
+    "star_wars:felucia_yellow_wood",
+    "star_wars:felucia_yellow_log",
+    "star_wars:felucia_yellow_planks"
+  ]
+}

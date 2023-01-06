@@ -1,0 +1,31 @@
+{
+  "_fv": 34,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "plastoid_hoe",
+    "customModelName": "Normal",
+    "name": "Plastoid Hoe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:Materials"
+    },
+    "toolType": "Hoe",
+    "harvestLevel": 4,
+    "efficiency": 9.0,
+    "attackSpeed": 4.0,
+    "enchantability": 15,
+    "damageVsEntity": 1.0,
+    "usageCount": 2032,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

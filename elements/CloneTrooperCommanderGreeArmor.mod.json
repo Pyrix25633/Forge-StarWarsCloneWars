@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "clone_armor_item_gree_helmet",
+    "enableBody": true,
+    "textureBody": "clone_armor_item_gree_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "clone_armor_item_gree_leggings",
+    "enableBoots": true,
+    "textureBoots": "clone_armor_item_gree_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Republic"
+    },
+    "armorTextureFile": "clone_armor_armor_gree_",
+    "helmetName": "Clone Commander Gree Helmet",
+    "bodyName": "Clone Commander Gree Chestplate",
+    "leggingsName": "Clone Commander Gree Leggings",
+    "bootsName": "Clone Commander Gree Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modela_h",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "clone_armor_armor_gree_layer_helmet.png",
+    "bodyModelName": "Modela_c",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modela_l",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modela_b",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 70,
+    "damageValueHelmet": 10,
+    "damageValueBody": 22,
+    "damageValueLeggings": 26,
+    "damageValueBoots": 10,
+    "enchantability": 15,
+    "toughness": 2.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ]
+  }
+}

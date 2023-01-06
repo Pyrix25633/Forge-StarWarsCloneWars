@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "star_wars:items/clone_armor_item_pyrix_boots"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/iron_ingot"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data": 1}, "model": "item/keyboard_1"},
+    {"predicate": {"custom_model_data": 2}, "model": "item/keyboard_1_silver"},
+    {"predicate": {"custom_model_data": 3}, "model": "item/keyboard_2"},
+    {"predicate": {"custom_model_data": 4}, "model": "item/keyboard_2_silver"},
+	{"predicate": {"custom_model_data": 5}, "model": "item/mouse_1"},
+    {"predicate": {"custom_model_data": 6}, "model": "item/mouse_1_silver"},
+    {"predicate": {"custom_model_data": 7}, "model": "item/mouse_2"},
+    {"predicate": {"custom_model_data": 8}, "model": "item/mouse_2_silver"}
+  ]
+}

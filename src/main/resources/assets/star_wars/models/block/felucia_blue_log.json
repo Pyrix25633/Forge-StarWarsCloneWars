@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "star_wars:blocks/felucia_blue_log_top",
+    "up": "star_wars:blocks/felucia_blue_log_top",
+    "north": "star_wars:blocks/felucia_blue_log",
+    "east": "star_wars:blocks/felucia_blue_log",
+    "south": "star_wars:blocks/felucia_blue_log",
+    "west": "star_wars:blocks/felucia_blue_log",
+    "particle": "star_wars:blocks/felucia_blue_log_top"
+  }
+}

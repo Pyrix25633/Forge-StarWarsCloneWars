@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "forge:feluciayellow_log"
+    }
+  ],
+  "result": {
+    "item": "star_wars:felucia_yellow_planks",
+    "count": 4
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:felucia_red_planks"
+    },
+    "1": {
+      "item": "minecraft:stick"
+    },
+    "2": {
+      "item": "star_wars:felucia_red_planks"
+    },
+    "3": {
+      "item": "star_wars:felucia_red_planks"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "star_wars:felucia_red_planks"
+    }
+  },
+  "result": {
+    "item": "star_wars:felucia_red_fence",
+    "count": 3
+  }
+}

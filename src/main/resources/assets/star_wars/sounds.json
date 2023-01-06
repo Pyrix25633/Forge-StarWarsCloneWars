@@ -1,0 +1,82 @@
+{
+  "entity.laser.shot": {
+    "category": "master",
+    "subtitle": "subtitles.entity.laser.shot",
+    "sounds": [
+      {
+        "name": "star_wars:blaster",
+        "stream": false
+      }
+    ]
+  },
+  "entity.living.clone": {
+    "category": "neutral",
+    "subtitle": "subtitles.entity.living.clone",
+    "sounds": [
+      {
+        "name": "star_wars:clone_yes_sir",
+        "stream": false
+      }
+    ]
+  },
+  "record.separatist": {
+    "category": "record",
+    "subtitle": "subtitles.record.separatist",
+    "sounds": [
+      {
+        "name": "star_wars:separatist_army_march",
+        "stream": true
+      }
+    ]
+  },
+  "entity.walk.speeder": {
+    "category": "master",
+    "subtitle": "subtitles.entity.walk.speeder",
+    "sounds": [
+      {
+        "name": "star_wars:repubblic_tank",
+        "stream": false
+      }
+    ]
+  },
+  "entity.hurt.speeder": {
+    "category": "master",
+    "subtitle": "subtitles.entity.hurt.speeder",
+    "sounds": [
+      {
+        "name": "star_wars:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "record.republic": {
+    "category": "record",
+    "subtitle": "subtitles.record.republic",
+    "sounds": [
+      {
+        "name": "star_wars:republic_army_march",
+        "stream": true
+      }
+    ]
+  },
+  "entity.hurt.tank": {
+    "category": "master",
+    "subtitle": "subtitles.entity.hurt.tank",
+    "sounds": [
+      {
+        "name": "star_wars:hurt",
+        "stream": false
+      }
+    ]
+  },
+  "entity.walk.tank": {
+    "category": "master",
+    "subtitle": "subtitles.entity.walk.tank",
+    "sounds": [
+      {
+        "name": "star_wars:republic_tank",
+        "stream": false
+      }
+    ]
+  }
+}

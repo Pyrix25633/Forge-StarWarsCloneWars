@@ -1,0 +1,6 @@
+{
+  "parent": "block/button_inventory",
+  "textures": {
+    "texture": "star_wars:blocks/felucia_blue_planks"
+  }
+}

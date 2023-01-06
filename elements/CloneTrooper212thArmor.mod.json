@@ -1,0 +1,62 @@
+{
+  "_fv": 34,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "clone_armor_item_212th_helmet",
+    "enableBody": true,
+    "textureBody": "clone_armor_item_212th_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "clone_armor_item_212th_leggings",
+    "enableBoots": true,
+    "textureBoots": "clone_armor_item_212th_boots",
+    "creativeTab": {
+      "value": "CUSTOM:Republic"
+    },
+    "armorTextureFile": "clone_armor_armor_212th_",
+    "helmetName": "Clone Trooper 212th Attach Battalion Helmet",
+    "bodyName": "Clone Trooper 212th Attach Battalion Chestplate",
+    "leggingsName": "Clone Trooper 212th Attach Battalion Leggings",
+    "bootsName": "Clone Trooper 212th Attach Battalion Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Modela_h",
+    "helmetModelPart": "Head",
+    "helmetModelTexture": "clone_armor_armor_212th_layer_helmet.png",
+    "bodyModelName": "Modela_c",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "LeftArm",
+    "armsModelPartR": "RightArm",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Modela_l",
+    "leggingsModelPartL": "LeftLeg",
+    "leggingsModelPartR": "RightLeg",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Modela_b",
+    "bootsModelPartL": "LeftLeg",
+    "bootsModelPartR": "RightLeg",
+    "bootsModelTexture": "From armor",
+    "helmetImmuneToFire": false,
+    "bodyImmuneToFire": false,
+    "leggingsImmuneToFire": false,
+    "bootsImmuneToFire": false,
+    "maxDamage": 70,
+    "damageValueHelmet": 10,
+    "damageValueBody": 22,
+    "damageValueLeggings": 26,
+    "damageValueBoots": 10,
+    "enchantability": 15,
+    "toughness": 2.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_iron"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:PlastoidPlate"
+      }
+    ]
+  }
+}

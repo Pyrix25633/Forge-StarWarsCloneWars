@@ -1,0 +1,30 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/cactus" },
+			{ "model": "block/cactus" },
+			{ "model": "block/cactus" },
+			{ "model": "block/cactus" },
+			{ "model": "block/cactus/cactus_1east" },
+			{ "model": "block/cactus/cactus_1north" },
+			{ "model": "block/cactus/cactus_1south" },
+			{ "model": "block/cactus/cactus_1west" },
+			{ "model": "block/cactus/cactus_2east" },
+			{ "model": "block/cactus/cactus_2north" },
+			{ "model": "block/cactus/cactus_2south" },
+			{ "model": "block/cactus/cactus_2west" },
+			{ "model": "block/cactus/cactus_3east" },
+			{ "model": "block/cactus/cactus_3north" },
+			{ "model": "block/cactus/cactus_3south" },
+			{ "model": "block/cactus/cactus_3west" },
+			{ "model": "block/cactus/cactus_4east" },
+			{ "model": "block/cactus/cactus_4north" },
+			{ "model": "block/cactus/cactus_4south" },
+			{ "model": "block/cactus/cactus_4west" },
+			{ "model": "block/cactus/cactus_5east" },
+			{ "model": "block/cactus/cactus_5north" },
+			{ "model": "block/cactus/cactus_5south" },
+			{ "model": "block/cactus/cactus_5west" }
+        ]
+    }
+}

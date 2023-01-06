@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:glowstone_dust"
+    },
+    "3": {
+      "item": "minecraft:blue_dye"
+    },
+    "4": {
+      "item": "minecraft:redstone"
+    },
+    "5": {
+      "item": "minecraft:blue_dye"
+    },
+    "7": {
+      "item": "star_wars:titanium_ingot"
+    }
+  },
+  "result": {
+    "item": "star_wars:blue_lightsaber",
+    "count": 1
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "star_wars:blocks/felucia_red_planks",
+    "top": "star_wars:blocks/felucia_red_planks",
+    "side": "star_wars:blocks/felucia_red_planks"
+  }
+}

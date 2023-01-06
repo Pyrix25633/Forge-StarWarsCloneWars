@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "star_wars:plastoid_scrap"
+    },
+    {
+      "item": "star_wars:plastoid_scrap"
+    },
+    {
+      "item": "star_wars:plastoid_scrap"
+    },
+    {
+      "item": "star_wars:plastoid_scrap"
+    },
+    {
+      "item": "star_wars:titanium_ingot"
+    },
+    {
+      "item": "star_wars:titanium_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+  ],
+  "result": {
+    "item": "star_wars:plastoid_plate",
+    "count": 1
+  }
+}

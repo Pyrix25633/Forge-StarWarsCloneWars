@@ -1,0 +1,6 @@
+{
+  "parent": "block/template_fence_gate_wall",
+  "textures": {
+    "texture": "star_wars:blocks/felucia_red_planks"
+  }
+}

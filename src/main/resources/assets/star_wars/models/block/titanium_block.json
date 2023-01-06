@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "star_wars:blocks/titanium_block",
+    "particle": "star_wars:blocks/titanium_block"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/iron_axe"
+  },
+  "overrides":[
+    {"predicate": {"custom_model_data": 1}, "model": "item/ascia_dell_abitore"},
+	{"predicate": {"custom_model_data": 2}, "model": "item/ascia_doppia"},
+	{"predicate": {"custom_model_data": 3}, "model": "item/mazza"}
+  ]
+}

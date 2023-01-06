@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "star_wars:felucia_red_planks"
+    }
+  ],
+  "result": {
+    "item": "star_wars:felucia_red_button",
+    "count": 1
+  }
+}

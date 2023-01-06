@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "2": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "3": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "5": {
+      "item": "star_wars:plastoid_plate"
+    }
+  },
+  "result": {
+    "item": "star_wars:clone_trooper_normal_armor_boots",
+    "count": 1
+  }
+}

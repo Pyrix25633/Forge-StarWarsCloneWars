@@ -1,0 +1,31 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/potted_cactus/potted_cactus" },
+			{ "model": "block/potted_cactus/potted_cactus" },
+			{ "model": "block/potted_cactus/potted_cactus" },
+			{ "model": "block/potted_cactus/potted_cactus" },
+			{ "model": "block/potted_cactus/potted_cactus1east" },
+			{ "model": "block/potted_cactus/potted_cactus1north" },
+			{ "model": "block/potted_cactus/potted_cactus1south" },
+			{ "model": "block/potted_cactus/potted_cactus1west" },
+			{ "model": "block/potted_cactus/potted_cactus2east" },
+			{ "model": "block/potted_cactus/potted_cactus2north" },
+			{ "model": "block/potted_cactus/potted_cactus2south" },
+			{ "model": "block/potted_cactus/potted_cactus2west" },
+			{ "model": "block/potted_cactus/potted_cactus3east" },
+			{ "model": "block/potted_cactus/potted_cactus3north" },
+			{ "model": "block/potted_cactus/potted_cactus3south" },
+			{ "model": "block/potted_cactus/potted_cactus3west" },
+			{ "model": "block/potted_cactus/potted_cactus4east" },
+			{ "model": "block/potted_cactus/potted_cactus4north" },
+			{ "model": "block/potted_cactus/potted_cactus4south" },
+			{ "model": "block/potted_cactus/potted_cactus4west" },
+			{ "model": "block/potted_cactus/potted_cactus5east" },
+			{ "model": "block/potted_cactus/potted_cactus5north" },
+			{ "model": "block/potted_cactus/potted_cactus5south" },
+			{ "model": "block/potted_cactus/potted_cactus5west" }
+
+        ]
+    }
+}

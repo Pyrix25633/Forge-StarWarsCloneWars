@@ -1,0 +1,46 @@
+{
+  "_fv": 34,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      },
+      {
+        "value": "CUSTOM:FeluciaYellowPlanks"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FeluciaYellowStairs"
+    },
+    "name": "felucia_yellow_stairs_recipe",
+    "namespace": "mod"
+  }
+}

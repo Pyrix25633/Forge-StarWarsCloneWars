@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_inventory",
+  "textures": {
+    "texture": "star_wars:blocks/felucia_red_planks",
+    "particle": "star_wars:blocks/felucia_red_planks"
+  }
+}

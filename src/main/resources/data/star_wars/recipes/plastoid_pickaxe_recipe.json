@@ -1,0 +1,29 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "1": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "2": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "star_wars:plastoid_pickaxe",
+    "count": 1
+  }
+}

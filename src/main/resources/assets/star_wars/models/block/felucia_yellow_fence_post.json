@@ -1,0 +1,7 @@
+{
+  "parent": "block/fence_post",
+  "textures": {
+    "texture": "star_wars:blocks/felucia_yellow_planks",
+    "particle": "star_wars:blocks/felucia_yellow_planks"
+  }
+}

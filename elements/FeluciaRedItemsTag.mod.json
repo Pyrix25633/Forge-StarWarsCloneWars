@@ -1,0 +1,20 @@
+{
+  "_fv": 34,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:FeluciaRedWood"
+      },
+      {
+        "value": "CUSTOM:FeluciaRedLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "name": "feluciared_log",
+    "namespace": "forge"
+  }
+}

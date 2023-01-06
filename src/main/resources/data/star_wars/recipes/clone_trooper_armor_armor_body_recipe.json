@@ -1,0 +1,38 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "2": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "3": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "4": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "5": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "6": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "7": {
+      "item": "star_wars:plastoid_plate"
+    },
+    "8": {
+      "item": "star_wars:plastoid_plate"
+    }
+  },
+  "result": {
+    "item": "star_wars:clone_trooper_normal_armor_chestplate",
+    "count": 1
+  }
+}

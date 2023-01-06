@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "star_wars:blocks/felucia_yellow_log",
+    "particle": "star_wars:blocks/felucia_yellow_log"
+  }
+}

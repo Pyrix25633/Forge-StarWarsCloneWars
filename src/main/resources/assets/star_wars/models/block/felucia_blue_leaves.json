@@ -1,0 +1,7 @@
+{
+  "parent": "block/leaves",
+  "textures": {
+    "all": "star_wars:blocks/felucia_blue_leaves",
+    "particle": "star_wars:blocks/felucia_blue_leaves"
+  }
+}

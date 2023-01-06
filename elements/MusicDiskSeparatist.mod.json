@@ -1,0 +1,19 @@
+{
+  "_fv": 34,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disk",
+    "texture": "music_disc_separatist",
+    "description": "Pyrix25633 - Separatist Army March",
+    "creativeTab": {
+      "value": "CUSTOM:Separatist"
+    },
+    "specialInfo": [],
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:record.separatist"
+    },
+    "lengthInTicks": 0,
+    "analogOutput": 0
+  }
+}

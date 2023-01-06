@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "star_wars:geonosis",
+    "star_wars:geonosis_plains",
+    "star_wars:geonosis_mountains",
+    "star_wars:kashyyyk",
+    "star_wars:kashyyyk_beaches",
+    "star_wars:kashyyyk_mountains"
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blaster_dc_15s"
+      },
+      "name": "default"
+    }
+  }
+}

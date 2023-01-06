@@ -1,0 +1,8 @@
+{
+  "parent": "star_wars:custom/radar",
+  "textures": {
+    "all": "star_wars:blocks/radar",
+    "particle": "star_wars:blocks/radar",
+    "0": "star_wars:blocks/radar"
+  }
+}
