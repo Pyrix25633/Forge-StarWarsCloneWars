@@ -1,5 +1,4 @@
 {
-  "id_map": {},
   "mod_elements": [
     {
       "name": "CloneTrooperComunicator",
@@ -7,7 +6,6 @@
       "sortid": 2,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_comunicator"
     },
     {
@@ -16,7 +14,6 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_munitions"
     },
     {
@@ -25,7 +22,6 @@
       "sortid": 39,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_normal_armor",
       "metadata": {
         "eh": true,
@@ -40,7 +36,6 @@
       "sortid": 127,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_armor_armor_helmet_recipe"
     },
     {
@@ -49,7 +44,6 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_armor_armor_body_recipe"
     },
     {
@@ -58,7 +52,6 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_armor_armor_leggings_recipe"
     },
     {
@@ -67,7 +60,6 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_armor_armor_boots_recipe"
     },
     {
@@ -76,7 +68,6 @@
       "sortid": 46,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_armor",
       "metadata": {
         "eh": true,
@@ -91,7 +82,6 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander"
     },
     {
@@ -100,7 +90,6 @@
       "sortid": 58,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_501st_armor",
       "metadata": {
         "eh": true,
@@ -115,7 +104,6 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_501st"
     },
     {
@@ -124,7 +112,6 @@
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "materials"
     },
     {
@@ -133,7 +120,6 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "raw_titanium"
     },
     {
@@ -142,7 +128,6 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_ingot"
     },
     {
@@ -151,7 +136,6 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_ore"
     },
     {
@@ -160,7 +144,6 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_ingot_recipe"
     },
     {
@@ -169,7 +152,6 @@
       "sortid": 133,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_ore_loot_table"
     },
     {
@@ -178,7 +160,6 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_scrap"
     },
     {
@@ -187,7 +168,6 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_plate"
     },
     {
@@ -196,7 +176,6 @@
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_scrap_recipe"
     },
     {
@@ -205,7 +184,6 @@
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_plate_recipe"
     },
     {
@@ -214,7 +192,6 @@
       "sortid": 136,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "raw_titanium_recipe_blast"
     },
     {
@@ -223,7 +200,6 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper"
     },
     {
@@ -232,7 +208,6 @@
       "sortid": 137,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis"
     },
     {
@@ -241,7 +216,6 @@
       "sortid": 138,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_comunicator_recipe"
     },
     {
@@ -250,7 +224,6 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_block"
     },
     {
@@ -259,7 +232,6 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "commander_grade"
     },
     {
@@ -268,7 +240,6 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "commander_grade_recipe"
     },
     {
@@ -277,7 +248,6 @@
       "sortid": 140,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_armor_customizer_customize",
       "metadata": {
         "dependencies": [
@@ -294,7 +264,6 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_armor_customizer_gui"
     },
     {
@@ -303,7 +272,6 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_block_recipe"
     },
     {
@@ -312,7 +280,6 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_armor_customizer_recipe"
     },
     {
@@ -321,7 +288,6 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_armor_customizer"
     },
     {
@@ -330,7 +296,6 @@
       "sortid": 62,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_guard_armor",
       "metadata": {
         "eh": true,
@@ -345,7 +310,6 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_guard"
     },
     {
@@ -354,7 +318,6 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soldier_grade"
     },
     {
@@ -363,7 +326,6 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "soldier_grade_recipe"
     },
     {
@@ -372,7 +334,6 @@
       "sortid": 45,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_captain_armor",
       "metadata": {
         "eh": true,
@@ -387,7 +348,6 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "captain_grade"
     },
     {
@@ -396,7 +356,6 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "captain_grade_recipe"
     },
     {
@@ -405,7 +364,6 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_captain"
     },
     {
@@ -414,7 +372,6 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sergeant_grade"
     },
     {
@@ -423,7 +380,6 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "sergeant_grade_recipe"
     },
     {
@@ -432,7 +388,6 @@
       "sortid": 43,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_sergeant_armor",
       "metadata": {
         "eh": true,
@@ -447,7 +402,6 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_sergeant"
     },
     {
@@ -456,7 +410,6 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_dc_15s"
     },
     {
@@ -465,7 +418,6 @@
       "sortid": 54,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_212th_armor",
       "metadata": {
         "eh": true,
@@ -480,7 +432,6 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_212th"
     },
     {
@@ -489,7 +440,6 @@
       "sortid": 47,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_41st_armor",
       "metadata": {
         "eh": true,
@@ -504,7 +454,6 @@
       "sortid": 49,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_91st_armor",
       "metadata": {
         "eh": true,
@@ -519,7 +468,6 @@
       "sortid": 51,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_104th_armor",
       "metadata": {
         "eh": true,
@@ -534,7 +482,6 @@
       "sortid": 56,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_327th_armor",
       "metadata": {
         "eh": true,
@@ -549,7 +496,6 @@
       "sortid": 55,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_cody_armor",
       "metadata": {
         "eh": true,
@@ -564,7 +510,6 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_41st"
     },
     {
@@ -573,7 +518,6 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_91st"
     },
     {
@@ -582,7 +526,6 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_104th"
     },
     {
@@ -591,7 +534,6 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_327th"
     },
     {
@@ -600,7 +542,6 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_cody"
     },
     {
@@ -609,7 +550,6 @@
       "sortid": 53,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_wolffe_armor",
       "metadata": {
         "eh": true,
@@ -624,7 +564,6 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_wolffe"
     },
     {
@@ -633,7 +572,6 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_fox"
     },
     {
@@ -642,7 +580,6 @@
       "sortid": 63,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_fox_armor",
       "metadata": {
         "eh": true,
@@ -657,7 +594,6 @@
       "sortid": 61,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_appo_armor",
       "metadata": {
         "eh": true,
@@ -672,7 +608,6 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_appo"
     },
     {
@@ -681,7 +616,6 @@
       "sortid": 48,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_gree_armor",
       "metadata": {
         "eh": true,
@@ -696,7 +630,6 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_gree"
     },
     {
@@ -705,7 +638,6 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "liutenant_grade"
     },
     {
@@ -714,7 +646,6 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "liutenant_grade_recipe"
     },
     {
@@ -723,7 +654,6 @@
       "sortid": 44,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_liutenant_armor",
       "metadata": {
         "eh": true,
@@ -738,7 +668,6 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_liutenant"
     },
     {
@@ -747,7 +676,6 @@
       "sortid": 40,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_bomb_armor",
       "metadata": {
         "eh": true,
@@ -762,7 +690,6 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_bomb"
     },
     {
@@ -771,7 +698,6 @@
       "sortid": 38,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "jetpack_armor",
       "metadata": {
         "eh": false,
@@ -786,7 +712,6 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "jetpack_armor_body_recipe"
     },
     {
@@ -795,7 +720,6 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay"
     },
     {
@@ -804,7 +728,6 @@
       "sortid": 150,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay_procedure",
       "metadata": {
         "return_type": "logic",
@@ -822,7 +745,6 @@
       "sortid": 57,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_bly_armor",
       "metadata": {
         "eh": true,
@@ -837,7 +759,6 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_bly"
     },
     {
@@ -846,7 +767,6 @@
       "sortid": 60,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_captain_rex_armor",
       "metadata": {
         "eh": true,
@@ -861,7 +781,6 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_captain_rex"
     },
     {
@@ -870,7 +789,6 @@
       "sortid": 50,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_ponds_armor",
       "metadata": {
         "eh": true,
@@ -885,7 +803,6 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_ponds"
     },
     {
@@ -894,7 +811,6 @@
       "sortid": 64,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_25633rd_armor",
       "metadata": {
         "eh": true,
@@ -909,7 +825,6 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_25633rd"
     },
     {
@@ -918,7 +833,6 @@
       "sortid": 65,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_captain_crypto_armor",
       "metadata": {
         "eh": true,
@@ -933,7 +847,6 @@
       "sortid": 66,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_commander_pyrix_armor",
       "metadata": {
         "eh": true,
@@ -948,7 +861,6 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay_d"
     },
     {
@@ -957,7 +869,6 @@
       "sortid": 152,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay_d_procedure",
       "metadata": {
         "return_type": "logic",
@@ -975,7 +886,6 @@
       "sortid": 153,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay_b_procedure",
       "metadata": {
         "return_type": "logic",
@@ -993,7 +903,6 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "helmet_overlay_b"
     },
     {
@@ -1002,7 +911,6 @@
       "sortid": 83,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_dimension",
       "metadata": {
         "ep": true
@@ -1014,7 +922,6 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_plains"
     },
     {
@@ -1023,7 +930,6 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_mountains"
     },
     {
@@ -1032,7 +938,6 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "music_disk_separatist"
     },
     {
@@ -1041,7 +946,6 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "separatist_painting"
     },
     {
@@ -1050,7 +954,6 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid"
     },
     {
@@ -1059,7 +962,6 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "separatist"
     },
     {
@@ -1068,7 +970,6 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_e_5"
     },
     {
@@ -1077,7 +978,6 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tank_shoot"
     },
     {
@@ -1086,7 +986,6 @@
       "sortid": 161,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tank_shoot_procedure",
       "metadata": {
         "dependencies": [
@@ -1103,7 +1002,6 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "repubblic_tank_gui"
     },
     {
@@ -1112,7 +1010,6 @@
       "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "repubblic_tank_shot"
     },
     {
@@ -1121,7 +1018,6 @@
       "sortid": 164,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "thermal_detonator_procedure",
       "metadata": {
         "dependencies": [
@@ -1149,8 +1045,7 @@
       "type": "rangeditem",
       "sortid": 81,
       "compiles": true,
-      "locked_code": true,
-      "ids": {},
+      "locked_code": false,
       "registry_name": "thermal_detonator"
     },
     {
@@ -1159,7 +1054,6 @@
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "thermal_detonator_recipe"
     },
     {
@@ -1168,7 +1062,6 @@
       "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_dc_15s_recipe"
     },
     {
@@ -1177,7 +1070,6 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_munitions_recipe"
     },
     {
@@ -1186,7 +1078,6 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_dc_17"
     },
     {
@@ -1195,7 +1086,6 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "radar"
     },
     {
@@ -1204,7 +1094,6 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "backpack_gui"
     },
     {
@@ -1213,7 +1102,6 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "backpack"
     },
     {
@@ -1222,7 +1110,6 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "backpack_recipe"
     },
     {
@@ -1231,7 +1118,6 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic_tank"
     },
     {
@@ -1240,7 +1126,6 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic_tank_auto"
     },
     {
@@ -1249,7 +1134,6 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic_speeder"
     },
     {
@@ -1258,7 +1142,6 @@
       "sortid": 170,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic_painting"
     },
     {
@@ -1267,7 +1150,6 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "music_disk_republic"
     },
     {
@@ -1276,7 +1158,6 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic"
     },
     {
@@ -1285,7 +1166,6 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "republic_outpost_box"
     },
     {
@@ -1294,7 +1174,6 @@
       "sortid": 172,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "jetpack_effect_procedure_expire",
       "metadata": {
         "dependencies": [
@@ -1311,7 +1190,6 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_commander"
     },
     {
@@ -1320,7 +1198,6 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_pilot"
     },
     {
@@ -1329,7 +1206,6 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_security"
     },
     {
@@ -1338,7 +1214,6 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "separatist_tank"
     },
     {
@@ -1347,7 +1222,6 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "separatist_tank_shot"
     },
     {
@@ -1356,7 +1230,6 @@
       "sortid": 174,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "munition_count_procedure",
       "metadata": {
         "return_type": "logic",
@@ -1374,7 +1247,6 @@
       "sortid": 175,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "munition_number_overlay"
     },
     {
@@ -1383,7 +1255,6 @@
       "sortid": 176,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "thermal_detonator_count_procedure",
       "metadata": {
         "return_type": "logic",
@@ -1401,7 +1272,6 @@
       "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "thermal_detonator_number_overlay"
     },
     {
@@ -1410,7 +1280,6 @@
       "sortid": 178,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "at_ap"
     },
     {
@@ -1419,7 +1288,6 @@
       "sortid": 179,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "laat_i"
     },
     {
@@ -1428,7 +1296,6 @@
       "sortid": 180,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "laat_t"
     },
     {
@@ -1437,7 +1304,6 @@
       "sortid": 181,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blaster_dc_17_recipe"
     },
     {
@@ -1446,7 +1312,6 @@
       "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_dimension_portal_igniter_recipe"
     },
     {
@@ -1455,7 +1320,6 @@
       "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "at_te"
     },
     {
@@ -1464,7 +1328,6 @@
       "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_outpost_1"
     },
     {
@@ -1473,7 +1336,6 @@
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_outpost_2"
     },
     {
@@ -1482,7 +1344,6 @@
       "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_outpost_3"
     },
     {
@@ -1491,7 +1352,6 @@
       "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_outpost_501st"
     },
     {
@@ -1500,7 +1360,6 @@
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "geonosis_separatist_1"
     },
     {
@@ -1509,7 +1368,6 @@
       "sortid": 52,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "jetpack_armor_104th",
       "metadata": {
         "eh": true,
@@ -1524,7 +1382,6 @@
       "sortid": 59,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "jetpack_armor_501st",
       "metadata": {
         "eh": true,
@@ -1539,7 +1396,6 @@
       "sortid": 189,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "tank_shoot_explosion_procedure",
       "metadata": {
         "dependencies": [
@@ -1568,7 +1424,6 @@
       "sortid": 84,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_dimension",
       "metadata": {
         "ep": true
@@ -1580,7 +1435,6 @@
       "sortid": 190,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk"
     },
     {
@@ -1589,7 +1443,6 @@
       "sortid": 191,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_beaches"
     },
     {
@@ -1598,7 +1451,6 @@
       "sortid": 192,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_mountains"
     },
     {
@@ -1607,7 +1459,6 @@
       "sortid": 41,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_pilot_armor",
       "metadata": {
         "eh": true,
@@ -1622,7 +1473,6 @@
       "sortid": 42,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_trooper_gunner_armor",
       "metadata": {
         "eh": true,
@@ -1637,7 +1487,6 @@
       "sortid": 193,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_separatist_landing_cruiser"
     },
     {
@@ -1646,7 +1495,6 @@
       "sortid": 194,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_outpost_1"
     },
     {
@@ -1655,7 +1503,6 @@
       "sortid": 195,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_pillar"
     },
     {
@@ -1664,7 +1511,6 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_kashyyyk"
     },
     {
@@ -1673,7 +1519,6 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_commander_kashyyyk"
     },
     {
@@ -1682,7 +1527,6 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_pilot_kashyyyk"
     },
     {
@@ -1691,7 +1535,6 @@
       "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "droid_security_kashyyyk"
     },
     {
@@ -1700,7 +1543,6 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_pickaxe"
     },
     {
@@ -1709,7 +1551,6 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_axe"
     },
     {
@@ -1718,7 +1559,6 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_sword"
     },
     {
@@ -1727,7 +1567,6 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_shovel"
     },
     {
@@ -1736,7 +1575,6 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_hoe"
     },
     {
@@ -1745,7 +1583,6 @@
       "sortid": 196,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_pickaxe_recipe"
     },
     {
@@ -1754,7 +1591,6 @@
       "sortid": 197,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_axe_recipe"
     },
     {
@@ -1763,7 +1599,6 @@
       "sortid": 198,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_sword_recipe"
     },
     {
@@ -1772,7 +1607,6 @@
       "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_shovel_recipe"
     },
     {
@@ -1781,7 +1615,6 @@
       "sortid": 200,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "plastoid_hoe_recipe"
     },
     {
@@ -1790,7 +1623,6 @@
       "sortid": 201,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "clone_tank"
     },
     {
@@ -1799,7 +1631,6 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_wood"
     },
     {
@@ -1808,7 +1639,6 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_log"
     },
     {
@@ -1817,7 +1647,6 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_planks"
     },
     {
@@ -1826,7 +1655,6 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_leaves"
     },
     {
@@ -1835,7 +1663,6 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_stairs"
     },
     {
@@ -1844,7 +1671,6 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_slab"
     },
     {
@@ -1853,7 +1679,6 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_fence"
     },
     {
@@ -1862,7 +1687,6 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_fence_gate"
     },
     {
@@ -1871,7 +1695,6 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_pressure_plate"
     },
     {
@@ -1880,7 +1703,6 @@
       "sortid": 202,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_items_tag"
     },
     {
@@ -1889,7 +1711,6 @@
       "sortid": 203,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_wood_recipe"
     },
     {
@@ -1898,7 +1719,6 @@
       "sortid": 204,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_planks_recipe"
     },
     {
@@ -1907,7 +1727,6 @@
       "sortid": 205,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_stairs_recipe"
     },
     {
@@ -1916,7 +1735,6 @@
       "sortid": 206,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_slab_recipe"
     },
     {
@@ -1925,7 +1743,6 @@
       "sortid": 207,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_fence_recipe"
     },
     {
@@ -1934,7 +1751,6 @@
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_fence_gate_recipe"
     },
     {
@@ -1943,7 +1759,6 @@
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_pressure_plate_recipe"
     },
     {
@@ -1952,7 +1767,6 @@
       "sortid": 210,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_stick_recipe"
     },
     {
@@ -1961,7 +1775,6 @@
       "sortid": 211,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "kashyyyk_portal_igniter_recipe"
     },
     {
@@ -1970,7 +1783,6 @@
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_plains"
     },
     {
@@ -1979,7 +1791,6 @@
       "sortid": 85,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_dimension",
       "metadata": {
         "ep": true
@@ -1991,7 +1802,6 @@
       "sortid": 213,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_portal_igniter_recipe"
     },
     {
@@ -2000,7 +1810,6 @@
       "sortid": 214,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "logs"
     },
     {
@@ -2009,7 +1818,6 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_button"
     },
     {
@@ -2018,7 +1826,6 @@
       "sortid": 215,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_blue_button_recipe"
     },
     {
@@ -2027,7 +1834,6 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_wood"
     },
     {
@@ -2036,7 +1842,6 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_log"
     },
     {
@@ -2045,7 +1850,6 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_planks"
     },
     {
@@ -2054,7 +1858,6 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_leaves"
     },
     {
@@ -2063,7 +1866,6 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_stairs"
     },
     {
@@ -2072,7 +1874,6 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_slab"
     },
     {
@@ -2081,7 +1882,6 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_fence"
     },
     {
@@ -2090,7 +1890,6 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_fence_gate"
     },
     {
@@ -2099,7 +1898,6 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_pressure_plate"
     },
     {
@@ -2108,7 +1906,6 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_button"
     },
     {
@@ -2117,7 +1914,6 @@
       "sortid": 216,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_items_tag"
     },
     {
@@ -2126,7 +1922,6 @@
       "sortid": 217,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_wood_recipe"
     },
     {
@@ -2135,7 +1930,6 @@
       "sortid": 218,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_planks_recipe"
     },
     {
@@ -2144,7 +1938,6 @@
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_stairs_recipe"
     },
     {
@@ -2153,7 +1946,6 @@
       "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_slab_recipe"
     },
     {
@@ -2162,7 +1954,6 @@
       "sortid": 221,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_fence_recipe"
     },
     {
@@ -2171,7 +1962,6 @@
       "sortid": 222,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_fence_gate_recipe"
     },
     {
@@ -2180,7 +1970,6 @@
       "sortid": 223,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_pressure_plate_recipe"
     },
     {
@@ -2189,7 +1978,6 @@
       "sortid": 224,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_button_recipe"
     },
     {
@@ -2198,7 +1986,6 @@
       "sortid": 225,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_stick_recipe"
     },
     {
@@ -2207,152 +1994,7 @@
       "sortid": 226,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_red_plains"
-    },
-    {
-      "name": "FeluciaBlueWoodFuel",
-      "type": "fuel",
-      "sortid": 227,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_wood_fuel"
-    },
-    {
-      "name": "FeluciaBlueLogFuel",
-      "type": "fuel",
-      "sortid": 228,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_log_fuel"
-    },
-    {
-      "name": "FeluciaBluePlanksFuel",
-      "type": "fuel",
-      "sortid": 229,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_planks_fuel"
-    },
-    {
-      "name": "FeluciaBluePressurePlateFuel",
-      "type": "fuel",
-      "sortid": 230,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_pressure_plate_fuel"
-    },
-    {
-      "name": "FeluciaBlueFenceFuel",
-      "type": "fuel",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_fence_fuel"
-    },
-    {
-      "name": "FeluciaBlueFenceGateFuel",
-      "type": "fuel",
-      "sortid": 232,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_fence_gate_fuel"
-    },
-    {
-      "name": "FeluciaBlueStairsFuel",
-      "type": "fuel",
-      "sortid": 233,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_stairs_fuel"
-    },
-    {
-      "name": "FeluciaBlueSlabFuel",
-      "type": "fuel",
-      "sortid": 234,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_blue_slab_fuel"
-    },
-    {
-      "name": "FeluciaRedWoodFuel",
-      "type": "fuel",
-      "sortid": 235,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_wood_fuel"
-    },
-    {
-      "name": "FeluciaRedLogFuel",
-      "type": "fuel",
-      "sortid": 236,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_log_fuel"
-    },
-    {
-      "name": "FeluciaRedPlanksFuel",
-      "type": "fuel",
-      "sortid": 237,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_planks_fuel"
-    },
-    {
-      "name": "FeluciaRedPressurePlateFuel",
-      "type": "fuel",
-      "sortid": 238,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_pressure_plate_fuel"
-    },
-    {
-      "name": "FeluciaRedFenceFuel",
-      "type": "fuel",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_fence_fuel"
-    },
-    {
-      "name": "FeluciaRedFenceGateFuel",
-      "type": "fuel",
-      "sortid": 240,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_fence_gate_fuel"
-    },
-    {
-      "name": "FeluciaRedStairsFuel",
-      "type": "fuel",
-      "sortid": 241,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_stairs_fuel"
-    },
-    {
-      "name": "FeluciaRedSlabFuel",
-      "type": "fuel",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_red_slab_fuel"
     },
     {
       "name": "FeluciaYellowWood",
@@ -2360,7 +2002,6 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_wood"
     },
     {
@@ -2369,7 +2010,6 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_log"
     },
     {
@@ -2378,7 +2018,6 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_planks"
     },
     {
@@ -2387,7 +2026,6 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_leaves"
     },
     {
@@ -2396,7 +2034,6 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_stairs"
     },
     {
@@ -2405,7 +2042,6 @@
       "sortid": 111,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_slab"
     },
     {
@@ -2414,7 +2050,6 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_fence"
     },
     {
@@ -2423,7 +2058,6 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_fence_gate"
     },
     {
@@ -2432,7 +2066,6 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_pressure_plate"
     },
     {
@@ -2441,7 +2074,6 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_button"
     },
     {
@@ -2450,7 +2082,6 @@
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_items_tag"
     },
     {
@@ -2459,7 +2090,6 @@
       "sortid": 244,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_wood_recipe"
     },
     {
@@ -2468,7 +2098,6 @@
       "sortid": 245,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_planks_recipe"
     },
     {
@@ -2477,7 +2106,6 @@
       "sortid": 246,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_stairs_recipe"
     },
     {
@@ -2486,7 +2114,6 @@
       "sortid": 247,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_slab_recipe"
     },
     {
@@ -2495,7 +2122,6 @@
       "sortid": 248,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_fence_recipe"
     },
     {
@@ -2504,7 +2130,6 @@
       "sortid": 249,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_fence_gate_recipe"
     },
     {
@@ -2513,7 +2138,6 @@
       "sortid": 250,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_pressure_plate_recipe"
     },
     {
@@ -2522,7 +2146,6 @@
       "sortid": 251,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_button_recipe"
     },
     {
@@ -2531,80 +2154,7 @@
       "sortid": 252,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_stick_recipe"
-    },
-    {
-      "name": "FeluciaYellowWoodFuel",
-      "type": "fuel",
-      "sortid": 253,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_wood_fuel"
-    },
-    {
-      "name": "FeluciaYellowLogFuel",
-      "type": "fuel",
-      "sortid": 254,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_log_fuel"
-    },
-    {
-      "name": "FeluciaYellowPlanksFuel",
-      "type": "fuel",
-      "sortid": 255,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_planks_fuel"
-    },
-    {
-      "name": "FeluciaYellowPressurePlateFuel",
-      "type": "fuel",
-      "sortid": 256,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_pressure_plate_fuel"
-    },
-    {
-      "name": "FeluciaYellowFenceFuel",
-      "type": "fuel",
-      "sortid": 257,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_fence_fuel"
-    },
-    {
-      "name": "FeluciaYellowFenceGateFuel",
-      "type": "fuel",
-      "sortid": 258,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_fence_gate_fuel"
-    },
-    {
-      "name": "FeluciaYellowStairsFuel",
-      "type": "fuel",
-      "sortid": 259,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_stairs_fuel"
-    },
-    {
-      "name": "FeluciaYellowSlabFuel",
-      "type": "fuel",
-      "sortid": 260,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "felucia_yellow_slab_fuel"
     },
     {
       "name": "FeluciaYellowPlains",
@@ -2612,7 +2162,6 @@
       "sortid": 261,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_yellow_plains"
     },
     {
@@ -2621,7 +2170,6 @@
       "sortid": 262,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_separatist_base"
     },
     {
@@ -2630,7 +2178,6 @@
       "sortid": 263,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_outpost_1"
     },
     {
@@ -2639,7 +2186,6 @@
       "sortid": 264,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "felucia_outpost_2"
     },
     {
@@ -2648,7 +2194,6 @@
       "sortid": 265,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "titanium_block_reverse_recipe"
     },
     {
@@ -2657,7 +2202,6 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blue_lightsaber"
     },
     {
@@ -2666,7 +2210,6 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "green_lightsaber"
     },
     {
@@ -2675,7 +2218,6 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "red_lightsaber"
     },
     {
@@ -2684,7 +2226,6 @@
       "sortid": 266,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "blue_lightsaber_recipe"
     },
     {
@@ -2693,7 +2234,6 @@
       "sortid": 267,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "green_lightsaber_recipe"
     },
     {
@@ -2702,8 +2242,199 @@
       "sortid": 268,
       "compiles": true,
       "locked_code": false,
-      "ids": {},
       "registry_name": "red_lightsaber_recipe"
+    },
+    {
+      "name": "FeluciaBlueWoodFuel",
+      "type": "itemextension",
+      "sortid": 269,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_wood_fuel"
+    },
+    {
+      "name": "FeluciaBlueLogFuel",
+      "type": "itemextension",
+      "sortid": 270,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_log_fuel"
+    },
+    {
+      "name": "FeluciaBluePlanksFuel",
+      "type": "itemextension",
+      "sortid": 271,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_planks_fuel"
+    },
+    {
+      "name": "FeluciaBluePressurePlateFuel",
+      "type": "itemextension",
+      "sortid": 272,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_pressure_plate_fuel"
+    },
+    {
+      "name": "FeluciaBlueFenceFuel",
+      "type": "itemextension",
+      "sortid": 273,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_fence_fuel"
+    },
+    {
+      "name": "FeluciaBlueFenceGateFuel",
+      "type": "itemextension",
+      "sortid": 274,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_fence_gate_fuel"
+    },
+    {
+      "name": "FeluciaBlueStairsFuel",
+      "type": "itemextension",
+      "sortid": 275,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_stairs_fuel"
+    },
+    {
+      "name": "FeluciaBlueSlabFuel",
+      "type": "itemextension",
+      "sortid": 276,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_blue_slab_fuel"
+    },
+    {
+      "name": "FeluciaRedWoodFuel",
+      "type": "itemextension",
+      "sortid": 277,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_wood_fuel"
+    },
+    {
+      "name": "FeluciaRedLogFuel",
+      "type": "itemextension",
+      "sortid": 278,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_log_fuel"
+    },
+    {
+      "name": "FeluciaRedPlanksFuel",
+      "type": "itemextension",
+      "sortid": 279,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_planks_fuel"
+    },
+    {
+      "name": "FeluciaRedPressurePlateFuel",
+      "type": "itemextension",
+      "sortid": 280,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_pressure_plate_fuel"
+    },
+    {
+      "name": "FeluciaRedFenceFuel",
+      "type": "itemextension",
+      "sortid": 281,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_fence_fuel"
+    },
+    {
+      "name": "FeluciaRedFenceGateFuel",
+      "type": "itemextension",
+      "sortid": 282,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_fence_gate_fuel"
+    },
+    {
+      "name": "FeluciaRedStairsFuel",
+      "type": "itemextension",
+      "sortid": 283,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_stairs_fuel"
+    },
+    {
+      "name": "FeluciaRedSlabFuel",
+      "type": "itemextension",
+      "sortid": 284,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_red_slab_fuel"
+    },
+    {
+      "name": "FeluciaYellowWoodFuel",
+      "type": "itemextension",
+      "sortid": 285,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_wood_fuel"
+    },
+    {
+      "name": "FeluciaYellowLogFuel",
+      "type": "itemextension",
+      "sortid": 286,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_log_fuel"
+    },
+    {
+      "name": "FeluciaYellowPlanksFuel",
+      "type": "itemextension",
+      "sortid": 287,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_planks_fuel"
+    },
+    {
+      "name": "FeluciaYellowPressurePlateFuel",
+      "type": "itemextension",
+      "sortid": 288,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_pressure_plate_fuel"
+    },
+    {
+      "name": "FeluciaYellowFenceFuel",
+      "type": "itemextension",
+      "sortid": 289,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_fence_fuel"
+    },
+    {
+      "name": "FeluciaYellowFenceGateFuel",
+      "type": "itemextension",
+      "sortid": 290,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_fence_gate_fuel"
+    },
+    {
+      "name": "FeluciaYellowStairsFuel",
+      "type": "itemextension",
+      "sortid": 291,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_stairs_fuel"
+    },
+    {
+      "name": "FeluciaYellowSlabFuel",
+      "type": "itemextension",
+      "sortid": 292,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "felucia_yellow_slab_fuel"
     }
   ],
   "variable_elements": [
@@ -2800,8 +2531,8 @@
       "item.star_wars.clone_trooper_91st_armor_helmet": "Clone Trooper 91st Recon Corps Helmet",
       "block.star_wars.felucia_red_leaves": "Felucia Red Leaves",
       "item.star_wars.clone_trooper_captain_rex_spawn_egg": "Clone Captain Rex Spawn Egg",
-      "item.star_wars.jetpack_armor_104th_leggings": "Jetpack Leggings",
       "block.star_wars.felucia_yellow_stairs": "Felucia Yellow Stairs",
+      "item.star_wars.jetpack_armor_104th_leggings": "Jetpack Leggings",
       "entity.star_wars.clone_trooper_guard": "Clone Guard",
       "item.star_wars.clone_trooper_commander_cody_armor_boots": "Clone Commander Cody Boots",
       "item.star_wars.clone_trooper_commander_pyrix_armor_leggings": "Clone Commander Pyrix Leggings",
@@ -2809,9 +2540,9 @@
       "item.star_wars.music_disk_separatist": "Music Disk",
       "item.star_wars.clone_trooper_327th_armor_leggings": "Clone Trooper 327th Star Corps Leggings",
       "item.star_wars.clone_trooper_commander_appo_armor_chestplate": "Clone Commander Appo Chestplate",
-      "item.star_wars.clone_trooper_212th_armor_boots": "Clone Trooper 212th Attach Battalion Boots",
-      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
       "item.star_wars.green_lightsaber": "Green Lightsaber",
+      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
+      "item.star_wars.clone_trooper_212th_armor_boots": "Clone Trooper 212th Attach Battalion Boots",
       "item.star_wars.clone_trooper_bomb_armor_chestplate": "Clone Bomb Chestplate",
       "item.star_wars.clone_trooper_commander_armor_leggings": "Clone Trooper Commander Leggings",
       "entity.star_wars.clone_trooper_212th": "Clone Troper 212th Attach Battalion",
@@ -2827,14 +2558,14 @@
       "item.star_wars.clone_trooper_sergeant_armor_boots": "Clone Trooper Sergeant Boots",
       "block.star_wars.republic_outpost_box": "Republic Outpost Box",
       "item.star_wars.droid_commander_spawn_egg": "Droid Commander Spawn Egg",
-      "item.star_wars.clone_trooper_normal_armor_leggings": "Clone Trooper Leggings",
       "item.star_wars.plastoid_hoe": "Plastoid Hoe",
+      "item.star_wars.clone_trooper_normal_armor_leggings": "Clone Trooper Leggings",
       "item.star_wars.kashyyyk_dimension": "Kashyyyk Dimension Portal Igniter",
       "item.star_wars.clone_trooper_guard_armor_chestplate": "Clone Guard Chestplate",
       "item.star_wars.captain_grade": "Captain Grade",
-      "entity.star_wars.droid_security_kashyyyk": "Droid Security Kashyyyk",
-      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
       "item.star_wars.thermal_detonator": "Thermal Detonator",
+      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
+      "entity.star_wars.droid_security_kashyyyk": "Droid Security Kashyyyk",
       "item.star_wars.clone_trooper_liutenant_spawn_egg": "Clone Troper Liutenant Spawn Egg",
       "item.star_wars.clone_trooper_captain_crypto_armor_leggings": "Clone Captain Crypto Leggings",
       "item.star_wars.plastoid_scrap": "Plastoid Scrap",
@@ -3078,7 +2809,7 @@
   "workspaceSettings": {
     "modid": "star_wars",
     "modName": "Star Wars",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "description": "A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers",
     "author": "Pyrix25633",
     "websiteURL": "https://pyrix25633.github.io/official_website",
@@ -3090,10 +2821,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.16.5",
+    "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.starwars",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202100236710
+  "mcreatorVersion": 202200348217
 }

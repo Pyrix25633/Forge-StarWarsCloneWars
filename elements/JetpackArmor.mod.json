@@ -13,7 +13,7 @@
     "creativeTab": {
       "value": "CUSTOM:Republic"
     },
-    "armorTextureFile": "clone_armor_armor_normal_",
+    "armorTextureFile": "clone_armor_armor_normal",
     "helmetName": "Jetpack Helmet",
     "bodyName": "Jetpack",
     "leggingsName": "Jetpack Leggings",
@@ -25,10 +25,10 @@
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",
-    "bodyModelName": "Modelc_c",
-    "bodyModelPart": "Body",
-    "armsModelPartL": "LeftArm",
-    "armsModelPartR": "RightArm",
+    "bodyModelName": "ModelChestplateJetpack",
+    "bodyModelPart": "body",
+    "armsModelPartL": "left_arm",
+    "armsModelPartR": "right_arm",
     "bodyModelTexture": "clone_armor_armor_jetpack.png",
     "leggingsModelName": "Default",
     "leggingsModelPartL": "Leggings L",

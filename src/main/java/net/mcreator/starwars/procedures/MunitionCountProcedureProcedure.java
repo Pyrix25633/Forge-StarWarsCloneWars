@@ -46,7 +46,7 @@ public class MunitionCountProcedureProcedure {
 			item_num = item_num + ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).getCount();
 		}
 		{
-			double _setval = Math.round(item_num);
+			double _setval = item_num;
 			entity.getCapability(StarWarsModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 				capability.munition_num = _setval;
 				capability.syncPlayerVariables(entity);
