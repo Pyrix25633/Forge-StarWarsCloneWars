@@ -1,14 +1,4 @@
 {
-  "entity.laser.shot": {
-    "category": "master",
-    "subtitle": "subtitles.entity.laser.shot",
-    "sounds": [
-      {
-        "name": "star_wars:blaster",
-        "stream": false
-      }
-    ]
-  },
   "entity.living.clone": {
     "category": "neutral",
     "subtitle": "subtitles.entity.living.clone",
@@ -75,6 +65,16 @@
     "sounds": [
       {
         "name": "star_wars:republic_tank",
+        "stream": false
+      }
+    ]
+  },
+  "entity.laser.shot": {
+    "category": "master",
+    "subtitle": "subtitles.entity.laser.shot",
+    "sounds": [
+      {
+        "name": "star_wars:blaster",
         "stream": false
       }
     ]

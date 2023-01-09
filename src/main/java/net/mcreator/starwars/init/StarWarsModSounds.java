@@ -18,7 +18,6 @@ import java.util.HashMap;
 public class StarWarsModSounds {
 	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
 	static {
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.laser.shot"), new SoundEvent(new ResourceLocation("star_wars", "entity.laser.shot")));
 		REGISTRY.put(new ResourceLocation("star_wars", "entity.living.clone"),
 				new SoundEvent(new ResourceLocation("star_wars", "entity.living.clone")));
 		REGISTRY.put(new ResourceLocation("star_wars", "record.separatist"), new SoundEvent(new ResourceLocation("star_wars", "record.separatist")));
@@ -29,6 +28,7 @@ public class StarWarsModSounds {
 		REGISTRY.put(new ResourceLocation("star_wars", "record.republic"), new SoundEvent(new ResourceLocation("star_wars", "record.republic")));
 		REGISTRY.put(new ResourceLocation("star_wars", "entity.hurt.tank"), new SoundEvent(new ResourceLocation("star_wars", "entity.hurt.tank")));
 		REGISTRY.put(new ResourceLocation("star_wars", "entity.walk.tank"), new SoundEvent(new ResourceLocation("star_wars", "entity.walk.tank")));
+		REGISTRY.put(new ResourceLocation("star_wars", "entity.laser.shot"), new SoundEvent(new ResourceLocation("star_wars", "entity.laser.shot")));
 	}
 
 	@SubscribeEvent

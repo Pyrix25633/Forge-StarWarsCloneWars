@@ -31,7 +31,7 @@
     "bulletItemTexture": {
       "value": "CUSTOM:BlasterMunitions"
     },
-    "bulletModel": "Modellaser_shot",
+    "bulletModel": "ModelLaserShot",
     "customBulletModelTexture": "laser_shot.png",
     "onBulletHitsBlock": {
       "name": "TankShootExplosionProcedure"

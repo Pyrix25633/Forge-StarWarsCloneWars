@@ -11,10 +11,12 @@ import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
+import net.mcreator.starwars.client.renderer.SeparatistTankShotRenderer;
 import net.mcreator.starwars.client.renderer.SeparatistTankRenderer;
 import net.mcreator.starwars.client.renderer.RepublicTankRenderer;
 import net.mcreator.starwars.client.renderer.RepublicTankAutoRenderer;
 import net.mcreator.starwars.client.renderer.RepublicSpeederRenderer;
+import net.mcreator.starwars.client.renderer.RepubblicTankShotRenderer;
 import net.mcreator.starwars.client.renderer.DroidSecurityRenderer;
 import net.mcreator.starwars.client.renderer.DroidSecurityKashyyykRenderer;
 import net.mcreator.starwars.client.renderer.DroidRenderer;
@@ -45,13 +47,16 @@ import net.mcreator.starwars.client.renderer.CloneTrooper327thRenderer;
 import net.mcreator.starwars.client.renderer.CloneTrooper25633rdRenderer;
 import net.mcreator.starwars.client.renderer.CloneTrooper212thRenderer;
 import net.mcreator.starwars.client.renderer.CloneTrooper104thRenderer;
+import net.mcreator.starwars.client.renderer.BlasterE5Renderer;
+import net.mcreator.starwars.client.renderer.BlasterDc17Renderer;
+import net.mcreator.starwars.client.renderer.BlasterDc15sRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class StarWarsModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(StarWarsModEntities.BLASTER_DC_15S.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(StarWarsModEntities.BLASTER_DC_17.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StarWarsModEntities.BLASTER_DC_15S.get(), BlasterDc15sRenderer::new);
+		event.registerEntityRenderer(StarWarsModEntities.BLASTER_DC_17.get(), BlasterDc17Renderer::new);
 		event.registerEntityRenderer(StarWarsModEntities.CLONE_TROOPER.get(), CloneTrooperRenderer::new);
 		event.registerEntityRenderer(StarWarsModEntities.CLONE_TROOPER_BOMB.get(), CloneTrooperBombRenderer::new);
 		event.registerEntityRenderer(StarWarsModEntities.CLONE_TROOPER_SERGEANT.get(), CloneTrooperSergeantRenderer::new);
@@ -87,8 +92,8 @@ public class StarWarsModEntityRenderers {
 		event.registerEntityRenderer(StarWarsModEntities.DROID_PILOT_KASHYYYK.get(), DroidPilotKashyyykRenderer::new);
 		event.registerEntityRenderer(StarWarsModEntities.DROID_SECURITY_KASHYYYK.get(), DroidSecurityKashyyykRenderer::new);
 		event.registerEntityRenderer(StarWarsModEntities.SEPARATIST_TANK.get(), SeparatistTankRenderer::new);
-		event.registerEntityRenderer(StarWarsModEntities.BLASTER_E_5.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(StarWarsModEntities.REPUBBLIC_TANK_SHOT.get(), ThrownItemRenderer::new);
-		event.registerEntityRenderer(StarWarsModEntities.SEPARATIST_TANK_SHOT.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(StarWarsModEntities.BLASTER_E_5.get(), BlasterE5Renderer::new);
+		event.registerEntityRenderer(StarWarsModEntities.REPUBBLIC_TANK_SHOT.get(), RepubblicTankShotRenderer::new);
+		event.registerEntityRenderer(StarWarsModEntities.SEPARATIST_TANK_SHOT.get(), SeparatistTankShotRenderer::new);
 	}
 }

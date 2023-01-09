@@ -22,8 +22,10 @@ import net.minecraft.client.Minecraft;
 
 import net.mcreator.starwars.init.StarWarsModTabs;
 import net.mcreator.starwars.init.StarWarsModItems;
+import net.mcreator.starwars.client.model.ModelLeggingsPlain;
 import net.mcreator.starwars.client.model.ModelHelmetPlain;
 import net.mcreator.starwars.client.model.ModelChestplatePlain;
+import net.mcreator.starwars.client.model.ModelBootsPlain;
 
 import java.util.Map;
 import java.util.Collections;
@@ -148,6 +150,28 @@ public abstract class CloneTrooper501stArmorItem extends ArmorItem {
 			super(EquipmentSlot.LEGS, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
 		}
 
+		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
+			consumer.accept(new IItemRenderProperties() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
+							new ModelLeggingsPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLeggingsPlain.LAYER_LOCATION)).left_leg,
+							"right_leg",
+							new ModelLeggingsPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelLeggingsPlain.LAYER_LOCATION)).right_leg,
+							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
+		}
+
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "star_wars:textures/models/armor/clone_armor_armor_501st_layer_2.png";
@@ -157,6 +181,28 @@ public abstract class CloneTrooper501stArmorItem extends ArmorItem {
 	public static class Boots extends CloneTrooper501stArmorItem {
 		public Boots() {
 			super(EquipmentSlot.FEET, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
+		}
+
+		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
+			consumer.accept(new IItemRenderProperties() {
+				@Override
+				@OnlyIn(Dist.CLIENT)
+				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("left_leg",
+							new ModelBootsPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBootsPlain.LAYER_LOCATION)).left_leg,
+							"right_leg",
+							new ModelBootsPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelBootsPlain.LAYER_LOCATION)).right_leg,
+							"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					armorModel.crouching = living.isShiftKeyDown();
+					armorModel.riding = defaultModel.riding;
+					armorModel.young = living.isBaby();
+					return armorModel;
+				}
+			});
 		}
 
 		@Override

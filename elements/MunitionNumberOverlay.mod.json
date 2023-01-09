@@ -7,12 +7,12 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:munition_num>",
+          "text": "<VAR:integer:munition_num>",
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:munition_num>",
+          "name": "<VAR:integer:munition_num>",
           "x": 141,
           "y": 188
         }

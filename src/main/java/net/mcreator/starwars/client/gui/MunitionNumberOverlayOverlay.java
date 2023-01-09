@@ -54,7 +54,7 @@ public class MunitionNumberOverlayOverlay {
 			RenderSystem.setShaderColor(1, 1, 1, 1);
 			if (MunitionCountProcedureProcedure.execute(entity)) {
 				Minecraft.getInstance().font.draw(event.getMatrixStack(),
-						"" + ((entity.getCapability(StarWarsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
+						"" + (int) ((entity.getCapability(StarWarsModVariables.PLAYER_VARIABLES_CAPABILITY, null)
 								.orElse(new StarWarsModVariables.PlayerVariables())).munition_num) + "",
 						posX + -72, posY + 68, -12829636);
 				RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/blaster_munitions.png"));
