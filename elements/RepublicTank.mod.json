@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Republic Tank",
     "mobLabel": "",
-    "mobModelName": "Modelrepublic_tank",
+    "mobModelName": "ModelRepublicTank",
     "mobModelTexture": "republic_tank.png",
     "mobModelGlowTexture": "",
     "modelWidth": 2.0,

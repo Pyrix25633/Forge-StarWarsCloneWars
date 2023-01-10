@@ -2459,14 +2459,6 @@
   ],
   "sound_elements": [
     {
-      "name": "entity.laser.shot",
-      "files": [
-        "blaster"
-      ],
-      "category": "master",
-      "subtitle": "Laser Shot"
-    },
-    {
       "name": "entity.living.clone",
       "files": [
         "clone_yes_sir"
@@ -2521,6 +2513,14 @@
       ],
       "category": "master",
       "subtitle": "Tank Floating"
+    },
+    {
+      "name": "entity.laser.shot",
+      "files": [
+        "blaster"
+      ],
+      "category": "master",
+      "subtitle": "Laser Shot"
     }
   ],
   "language_map": {

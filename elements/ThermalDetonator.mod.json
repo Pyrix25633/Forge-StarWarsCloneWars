@@ -2,9 +2,9 @@
   "_fv": 34,
   "_type": "rangeditem",
   "definition": {
-    "renderType": 1,
+    "renderType": 0,
     "texture": "thermal_detonator",
-    "customModelName": "thermal_detonator:default",
+    "customModelName": "Normal",
     "name": "Thermal Detonator",
     "specialInfo": [],
     "creativeTab": {

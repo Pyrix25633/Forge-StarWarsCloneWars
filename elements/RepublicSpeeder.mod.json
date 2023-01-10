@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Republic Speeder",
     "mobLabel": "",
-    "mobModelName": "Modelspeeder",
+    "mobModelName": "ModelRepublicSpeeder",
     "mobModelTexture": "speeder.png",
     "mobModelGlowTexture": "",
     "modelWidth": 2.0,
