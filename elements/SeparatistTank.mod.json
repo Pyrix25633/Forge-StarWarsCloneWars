@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Separatist Tank",
     "mobLabel": "",
-    "mobModelName": "Modelseparatist_tank",
+    "mobModelName": "ModelSeparatistTank",
     "mobModelTexture": "separatist_tank.png",
     "mobModelGlowTexture": "",
     "modelWidth": 2.0,

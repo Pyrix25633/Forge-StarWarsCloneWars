@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.starwars.client.model.ModelSeparatistTank;
 import net.mcreator.starwars.client.model.ModelRepublicTank;
 import net.mcreator.starwars.client.model.ModelRepublicSpeeder;
 import net.mcreator.starwars.client.model.ModelLeggingsSkirt;
@@ -33,6 +34,7 @@ public class StarWarsModModels {
 		event.registerLayerDefinition(ModelLeggingsSkirt.LAYER_LOCATION, ModelLeggingsSkirt::createBodyLayer);
 		event.registerLayerDefinition(ModelBootsPlain.LAYER_LOCATION, ModelBootsPlain::createBodyLayer);
 		event.registerLayerDefinition(ModelRepublicTank.LAYER_LOCATION, ModelRepublicTank::createBodyLayer);
+		event.registerLayerDefinition(ModelSeparatistTank.LAYER_LOCATION, ModelSeparatistTank::createBodyLayer);
 		event.registerLayerDefinition(ModelLeggingsPlain.LAYER_LOCATION, ModelLeggingsPlain::createBodyLayer);
 		event.registerLayerDefinition(ModelHelmetAntenna.LAYER_LOCATION, ModelHelmetAntenna::createBodyLayer);
 		event.registerLayerDefinition(ModelChestplatePauldron.LAYER_LOCATION, ModelChestplatePauldron::createBodyLayer);
