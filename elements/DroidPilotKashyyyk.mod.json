@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Droid Pilot Kashyyyk",
     "mobLabel": "",
-    "mobModelName": "Modeldroid",
+    "mobModelName": "ModelDroid",
     "mobModelTexture": "droid_pilot_kashyyyk.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

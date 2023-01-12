@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Droid",
     "mobLabel": "",
-    "mobModelName": "Modeldroid",
+    "mobModelName": "ModelDroid",
     "mobModelTexture": "droid.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

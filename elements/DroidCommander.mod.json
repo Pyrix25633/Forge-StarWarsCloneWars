@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Droid Commander",
     "mobLabel": "",
-    "mobModelName": "Modeldroid",
+    "mobModelName": "ModelDroid",
     "mobModelTexture": "droid_commander.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

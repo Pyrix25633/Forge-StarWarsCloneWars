@@ -2459,14 +2459,6 @@
   ],
   "sound_elements": [
     {
-      "name": "entity.laser.shot",
-      "files": [
-        "blaster"
-      ],
-      "category": "master",
-      "subtitle": "Laser Shot"
-    },
-    {
       "name": "entity.living.clone",
       "files": [
         "clone_yes_sir"
@@ -2521,6 +2513,14 @@
       ],
       "category": "master",
       "subtitle": "Tank Floating"
+    },
+    {
+      "name": "entity.laser.shot",
+      "files": [
+        "blaster"
+      ],
+      "category": "master",
+      "subtitle": "Laser Shot"
     }
   ],
   "language_map": {
@@ -2531,8 +2531,8 @@
       "item.star_wars.clone_trooper_91st_armor_helmet": "Clone Trooper 91st Recon Corps Helmet",
       "block.star_wars.felucia_red_leaves": "Felucia Red Leaves",
       "item.star_wars.clone_trooper_captain_rex_spawn_egg": "Clone Captain Rex Spawn Egg",
-      "item.star_wars.jetpack_armor_104th_leggings": "Jetpack Leggings",
       "block.star_wars.felucia_yellow_stairs": "Felucia Yellow Stairs",
+      "item.star_wars.jetpack_armor_104th_leggings": "Jetpack Leggings",
       "entity.star_wars.clone_trooper_guard": "Clone Guard",
       "item.star_wars.clone_trooper_commander_cody_armor_boots": "Clone Commander Cody Boots",
       "item.star_wars.clone_trooper_commander_pyrix_armor_leggings": "Clone Commander Pyrix Leggings",
@@ -2540,9 +2540,9 @@
       "item.star_wars.music_disk_separatist": "Music Disk",
       "item.star_wars.clone_trooper_327th_armor_leggings": "Clone Trooper 327th Star Corps Leggings",
       "item.star_wars.clone_trooper_commander_appo_armor_chestplate": "Clone Commander Appo Chestplate",
-      "item.star_wars.clone_trooper_212th_armor_boots": "Clone Trooper 212th Attach Battalion Boots",
-      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
       "item.star_wars.green_lightsaber": "Green Lightsaber",
+      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
+      "item.star_wars.clone_trooper_212th_armor_boots": "Clone Trooper 212th Attach Battalion Boots",
       "item.star_wars.clone_trooper_bomb_armor_chestplate": "Clone Bomb Chestplate",
       "item.star_wars.clone_trooper_commander_armor_leggings": "Clone Trooper Commander Leggings",
       "entity.star_wars.clone_trooper_212th": "Clone Troper 212th Attach Battalion",
@@ -2558,14 +2558,14 @@
       "item.star_wars.clone_trooper_sergeant_armor_boots": "Clone Trooper Sergeant Boots",
       "block.star_wars.republic_outpost_box": "Republic Outpost Box",
       "item.star_wars.droid_commander_spawn_egg": "Droid Commander Spawn Egg",
-      "item.star_wars.clone_trooper_normal_armor_leggings": "Clone Trooper Leggings",
       "item.star_wars.plastoid_hoe": "Plastoid Hoe",
+      "item.star_wars.clone_trooper_normal_armor_leggings": "Clone Trooper Leggings",
       "item.star_wars.kashyyyk_dimension": "Kashyyyk Dimension Portal Igniter",
       "item.star_wars.clone_trooper_guard_armor_chestplate": "Clone Guard Chestplate",
       "item.star_wars.captain_grade": "Captain Grade",
-      "entity.star_wars.droid_security_kashyyyk": "Droid Security Kashyyyk",
-      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
       "item.star_wars.thermal_detonator": "Thermal Detonator",
+      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
+      "entity.star_wars.droid_security_kashyyyk": "Droid Security Kashyyyk",
       "item.star_wars.clone_trooper_liutenant_spawn_egg": "Clone Troper Liutenant Spawn Egg",
       "item.star_wars.clone_trooper_captain_crypto_armor_leggings": "Clone Captain Crypto Leggings",
       "item.star_wars.plastoid_scrap": "Plastoid Scrap",
@@ -2808,12 +2808,12 @@
   },
   "workspaceSettings": {
     "modid": "star_wars",
-    "modName": "Star Wars",
-    "version": "1.2.2",
+    "modName": "Star Wars Clone Wars",
+    "version": "1.3.0",
     "description": "A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers",
     "author": "Pyrix25633",
     "websiteURL": "https://pyrix25633.github.io/official_website",
-    "license": "All Rights Reserved",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",

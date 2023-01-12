@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Droid Commander Kashyyyk",
     "mobLabel": "",
-    "mobModelName": "Modeldroid",
+    "mobModelName": "ModelDroid",
     "mobModelTexture": "droid_commander_kashyyyk.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

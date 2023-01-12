@@ -4,7 +4,7 @@
   "definition": {
     "mobName": "Droid Security",
     "mobLabel": "",
-    "mobModelName": "Modeldroid",
+    "mobModelName": "ModelDroid",
     "mobModelTexture": "droid_security.png",
     "mobModelGlowTexture": "",
     "modelWidth": 0.6,

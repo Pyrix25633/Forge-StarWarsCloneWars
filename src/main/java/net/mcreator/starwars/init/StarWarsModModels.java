@@ -19,6 +19,7 @@ import net.mcreator.starwars.client.model.ModelHelmetSunvisor;
 import net.mcreator.starwars.client.model.ModelHelmetPlain;
 import net.mcreator.starwars.client.model.ModelHelmetMacros;
 import net.mcreator.starwars.client.model.ModelHelmetAntenna;
+import net.mcreator.starwars.client.model.ModelDroid;
 import net.mcreator.starwars.client.model.ModelChestplatePlain;
 import net.mcreator.starwars.client.model.ModelChestplatePauldron;
 import net.mcreator.starwars.client.model.ModelChestplateJetpack;
@@ -36,6 +37,7 @@ public class StarWarsModModels {
 		event.registerLayerDefinition(ModelRepublicTank.LAYER_LOCATION, ModelRepublicTank::createBodyLayer);
 		event.registerLayerDefinition(ModelSeparatistTank.LAYER_LOCATION, ModelSeparatistTank::createBodyLayer);
 		event.registerLayerDefinition(ModelLeggingsPlain.LAYER_LOCATION, ModelLeggingsPlain::createBodyLayer);
+		event.registerLayerDefinition(ModelDroid.LAYER_LOCATION, ModelDroid::createBodyLayer);
 		event.registerLayerDefinition(ModelHelmetAntenna.LAYER_LOCATION, ModelHelmetAntenna::createBodyLayer);
 		event.registerLayerDefinition(ModelChestplatePauldron.LAYER_LOCATION, ModelChestplatePauldron::createBodyLayer);
 		event.registerLayerDefinition(ModelChestplatePlain.LAYER_LOCATION, ModelChestplatePlain::createBodyLayer);
