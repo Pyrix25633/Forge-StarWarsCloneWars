@@ -2,5 +2,6 @@
   "parent": "block/button",
   "textures": {
     "texture": "star_wars:blocks/felucia_blue_planks"
-  }
+  },
+  "render_type": "solid"
 }

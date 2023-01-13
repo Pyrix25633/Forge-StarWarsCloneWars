@@ -9,7 +9,6 @@ import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
@@ -95,7 +94,7 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 	public void init() {
 		super.init();
 		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 52, this.topPos + 58, 70, 20, new TextComponent("Customize"), e -> {
+		this.addRenderableWidget(new Button(this.leftPos + 52, this.topPos + 58, 70, 20, Component.literal("Customize"), e -> {
 			if (true) {
 				StarWarsMod.PACKET_HANDLER.sendToServer(new CloneArmorCustomizerGuiButtonMessage(0, x, y, z));
 				CloneArmorCustomizerGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);

@@ -4,17 +4,17 @@
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.rupyber_studios.star_wars_clone_wars.StarWarsMod;
 
-import net.minecraft.world.entity.decoration.Motive;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+import net.minecraft.world.entity.decoration.PaintingVariant;
+
 public class StarWarsModPaintings {
-	@SubscribeEvent
-	public static void registerMotives(RegistryEvent.Register<Motive> event) {
-		event.getRegistry().register(new Motive(16, 16).setRegistryName("separatist_painting"));
-		event.getRegistry().register(new Motive(16, 16).setRegistryName("republic_painting"));
-	}
+	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, StarWarsMod.MODID);
+	public static final RegistryObject<PaintingVariant> SEPARATIST_PAINTING = REGISTRY.register("separatist_painting",
+			() -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> REPUBLIC_PAINTING = REGISTRY.register("republic_painting", () -> new PaintingVariant(16, 16));
 }

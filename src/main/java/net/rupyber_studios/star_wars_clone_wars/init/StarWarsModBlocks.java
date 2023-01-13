@@ -47,10 +47,9 @@ import net.rupyber_studios.star_wars_clone_wars.StarWarsMod;
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.ColorHandlerEvent;
+import net.minecraftforge.client.event.RegisterColorHandlersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.Block;
@@ -113,24 +112,14 @@ public class StarWarsModBlocks {
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
-		public static void clientSetup(FMLClientSetupEvent event) {
-			RepublicOutpostBoxBlock.registerRenderLayer();
-			CloneArmorCustomizerBlock.registerRenderLayer();
-			RadarBlock.registerRenderLayer();
-			GeonosisDimensionPortalBlock.registerRenderLayer();
-			KashyyykDimensionPortalBlock.registerRenderLayer();
-			FeluciaDimensionPortalBlock.registerRenderLayer();
-		}
-
-		@SubscribeEvent
-		public static void blockColorLoad(ColorHandlerEvent.Block event) {
+		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
 			FeluciaBlueLeavesBlock.blockColorLoad(event);
 			FeluciaRedLeavesBlock.blockColorLoad(event);
 			FeluciaYellowLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
-		public static void itemColorLoad(ColorHandlerEvent.Item event) {
+		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
 			FeluciaBlueLeavesBlock.itemColorLoad(event);
 			FeluciaRedLeavesBlock.itemColorLoad(event);
 			FeluciaYellowLeavesBlock.itemColorLoad(event);

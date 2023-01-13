@@ -3,5 +3,6 @@
   "textures": {
     "all": "star_wars:blocks/republic_painting",
     "particle": "star_wars:blocks/republic_painting"
-  }
+  },
+  "render_type": "solid"
 }

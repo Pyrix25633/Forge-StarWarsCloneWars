@@ -11,8 +11,8 @@ import net.minecraftforge.items.wrapper.EntityHandsInvWrapper;
 import net.minecraftforge.items.wrapper.EntityArmorInvWrapper;
 import net.minecraftforge.items.wrapper.CombinedInvWrapper;
 import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.common.util.LazyOptional;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.capabilities.Capability;
 
 import net.minecraft.world.phys.Vec3;
@@ -40,7 +40,6 @@ import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.nbt.Tag;
@@ -128,7 +127,7 @@ public class RepublicTankEntity extends Monster {
 
 	@Override
 	public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> capability, @Nullable Direction side) {
-		if (this.isAlive() && capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY && side == null)
+		if (this.isAlive() && capability == ForgeCapabilities.ITEM_HANDLER && side == null)
 			return LazyOptional.of(() -> combined).cast();
 		return super.getCapability(capability, side);
 	}
@@ -164,10 +163,10 @@ public class RepublicTankEntity extends Monster {
 		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
 		if (sourceentity.isSecondaryUseActive()) {
 			if (sourceentity instanceof ServerPlayer serverPlayer) {
-				NetworkHooks.openGui(serverPlayer, new MenuProvider() {
+				NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
 					@Override
 					public Component getDisplayName() {
-						return new TextComponent("Republic Tank");
+						return Component.literal("Republic Tank");
 					}
 
 					@Override

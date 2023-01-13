@@ -37,11 +37,6 @@ public class FeluciaOutpost2Feature extends Feature<NoneFeatureConfiguration> {
 		return FEATURE;
 	}
 
-	public static Holder<PlacedFeature> placedFeature() {
-		return PLACED_FEATURE;
-	}
-
-	public static final Set<ResourceLocation> GENERATE_BIOMES = null;
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("star_wars:felucia_dimension")));
 	private StructureTemplate template = null;

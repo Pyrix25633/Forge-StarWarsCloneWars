@@ -37,14 +37,6 @@ public class AtApFeature extends Feature<NoneFeatureConfiguration> {
 		return FEATURE;
 	}
 
-	public static Holder<PlacedFeature> placedFeature() {
-		return PLACED_FEATURE;
-	}
-
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("star_wars:geonosis_plains"),
-			new ResourceLocation("star_wars:felucia_blue_plains"), new ResourceLocation("star_wars:felucia_red_plains"),
-			new ResourceLocation("star_wars:kashyyyk"), new ResourceLocation("star_wars:geonosis"),
-			new ResourceLocation("star_wars:felucia_yellow_plains"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(
 			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("star_wars:geonosis_dimension")),
 			ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("star_wars:kashyyyk_dimension")),

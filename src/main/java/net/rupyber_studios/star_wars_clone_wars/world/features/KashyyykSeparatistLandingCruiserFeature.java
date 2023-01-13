@@ -37,12 +37,6 @@ public class KashyyykSeparatistLandingCruiserFeature extends Feature<NoneFeature
 		return FEATURE;
 	}
 
-	public static Holder<PlacedFeature> placedFeature() {
-		return PLACED_FEATURE;
-	}
-
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("star_wars:kashyyyk_beaches"),
-			new ResourceLocation("star_wars:kashyyyk"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("star_wars:kashyyyk_dimension")));
 	private StructureTemplate template = null;

@@ -8,5 +8,6 @@
     "south": "star_wars:blocks/felucia_red_log",
     "west": "star_wars:blocks/felucia_red_log",
     "particle": "star_wars:blocks/felucia_red_log_top"
-  }
+  },
+  "render_type": "solid"
 }

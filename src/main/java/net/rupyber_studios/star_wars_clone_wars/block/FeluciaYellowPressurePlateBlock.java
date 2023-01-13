@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class FeluciaYellowPressurePlateBlock extends PressurePlateBlock {
 	public FeluciaYellowPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f));
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
 	}
 
 	@Override

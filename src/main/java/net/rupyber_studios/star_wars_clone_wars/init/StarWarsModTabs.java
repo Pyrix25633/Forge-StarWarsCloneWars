@@ -4,9 +4,6 @@
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.CreativeModeTab;
 
@@ -22,7 +19,7 @@ public class StarWarsModTabs {
 				return new ItemStack(StarWarsModItems.RAW_TITANIUM.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -33,7 +30,7 @@ public class StarWarsModTabs {
 				return new ItemStack(StarWarsModItems.MUSIC_DISK_SEPARATIST.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return false;
 			}
@@ -44,7 +41,7 @@ public class StarWarsModTabs {
 				return new ItemStack(StarWarsModItems.CLONE_TROOPER_NORMAL_ARMOR_HELMET.get());
 			}
 
-			@OnlyIn(Dist.CLIENT)
+			@Override
 			public boolean hasSearchBar() {
 				return true;
 			}

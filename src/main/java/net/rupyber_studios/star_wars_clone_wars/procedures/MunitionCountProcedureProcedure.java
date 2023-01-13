@@ -3,7 +3,7 @@ package net.rupyber_studios.star_wars_clone_wars.procedures;
 import net.rupyber_studios.star_wars_clone_wars.network.StarWarsModVariables;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 
-import net.minecraftforge.items.CapabilityItemHandler;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.LivingEntity;
@@ -23,7 +23,7 @@ public class MunitionCountProcedureProcedure {
 			if (StarWarsModItems.BLASTER_MUNITIONS.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-					entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+					entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						_retval.set(capability.getStackInSlot(sltid).copy());
 					});
 					return _retval.get();
@@ -32,7 +32,7 @@ public class MunitionCountProcedureProcedure {
 				item_num = item_num + ((new Object() {
 					public ItemStack getItemStack(int sltid, Entity entity) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
-						entity.getCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, null).ifPresent(capability -> {
+						entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 							_retval.set(capability.getStackInSlot(sltid).copy());
 						});
 						return _retval.get();

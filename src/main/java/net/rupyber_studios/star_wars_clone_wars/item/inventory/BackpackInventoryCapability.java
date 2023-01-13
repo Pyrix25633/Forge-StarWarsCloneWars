@@ -5,12 +5,12 @@ import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.client.gui.BackpackGuiScreen;
 
 import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.items.CapabilityItemHandler;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.item.ItemTossEvent;
 import net.minecraftforge.common.util.LazyOptional;
 import net.minecraftforge.common.capabilities.ICapabilitySerializable;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import net.minecraftforge.common.capabilities.Capability;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
@@ -28,7 +28,7 @@ public class BackpackInventoryCapability implements ICapabilitySerializable<Comp
 	@SubscribeEvent
 	@OnlyIn(Dist.CLIENT)
 	public static void onItemDropped(ItemTossEvent event) {
-		if (event.getEntityItem().getItem().getItem() == StarWarsModItems.BACKPACK.get()) {
+		if (event.getEntity().getItem().getItem() == StarWarsModItems.BACKPACK.get()) {
 			if (Minecraft.getInstance().screen instanceof BackpackGuiScreen) {
 				Minecraft.getInstance().player.closeContainer();
 			}
@@ -39,7 +39,7 @@ public class BackpackInventoryCapability implements ICapabilitySerializable<Comp
 
 	@Override
 	public <T> LazyOptional<T> getCapability(@Nonnull Capability<T> capability, @Nullable Direction side) {
-		return capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY ? this.inventory.cast() : LazyOptional.empty();
+		return capability == ForgeCapabilities.ITEM_HANDLER ? this.inventory.cast() : LazyOptional.empty();
 	}
 
 	@Override

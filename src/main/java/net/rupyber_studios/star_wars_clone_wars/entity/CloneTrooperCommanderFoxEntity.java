@@ -30,7 +30,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 public class CloneTrooperCommanderFoxEntity extends Monster implements RangedAttackMob {
 	public CloneTrooperCommanderFoxEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -41,7 +41,7 @@ public class CloneTrooperCommanderFoxEntity extends Monster implements RangedAtt
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(new TextComponent("Commander Fox"));
+		setCustomName(Component.literal("Commander Fox"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(StarWarsModItems.BLASTER_DC_17.get()));

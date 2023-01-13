@@ -1,11 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.block;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModBlocks;
-
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.level.storage.loot.LootContext;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
@@ -24,8 +19,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import java.util.List;
 import java.util.Collections;
@@ -81,10 +74,4 @@ public class RadarBlock extends Block {
 			return dropsOriginal;
 		return Collections.singletonList(new ItemStack(this, 1));
 	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(StarWarsModBlocks.RADAR.get(), renderType -> renderType == RenderType.translucent());
-	}
-
 }

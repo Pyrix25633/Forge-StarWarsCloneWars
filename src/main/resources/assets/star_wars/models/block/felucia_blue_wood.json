@@ -3,5 +3,6 @@
   "textures": {
     "all": "star_wars:blocks/felucia_blue_log",
     "particle": "star_wars:blocks/felucia_blue_log"
-  }
+  },
+  "render_type": "solid"
 }

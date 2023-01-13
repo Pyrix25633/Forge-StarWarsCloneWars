@@ -37,11 +37,6 @@ public class GeonosisOutpost501stFeature extends Feature<NoneFeatureConfiguratio
 		return FEATURE;
 	}
 
-	public static Holder<PlacedFeature> placedFeature() {
-		return PLACED_FEATURE;
-	}
-
-	public static final Set<ResourceLocation> GENERATE_BIOMES = Set.of(new ResourceLocation("star_wars:geonosis_plains"));
 	private final Set<ResourceKey<Level>> generate_dimensions = Set
 			.of(ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("star_wars:geonosis_dimension")));
 	private StructureTemplate template = null;

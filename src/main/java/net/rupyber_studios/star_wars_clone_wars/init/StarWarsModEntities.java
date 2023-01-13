@@ -60,7 +60,7 @@ import net.minecraft.world.entity.Entity;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StarWarsModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITIES, StarWarsMod.MODID);
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, StarWarsMod.MODID);
 	public static final RegistryObject<EntityType<BlasterDc15sEntity>> BLASTER_DC_15S = register("projectile_blaster_dc_15s",
 			EntityType.Builder.<BlasterDc15sEntity>of(BlasterDc15sEntity::new, MobCategory.MISC).setCustomClientFactory(BlasterDc15sEntity::new)
 					.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));

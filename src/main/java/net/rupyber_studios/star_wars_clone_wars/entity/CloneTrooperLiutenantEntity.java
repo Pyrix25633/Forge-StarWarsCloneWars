@@ -31,7 +31,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 public class CloneTrooperLiutenantEntity extends Monster implements RangedAttackMob {
 	public CloneTrooperLiutenantEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -42,7 +42,7 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(new TextComponent("Clone Liutenant"));
+		setCustomName(Component.literal("Clone Liutenant"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(StarWarsModItems.BLASTER_DC_15S.get()));

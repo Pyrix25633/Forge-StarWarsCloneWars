@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "star_wars:geonosis_plains",
+    "star_wars:geonosis"
+  ],
+  "features": "star_wars:geonosis_outpost_2",
+  "step": "surface_structures"
+}

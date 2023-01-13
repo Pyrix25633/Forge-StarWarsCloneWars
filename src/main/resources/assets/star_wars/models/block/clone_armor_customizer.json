@@ -8,5 +8,6 @@
     "south": "star_wars:blocks/clone_armor_customizer_front",
     "west": "star_wars:blocks/clone_armor_customizer_side",
     "particle": "star_wars:blocks/clone_armor_customizer_bottom"
-  }
+  },
+  "render_type": "cutout_mipped"
 }

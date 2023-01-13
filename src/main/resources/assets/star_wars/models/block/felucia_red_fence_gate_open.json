@@ -2,5 +2,6 @@
   "parent": "block/template_fence_gate_open",
   "textures": {
     "texture": "star_wars:blocks/felucia_red_planks"
-  }
+  },
+  "render_type": "solid"
 }

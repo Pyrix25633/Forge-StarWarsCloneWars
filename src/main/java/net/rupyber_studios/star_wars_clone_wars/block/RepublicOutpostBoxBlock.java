@@ -1,11 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.block;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModBlocks;
-
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
-
 import net.minecraft.world.level.material.MaterialColor;
 import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
@@ -17,8 +12,6 @@ import net.minecraft.world.item.TieredItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 public class RepublicOutpostBoxBlock extends Block {
 	public RepublicOutpostBoxBlock() {
@@ -41,10 +34,5 @@ public class RepublicOutpostBoxBlock extends Block {
 		if (player.getInventory().getSelected().getItem() instanceof TieredItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
 		return false;
-	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(StarWarsModBlocks.REPUBLIC_OUTPOST_BOX.get(), renderType -> renderType == RenderType.cutout());
 	}
 }

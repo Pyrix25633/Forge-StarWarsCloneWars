@@ -1,6 +1,6 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
@@ -20,9 +20,9 @@ public class StarWarsModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(StarWarsModMenus.CLONE_ARMOR_CUSTOMIZER_GUI, CloneArmorCustomizerGuiScreen::new);
-			MenuScreens.register(StarWarsModMenus.REPUBBLIC_TANK_GUI, RepubblicTankGuiScreen::new);
-			MenuScreens.register(StarWarsModMenus.BACKPACK_GUI, BackpackGuiScreen::new);
+			MenuScreens.register(StarWarsModMenus.CLONE_ARMOR_CUSTOMIZER_GUI.get(), CloneArmorCustomizerGuiScreen::new);
+			MenuScreens.register(StarWarsModMenus.REPUBBLIC_TANK_GUI.get(), RepubblicTankGuiScreen::new);
+			MenuScreens.register(StarWarsModMenus.BACKPACK_GUI.get(), BackpackGuiScreen::new);
 		});
 	}
 }

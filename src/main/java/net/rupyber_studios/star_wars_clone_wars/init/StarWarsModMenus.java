@@ -1,43 +1,27 @@
 
 /*
- *    MCreator note: This file will be REGENERATED on each build.
+ *	MCreator note: This file will be REGENERATED on each build.
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
 import net.rupyber_studios.star_wars_clone_wars.world.inventory.RepubblicTankGuiMenu;
 import net.rupyber_studios.star_wars_clone_wars.world.inventory.CloneArmorCustomizerGuiMenu;
 import net.rupyber_studios.star_wars_clone_wars.world.inventory.BackpackGuiMenu;
+import net.rupyber_studios.star_wars_clone_wars.StarWarsMod;
 
-import net.minecraftforge.network.IContainerFactory;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
+import net.minecraftforge.common.extensions.IForgeMenuType;
 
 import net.minecraft.world.inventory.MenuType;
-import net.minecraft.world.inventory.AbstractContainerMenu;
 
-import java.util.List;
-import java.util.ArrayList;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StarWarsModMenus {
-	private static final List<MenuType<?>> REGISTRY = new ArrayList<>();
-	public static final MenuType<CloneArmorCustomizerGuiMenu> CLONE_ARMOR_CUSTOMIZER_GUI = register("clone_armor_customizer_gui",
-			(id, inv, extraData) -> new CloneArmorCustomizerGuiMenu(id, inv, extraData));
-	public static final MenuType<RepubblicTankGuiMenu> REPUBBLIC_TANK_GUI = register("repubblic_tank_gui",
-			(id, inv, extraData) -> new RepubblicTankGuiMenu(id, inv, extraData));
-	public static final MenuType<BackpackGuiMenu> BACKPACK_GUI = register("backpack_gui",
-			(id, inv, extraData) -> new BackpackGuiMenu(id, inv, extraData));
-
-	private static <T extends AbstractContainerMenu> MenuType<T> register(String registryname, IContainerFactory<T> containerFactory) {
-		MenuType<T> menuType = new MenuType<T>(containerFactory);
-		menuType.setRegistryName(registryname);
-		REGISTRY.add(menuType);
-		return menuType;
-	}
-
-	@SubscribeEvent
-	public static void registerContainers(RegistryEvent.Register<MenuType<?>> event) {
-		event.getRegistry().registerAll(REGISTRY.toArray(new MenuType[0]));
-	}
+	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, StarWarsMod.MODID);
+	public static final RegistryObject<MenuType<CloneArmorCustomizerGuiMenu>> CLONE_ARMOR_CUSTOMIZER_GUI = REGISTRY
+			.register("clone_armor_customizer_gui", () -> IForgeMenuType.create(CloneArmorCustomizerGuiMenu::new));
+	public static final RegistryObject<MenuType<RepubblicTankGuiMenu>> REPUBBLIC_TANK_GUI = REGISTRY.register("repubblic_tank_gui",
+			() -> IForgeMenuType.create(RepubblicTankGuiMenu::new));
+	public static final RegistryObject<MenuType<BackpackGuiMenu>> BACKPACK_GUI = REGISTRY.register("backpack_gui",
+			() -> IForgeMenuType.create(BackpackGuiMenu::new));
 }

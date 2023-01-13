@@ -3,5 +3,6 @@
   "textures": {
     "all": "star_wars:blocks/titanium_block",
     "particle": "star_wars:blocks/titanium_block"
-  }
+  },
+  "render_type": "solid"
 }

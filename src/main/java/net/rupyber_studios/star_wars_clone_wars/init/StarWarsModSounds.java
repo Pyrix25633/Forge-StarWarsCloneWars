@@ -4,36 +4,31 @@
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.RegistryEvent;
+import net.rupyber_studios.star_wars_clone_wars.StarWarsMod;
+
+import net.minecraftforge.registries.RegistryObject;
+import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.registries.DeferredRegister;
 
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 
-import java.util.Map;
-import java.util.HashMap;
-
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StarWarsModSounds {
-	public static Map<ResourceLocation, SoundEvent> REGISTRY = new HashMap<>();
-	static {
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.living.clone"),
-				new SoundEvent(new ResourceLocation("star_wars", "entity.living.clone")));
-		REGISTRY.put(new ResourceLocation("star_wars", "record.separatist"), new SoundEvent(new ResourceLocation("star_wars", "record.separatist")));
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.walk.speeder"),
-				new SoundEvent(new ResourceLocation("star_wars", "entity.walk.speeder")));
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.hurt.speeder"),
-				new SoundEvent(new ResourceLocation("star_wars", "entity.hurt.speeder")));
-		REGISTRY.put(new ResourceLocation("star_wars", "record.republic"), new SoundEvent(new ResourceLocation("star_wars", "record.republic")));
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.hurt.tank"), new SoundEvent(new ResourceLocation("star_wars", "entity.hurt.tank")));
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.walk.tank"), new SoundEvent(new ResourceLocation("star_wars", "entity.walk.tank")));
-		REGISTRY.put(new ResourceLocation("star_wars", "entity.laser.shot"), new SoundEvent(new ResourceLocation("star_wars", "entity.laser.shot")));
-	}
-
-	@SubscribeEvent
-	public static void registerSounds(RegistryEvent.Register<SoundEvent> event) {
-		for (Map.Entry<ResourceLocation, SoundEvent> sound : REGISTRY.entrySet())
-			event.getRegistry().register(sound.getValue().setRegistryName(sound.getKey()));
-	}
+	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, StarWarsMod.MODID);
+	public static final RegistryObject<SoundEvent> ENTITY_LIVING_CLONE = REGISTRY.register("entity.living.clone",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.living.clone")));
+	public static final RegistryObject<SoundEvent> RECORD_SEPARATIST = REGISTRY.register("record.separatist",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "record.separatist")));
+	public static final RegistryObject<SoundEvent> ENTITY_WALK_SPEEDER = REGISTRY.register("entity.walk.speeder",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.walk.speeder")));
+	public static final RegistryObject<SoundEvent> ENTITY_HURT_SPEEDER = REGISTRY.register("entity.hurt.speeder",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.hurt.speeder")));
+	public static final RegistryObject<SoundEvent> RECORD_REPUBLIC = REGISTRY.register("record.republic",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "record.republic")));
+	public static final RegistryObject<SoundEvent> ENTITY_HURT_TANK = REGISTRY.register("entity.hurt.tank",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.hurt.tank")));
+	public static final RegistryObject<SoundEvent> ENTITY_WALK_TANK = REGISTRY.register("entity.walk.tank",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.walk.tank")));
+	public static final RegistryObject<SoundEvent> ENTITY_LASER_SHOT = REGISTRY.register("entity.laser.shot",
+			() -> new SoundEvent(new ResourceLocation("star_wars", "entity.laser.shot")));
 }

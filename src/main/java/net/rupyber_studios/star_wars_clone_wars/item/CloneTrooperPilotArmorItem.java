@@ -7,7 +7,7 @@ import net.rupyber_studios.star_wars_clone_wars.client.model.ModelHelmetPlain;
 import net.rupyber_studios.star_wars_clone_wars.client.model.ModelChestplatePlain;
 
 import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.client.IItemRenderProperties;
+import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -25,6 +25,7 @@ import net.minecraft.client.model.geom.ModelPart;
 import net.minecraft.client.model.HumanoidModel;
 import net.minecraft.client.Minecraft;
 
+import java.util.function.Consumer;
 import java.util.Map;
 import java.util.Collections;
 
@@ -78,10 +79,11 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 			super(EquipmentSlot.HEAD, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
 		}
 
-		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
-			consumer.accept(new IItemRenderProperties() {
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
 				@Override
-				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
 							Map.of("head",
 									new ModelHelmetPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelHelmetPlain.LAYER_LOCATION)).head,
@@ -110,11 +112,12 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 			super(EquipmentSlot.CHEST, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
 		}
 
-		public void initializeClient(java.util.function.Consumer<net.minecraftforge.client.IItemRenderProperties> consumer) {
-			consumer.accept(new IItemRenderProperties() {
+		@Override
+		public void initializeClient(Consumer<IClientItemExtensions> consumer) {
+			consumer.accept(new IClientItemExtensions() {
 				@Override
 				@OnlyIn(Dist.CLIENT)
-				public HumanoidModel getArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
+				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
 							Map.of("body",
 									new ModelChestplatePlain(

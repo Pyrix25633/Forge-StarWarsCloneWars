@@ -31,7 +31,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.Packet;
-import net.minecraft.network.chat.TextComponent;
+import net.minecraft.network.chat.Component;
 
 public class CloneTrooperCommanderPondsEntity extends Monster implements RangedAttackMob {
 	public CloneTrooperCommanderPondsEntity(PlayMessages.SpawnEntity packet, Level world) {
@@ -42,7 +42,7 @@ public class CloneTrooperCommanderPondsEntity extends Monster implements RangedA
 		super(type, world);
 		xpReward = 0;
 		setNoAi(false);
-		setCustomName(new TextComponent("Commander Ponds"));
+		setCustomName(Component.literal("Commander Ponds"));
 		setCustomNameVisible(true);
 		setPersistenceRequired();
 		this.setItemSlot(EquipmentSlot.MAINHAND, new ItemStack(StarWarsModItems.BLASTER_DC_17.get()));

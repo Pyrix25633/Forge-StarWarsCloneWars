@@ -2,11 +2,8 @@
 package net.rupyber_studios.star_wars_clone_wars.block;
 
 import net.rupyber_studios.star_wars_clone_wars.world.inventory.CloneArmorCustomizerGuiMenu;
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModBlocks;
 
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -27,12 +24,9 @@ import net.minecraft.world.MenuProvider;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
-import net.minecraft.network.chat.TextComponent;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
-import net.minecraft.client.renderer.RenderType;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
 
 import java.util.List;
 import java.util.Collections;
@@ -74,10 +68,10 @@ public class CloneArmorCustomizerBlock extends Block {
 	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
 		super.use(blockstate, world, pos, entity, hand, hit);
 		if (entity instanceof ServerPlayer player) {
-			NetworkHooks.openGui(player, new MenuProvider() {
+			NetworkHooks.openScreen(player, new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
-					return new TextComponent("Clone Armor Customizer");
+					return Component.literal("Clone Armor Customizer");
 				}
 
 				@Override
@@ -88,10 +82,4 @@ public class CloneArmorCustomizerBlock extends Block {
 		}
 		return InteractionResult.SUCCESS;
 	}
-
-	@OnlyIn(Dist.CLIENT)
-	public static void registerRenderLayer() {
-		ItemBlockRenderTypes.setRenderLayer(StarWarsModBlocks.CLONE_ARMOR_CUSTOMIZER.get(), renderType -> renderType == RenderType.cutoutMipped());
-	}
-
 }
