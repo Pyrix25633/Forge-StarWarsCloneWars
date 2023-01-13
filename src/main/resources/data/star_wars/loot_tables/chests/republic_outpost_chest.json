@@ -1549,7 +1549,7 @@
         },
 		{
           "type": "minecraft:item",
-          "name": "star_wars:clone_trooper_comunicator",
+          "name": "star_wars:clone_trooper_communicator",
           "weight": 10,
           "functions": [
             {

@@ -1,14 +1,6 @@
 {
   "mod_elements": [
     {
-      "name": "CloneTrooperComunicator",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clone_trooper_comunicator"
-    },
-    {
       "name": "BlasterMunitions",
       "type": "item",
       "sortid": 80,
@@ -2435,6 +2427,14 @@
       "compiles": true,
       "locked_code": false,
       "registry_name": "felucia_yellow_slab_fuel"
+    },
+    {
+      "name": "CloneTrooperCommunicator",
+      "type": "item",
+      "sortid": 293,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clone_trooper_communicator"
     }
   ],
   "variable_elements": [
@@ -2598,7 +2598,6 @@
       "biome.star_wars.felucia_yellow_plains": "Felucia Blue Plains",
       "item.star_wars.music_disk_republic.desc": "Pyrix25633 - Republic Army March",
       "item.star_wars.clone_trooper_commander_ponds_armor_helmet": "Clone Commander Ponds Helmet",
-      "item.star_wars.clone_trooper_comunicator": "Clone Trooper Comunicator",
       "item.star_wars.repubblic_tank_shot": "Repubblic Tank Shot",
       "item.star_wars.blaster_e_5": "Blaster E 5",
       "item.star_wars.clone_trooper_captain_crypto_armor_helmet": "Clone Captain Crypto Helmet",
@@ -2655,6 +2654,7 @@
       "item.star_wars.blaster_munitions": "Blaster Munitions",
       "item.star_wars.clone_trooper_commander_appo_armor_boots": "Clone Commander Appo Boots",
       "item.star_wars.clone_trooper_commander_wolffe_armor_boots": "Clone Commander Wolffe Boots",
+      "item.star_wars.clone_trooper_communicator": "Clone Trooper Communicator",
       "block.star_wars.clone_armor_customizer": "Clone Armor Customizer",
       "entity.star_wars.droid_security": "Droid Security",
       "item.star_wars.clone_trooper_normal_armor_helmet": "Clone Trooper Helmet",
@@ -2808,12 +2808,12 @@
   },
   "workspaceSettings": {
     "modid": "star_wars",
-    "modName": "Star Wars",
-    "version": "1.2.2",
+    "modName": "Star Wars Clone Wars",
+    "version": "1.3.0",
     "description": "A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers",
     "author": "Pyrix25633",
-    "websiteURL": "https://pyrix25633.github.io/official_website",
-    "license": "All Rights Reserved",
+    "websiteURL": "https://rupyberstudios.github.io/website",
+    "license": "GNU General Public License version 3 (GPLv3)",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",
@@ -2823,7 +2823,7 @@
     "mcreatorDependencies": [],
     "currentGenerator": "forge-1.18.2",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
-    "modElementsPackage": "net.mcreator.starwars",
+    "modElementsPackage": "net.rupyber_studios.star_wars_clone_wars",
     "lockBaseModFiles": false
   },
   "mcreatorVersion": 202200348217

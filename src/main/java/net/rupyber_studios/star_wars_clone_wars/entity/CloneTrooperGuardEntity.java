@@ -68,7 +68,7 @@ public class CloneTrooperGuardEntity extends Monster implements RangedAttackMob 
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, DroidCommanderKashyyykEntity.class, false, false));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, DroidPilotKashyyykEntity.class, false, false));
 		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, DroidSecurityKashyyykEntity.class, false, false));
-		this.goalSelector.addGoal(10, new TemptGoal(this, 1.5, Ingredient.of(StarWarsModItems.CLONE_TROOPER_COMUNICATOR.get()), false));
+		this.goalSelector.addGoal(10, new TemptGoal(this, 1.5, Ingredient.of(StarWarsModItems.CLONE_TROOPER_COMMUNICATOR.get()), false));
 		this.targetSelector.addGoal(11, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(12, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(13, new FloatGoal(this));

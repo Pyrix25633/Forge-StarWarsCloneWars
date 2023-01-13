@@ -38,9 +38,9 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:CloneTrooperComunicator"
+      "value": "CUSTOM:CloneTrooperCommunicator"
     },
-    "name": "clone_trooper_comunicator_recipe",
+    "name": "clone_trooper_communicator_recipe",
     "namespace": "mod"
   }
 }

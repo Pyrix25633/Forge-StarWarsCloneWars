@@ -35,7 +35,7 @@ import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperPilotArmorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperLiutenantArmorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperGunnerArmorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperGuardArmorItem;
-import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperComunicatorItem;
+import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperCommunicatorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperCommanderWolffeArmorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperCommanderPyrixArmorItem;
 import net.rupyber_studios.star_wars_clone_wars.item.CloneTrooperCommanderPondsArmorItem;
@@ -79,8 +79,6 @@ import net.minecraft.world.item.BlockItem;
 public class StarWarsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StarWarsMod.MODID);
 	public static final RegistryObject<Item> MUSIC_DISK_REPUBLIC = REGISTRY.register("music_disk_republic", () -> new MusicDiskRepublicItem());
-	public static final RegistryObject<Item> CLONE_TROOPER_COMUNICATOR = REGISTRY.register("clone_trooper_comunicator",
-			() -> new CloneTrooperComunicatorItem());
 	public static final RegistryObject<Item> BLASTER_DC_15S = REGISTRY.register("blaster_dc_15s", () -> new BlasterDc15sItem());
 	public static final RegistryObject<Item> BLASTER_DC_17 = REGISTRY.register("blaster_dc_17", () -> new BlasterDc17Item());
 	public static final RegistryObject<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", () -> new BlueLightsaberItem());
@@ -458,6 +456,8 @@ public class StarWarsModItems {
 	public static final RegistryObject<Item> BLASTER_E_5 = REGISTRY.register("blaster_e_5", () -> new BlasterE5Item());
 	public static final RegistryObject<Item> REPUBBLIC_TANK_SHOT = REGISTRY.register("repubblic_tank_shot", () -> new RepubblicTankShotItem());
 	public static final RegistryObject<Item> SEPARATIST_TANK_SHOT = REGISTRY.register("separatist_tank_shot", () -> new SeparatistTankShotItem());
+	public static final RegistryObject<Item> CLONE_TROOPER_COMMUNICATOR = REGISTRY.register("clone_trooper_communicator",
+			() -> new CloneTrooperCommunicatorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block, CreativeModeTab tab) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties().tab(tab)));

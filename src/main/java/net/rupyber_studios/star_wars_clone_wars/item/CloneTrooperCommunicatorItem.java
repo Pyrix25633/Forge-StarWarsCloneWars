@@ -8,8 +8,8 @@ import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
-public class CloneTrooperComunicatorItem extends Item {
-	public CloneTrooperComunicatorItem() {
+public class CloneTrooperCommunicatorItem extends Item {
+	public CloneTrooperCommunicatorItem() {
 		super(new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC).stacksTo(1).rarity(Rarity.COMMON));
 	}
 

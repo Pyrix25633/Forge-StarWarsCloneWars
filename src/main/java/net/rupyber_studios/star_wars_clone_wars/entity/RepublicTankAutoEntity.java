@@ -64,7 +64,7 @@ public class RepublicTankAutoEntity extends Monster implements RangedAttackMob {
 		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, DroidPilotEntity.class, false, false));
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, DroidSecurityEntity.class, false, false));
 		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 0.3));
-		this.goalSelector.addGoal(7, new TemptGoal(this, 0.3, Ingredient.of(StarWarsModItems.CLONE_TROOPER_COMUNICATOR.get()), false));
+		this.goalSelector.addGoal(7, new TemptGoal(this, 0.3, Ingredient.of(StarWarsModItems.CLONE_TROOPER_COMMUNICATOR.get()), false));
 		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
 			@Override
 			public boolean canContinueToUse() {
