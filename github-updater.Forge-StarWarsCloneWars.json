@@ -1,0 +1,10 @@
+{
+  "latest": "1.3.0",
+  "keep": [],
+  "releases": [
+    {
+      "tag": "1.3.0",
+      "cross": "star_wars-1.18.2-1.3.0.jar"
+    }
+  ]
+}
