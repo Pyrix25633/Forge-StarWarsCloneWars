@@ -11,3 +11,5 @@ This is a Forge MCreator mod that adds clones, battle droids and much more to Mi
 ## [Installation](https://rupyberstudios.github.io/website/pages/installation)
 
 ## [The team](https://rupyberstudios.github.io/website/pages/about)
+
+## [Patreon](https://www.patreon.com/Pyrix25633ModsandSoftware)
