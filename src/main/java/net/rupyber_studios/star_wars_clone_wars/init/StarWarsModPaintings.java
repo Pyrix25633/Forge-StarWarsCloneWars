@@ -14,7 +14,6 @@ import net.minecraft.world.entity.decoration.PaintingVariant;
 
 public class StarWarsModPaintings {
 	public static final DeferredRegister<PaintingVariant> REGISTRY = DeferredRegister.create(ForgeRegistries.PAINTING_VARIANTS, StarWarsMod.MODID);
-	public static final RegistryObject<PaintingVariant> SEPARATIST_PAINTING = REGISTRY.register("separatist_painting",
-			() -> new PaintingVariant(16, 16));
+	public static final RegistryObject<PaintingVariant> SEPARATIST_PAINTING = REGISTRY.register("separatist_painting", () -> new PaintingVariant(16, 16));
 	public static final RegistryObject<PaintingVariant> REPUBLIC_PAINTING = REGISTRY.register("republic_painting", () -> new PaintingVariant(16, 16));
 }

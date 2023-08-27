@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -7,14 +7,17 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:therm_det_num>",
+          "name": "label_varintegertherm_det_num",
+          "text": {
+            "fixedValue": "<VAR:integer:therm_det_num>",
+            "name": "ReturnThermalDetonatorNum"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:therm_det_num>",
-          "x": 141,
-          "y": 188
+          "x": 139,
+          "y": 184
         }
       },
       {
@@ -22,7 +25,6 @@
         "data": {
           "image": "thermal_detonator.png",
           "use1Xscale": false,
-          "name": "thermal_detonator.png",
           "x": 123,
           "y": 179
         }

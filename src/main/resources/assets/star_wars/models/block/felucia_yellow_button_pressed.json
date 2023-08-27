@@ -1,7 +1,7 @@
 {
   "parent": "block/button_pressed",
   "textures": {
-    "texture": "star_wars:blocks/felucia_yellow_planks"
+    "texture": "star_wars:block/felucia_yellow_planks"
   },
   "render_type": "solid"
 }

@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "star_wars:items/thermal_detonator"
+    "layer0": "star_wars:item/thermal_detonator"
   },
   "display": {
     "thirdperson_righthand": {

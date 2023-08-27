@@ -1,7 +1,7 @@
 {
   "parent": "star_wars:custom/blaster_dc_17",
   "textures": {
-    "0": "star_wars:blocks/blaster_dc_17",
-    "particle": "star_wars:items/blaster_dc_s"
+    "0": "star_wars:block/blaster_dc_17",
+    "particle": "star_wars:item/blaster_dc_s"
   }
 }

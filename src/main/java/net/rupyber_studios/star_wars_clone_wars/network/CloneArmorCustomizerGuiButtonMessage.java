@@ -70,7 +70,6 @@ public class CloneArmorCustomizerGuiButtonMessage {
 
 	@SubscribeEvent
 	public static void registerMessage(FMLCommonSetupEvent event) {
-		StarWarsMod.addNetworkMessage(CloneArmorCustomizerGuiButtonMessage.class, CloneArmorCustomizerGuiButtonMessage::buffer,
-				CloneArmorCustomizerGuiButtonMessage::new, CloneArmorCustomizerGuiButtonMessage::handler);
+		StarWarsMod.addNetworkMessage(CloneArmorCustomizerGuiButtonMessage.class, CloneArmorCustomizerGuiButtonMessage::buffer, CloneArmorCustomizerGuiButtonMessage::new, CloneArmorCustomizerGuiButtonMessage::handler);
 	}
 }

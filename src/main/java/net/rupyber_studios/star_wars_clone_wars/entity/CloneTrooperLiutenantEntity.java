@@ -27,9 +27,11 @@ import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.network.chat.Component;
 
@@ -40,6 +42,7 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 
 	public CloneTrooperLiutenantEntity(EntityType<CloneTrooperLiutenantEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Clone Liutenant"));
@@ -53,7 +56,7 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 	}
 
 	@Override
-	public Packet<?> getAddEntityPacket() {
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -74,7 +77,7 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 		this.targetSelector.addGoal(12, new HurtByTargetGoal(this).setAlertOthers());
 		this.goalSelector.addGoal(13, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(14, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
@@ -93,6 +96,11 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 	}
 
 	@Override
+	public double getMyRidingOffset() {
+		return -0.35D;
+	}
+
+	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
@@ -104,9 +112,9 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		if (source == DamageSource.CACTUS)
+		if (source.is(DamageTypes.CACTUS))
 			return false;
-		if (source == DamageSource.DRAGON_BREATH)
+		if (source.is(DamageTypes.DRAGON_BREATH))
 			return false;
 		return super.hurt(source, amount);
 	}

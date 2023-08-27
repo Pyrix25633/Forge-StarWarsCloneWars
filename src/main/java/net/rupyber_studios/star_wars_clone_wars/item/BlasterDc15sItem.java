@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc15sEntity;
 
@@ -20,7 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class BlasterDc15sItem extends Item {
 	public BlasterDc15sItem() {
-		super(new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC).durability(1024));
+		super(new Item.Properties().durability(1024));
 	}
 
 	@Override
@@ -40,8 +39,7 @@ public class BlasterDc15sItem extends Item {
 	}
 
 	@Override
-	public void onUsingTick(ItemStack itemstack, LivingEntity entityLiving, int count) {
-		Level world = entityLiving.level;
+	public void onUseTick(Level world, LivingEntity entityLiving, ItemStack itemstack, int count) {
 		if (!world.isClientSide() && entityLiving instanceof ServerPlayer entity) {
 			double x = entity.getX();
 			double y = entity.getY();

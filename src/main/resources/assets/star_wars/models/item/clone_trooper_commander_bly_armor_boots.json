@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "star_wars:items/clone_armor_item_bly_boots"
+    "layer0": "star_wars:item/clone_armor_item_bly_boots"
   }
 }

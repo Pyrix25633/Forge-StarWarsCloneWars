@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.client.model.ModelChestplateJetpack;
 
@@ -29,16 +28,16 @@ import java.util.Map;
 import java.util.Collections;
 
 public abstract class JetpackArmorItem extends ArmorItem {
-	public JetpackArmorItem(EquipmentSlot slot, Item.Properties properties) {
+	public JetpackArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 70;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 70;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{10, 26, 24, 10}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{10, 26, 24, 10}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -70,12 +69,12 @@ public abstract class JetpackArmorItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0.05f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Chestplate extends JetpackArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -84,20 +83,10 @@ public abstract class JetpackArmorItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body",
-									new ModelChestplateJetpack(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).body,
-									"left_arm",
-									new ModelChestplateJetpack(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).left_arm,
-									"right_arm",
-									new ModelChestplateJetpack(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).right_arm,
-									"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelChestplateJetpack(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).body,
+							"left_arm", new ModelChestplateJetpack(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).left_arm, "right_arm",
+							new ModelChestplateJetpack(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplateJetpack.LAYER_LOCATION)).right_arm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();

@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "star_wars:blocks/kashyyyk_portal",
-    "portal": "star_wars:blocks/kashyyyk_portal"
+    "particle": "star_wars:block/kashyyyk_portal",
+    "portal": "star_wars:block/kashyyyk_portal"
   },
   "elements": [
     {

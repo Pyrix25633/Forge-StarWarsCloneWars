@@ -17,7 +17,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class SeparatistTankShotItem extends Item {
 	public SeparatistTankShotItem() {
-		super(new Item.Properties().tab(null).stacksTo(1));
+		super(new Item.Properties().stacksTo(1));
 	}
 
 	@Override

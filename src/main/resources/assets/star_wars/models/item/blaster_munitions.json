@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "star_wars:items/blaster_munitions"
+    "layer0": "star_wars:item/blaster_munitions"
   }
 }

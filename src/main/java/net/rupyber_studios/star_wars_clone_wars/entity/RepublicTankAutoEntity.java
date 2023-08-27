@@ -25,6 +25,7 @@ import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.InteractionHand;
@@ -32,12 +33,12 @@ import net.minecraft.sounds.SoundEvent;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerBossEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
 public class RepublicTankAutoEntity extends Monster implements RangedAttackMob {
-	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED,
-			ServerBossEvent.BossBarOverlay.NOTCHED_10);
+	private final ServerBossEvent bossInfo = new ServerBossEvent(this.getDisplayName(), ServerBossEvent.BossBarColor.RED, ServerBossEvent.BossBarOverlay.NOTCHED_10);
 
 	public RepublicTankAutoEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(StarWarsModEntities.REPUBLIC_TANK_AUTO.get(), world);
@@ -45,13 +46,14 @@ public class RepublicTankAutoEntity extends Monster implements RangedAttackMob {
 
 	public RepublicTankAutoEntity(EntityType<RepublicTankAutoEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
 	}
 
 	@Override
-	public Packet<?> getAddEntityPacket() {
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -65,7 +67,7 @@ public class RepublicTankAutoEntity extends Monster implements RangedAttackMob {
 		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, DroidSecurityEntity.class, false, false));
 		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 0.3));
 		this.goalSelector.addGoal(7, new TemptGoal(this, 0.3, Ingredient.of(StarWarsModItems.CLONE_TROOPER_COMMUNICATOR.get()), false));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();
@@ -105,9 +107,9 @@ public class RepublicTankAutoEntity extends Monster implements RangedAttackMob {
 
 	@Override
 	public boolean hurt(DamageSource source, float amount) {
-		if (source == DamageSource.CACTUS)
+		if (source.is(DamageTypes.CACTUS))
 			return false;
-		if (source.getMsgId().equals("trident"))
+		if (source.is(DamageTypes.TRIDENT))
 			return false;
 		return super.hurt(source, amount);
 	}

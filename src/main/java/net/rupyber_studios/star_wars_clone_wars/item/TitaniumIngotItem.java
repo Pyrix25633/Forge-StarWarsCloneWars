@@ -1,8 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
-
 import net.minecraft.world.item.UseAnim;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.ItemStack;
@@ -10,7 +8,7 @@ import net.minecraft.world.item.Item;
 
 public class TitaniumIngotItem extends Item {
 	public TitaniumIngotItem() {
-		super(new Item.Properties().tab(StarWarsModTabs.TAB_MATERIALS).stacksTo(64).rarity(Rarity.RARE));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.RARE));
 	}
 
 	@Override

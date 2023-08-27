@@ -1,4 +1,3 @@
-
 package net.rupyber_studios.star_wars_clone_wars.client.gui;
 
 import net.rupyber_studios.star_wars_clone_wars.world.inventory.CloneArmorCustomizerGuiMenu;
@@ -12,7 +11,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
-import net.minecraft.client.Minecraft;
 
 import java.util.HashMap;
 
@@ -24,6 +22,7 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
+	Button button_customize;
 
 	public CloneArmorCustomizerGuiScreen(CloneArmorCustomizerGuiMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
@@ -54,13 +53,19 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/.png"));
-		this.blit(ms, this.leftPos + 25, this.topPos + 35, 0, 0, 18, 18, 18, 18);
+		this.blit(ms, this.leftPos + 30, this.topPos + 28, 0, 0, 18, 18, 18, 18);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/arrow.png"));
-		this.blit(ms, this.leftPos + 102, this.topPos + 35, 0, 0, 26, 18, 26, 18);
+		this.blit(ms, this.leftPos + 120, this.topPos + 28, 0, 0, 26, 18, 26, 18);
 
 		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/.png"));
-		this.blit(ms, this.leftPos + 61, this.topPos + 35, 0, 0, 18, 18, 18, 18);
+		this.blit(ms, this.leftPos + 75, this.topPos + 28, 0, 0, 18, 18, 18, 18);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_grade_slot.png"));
+		this.blit(ms, this.leftPos + 54, this.topPos + 29, 0, 0, 16, 16, 16, 16);
+
+		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_dye_slot.png"));
+		this.blit(ms, this.leftPos + 98, this.topPos + 29, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -81,24 +86,24 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 
 	@Override
 	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, "Clone Armor Customizer", 7, 5, -12829636);
+		this.font.draw(poseStack, Component.translatable("gui.star_wars.clone_armor_customizer_gui.label_clone_armor_customizer"), 7, 7, -12829636);
 	}
 
 	@Override
 	public void onClose() {
 		super.onClose();
-		Minecraft.getInstance().keyboardHandler.setSendRepeatsToGui(false);
 	}
 
 	@Override
 	public void init() {
 		super.init();
-		this.minecraft.keyboardHandler.setSendRepeatsToGui(true);
-		this.addRenderableWidget(new Button(this.leftPos + 52, this.topPos + 58, 70, 20, Component.literal("Customize"), e -> {
+		button_customize = Button.builder(Component.translatable("gui.star_wars.clone_armor_customizer_gui.button_customize"), e -> {
 			if (true) {
 				StarWarsMod.PACKET_HANDLER.sendToServer(new CloneArmorCustomizerGuiButtonMessage(0, x, y, z));
 				CloneArmorCustomizerGuiButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}));
+		}).bounds(this.leftPos + 53, this.topPos + 54, 70, 20).build();
+		guistate.put("button:button_customize", button_customize);
+		this.addRenderableWidget(button_customize);
 	}
 }

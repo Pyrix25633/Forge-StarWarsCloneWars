@@ -18,8 +18,7 @@ import java.util.Collections;
 
 public class FeluciaRedStairsBlock extends StairBlock {
 	public FeluciaRedStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(),
-				BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape());
+		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of(Material.WOOD).sound(SoundType.WOOD).strength(3f, 2f).dynamicShape());
 	}
 
 	@Override

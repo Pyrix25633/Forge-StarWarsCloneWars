@@ -1,23 +1,21 @@
 modLoader="javafml"
-loaderVersion="[43,)"
+loaderVersion="[45,)"
 license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="star_wars"
-version="1.4.0"
+version="1.4.1"
 displayName="Star Wars Clone Wars"
 credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://rupyberstudios.github.io/website"
 logoFile="logo.png"
 authors="Pyrix25633"
-description='''
-A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers
-'''
+description="A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers"
 
 [[dependencies.star_wars]]
     modId="minecraft"
     mandatory=true
-    versionRange="[1.19.2]"
+    versionRange="[1.19.4]"
     ordering="NONE"
     side="BOTH"
 

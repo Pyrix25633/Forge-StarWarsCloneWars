@@ -19,7 +19,7 @@ public class MunitionCountProcedureProcedure {
 		double item_num = 0;
 		loop_num = 0;
 		item_num = 0;
-		for (int index0 = 0; index0 < (int) (36); index0++) {
+		for (int index0 = 0; index0 < 36; index0++) {
 			if (StarWarsModItems.BLASTER_MUNITIONS.get() == (new Object() {
 				public ItemStack getItemStack(int sltid, Entity entity) {
 					AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
@@ -29,7 +29,7 @@ public class MunitionCountProcedureProcedure {
 					return _retval.get();
 				}
 			}.getItemStack((int) loop_num, entity)).getItem()) {
-				item_num = item_num + ((new Object() {
+				item_num = item_num + (new Object() {
 					public ItemStack getItemStack(int sltid, Entity entity) {
 						AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
 						entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
@@ -37,13 +37,12 @@ public class MunitionCountProcedureProcedure {
 						});
 						return _retval.get();
 					}
-				}.getItemStack((int) loop_num, entity))).getCount();
+				}.getItemStack((int) loop_num, entity)).getCount();
 			}
 			loop_num = loop_num + 1;
 		}
-		if (StarWarsModItems.BLASTER_MUNITIONS.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
-				.getItem()) {
-			item_num = item_num + ((entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)).getCount();
+		if (StarWarsModItems.BLASTER_MUNITIONS.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()) {
+			item_num = item_num + (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getCount();
 		}
 		{
 			double _setval = item_num;
@@ -53,13 +52,10 @@ public class MunitionCountProcedureProcedure {
 			});
 		}
 		if (StarWarsModItems.BLASTER_DC_15S.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()
-				|| StarWarsModItems.BLASTER_DC_15S.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-						.getItem()) {
+				|| StarWarsModItems.BLASTER_DC_15S.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 			return true;
-		} else if (StarWarsModItems.BLASTER_DC_17.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY)
-				.getItem()
-				|| StarWarsModItems.BLASTER_DC_17.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY)
-						.getItem()) {
+		} else if (StarWarsModItems.BLASTER_DC_17.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getOffhandItem() : ItemStack.EMPTY).getItem()
+				|| StarWarsModItems.BLASTER_DC_17.get() == (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem()) {
 			return true;
 		}
 		return false;

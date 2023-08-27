@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.entity.ThermalDetonatorEntity;
 
@@ -20,7 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class ThermalDetonatorItem extends Item {
 	public ThermalDetonatorItem() {
-		super(new Item.Properties().tab(StarWarsModTabs.TAB_MATERIALS).stacksTo(64));
+		super(new Item.Properties().stacksTo(64));
 	}
 
 	@Override

@@ -1,7 +1,7 @@
 {
   "parent": "star_wars:custom/lightsaber_green",
   "textures": {
-    "0": "star_wars:blocks/lightsaber_green",
-    "particle": "star_wars:items/plastoid_sword"
+    "0": "star_wars:block/lightsaber_green",
+    "particle": "star_wars:item/plastoid_sword"
   }
 }

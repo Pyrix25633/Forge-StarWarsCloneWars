@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disk",
@@ -13,7 +13,7 @@
     "music": {
       "value": "CUSTOM:record.separatist"
     },
-    "lengthInTicks": 0,
-    "analogOutput": 0
+    "lengthInTicks": 5260,
+    "analogOutput": 1
   }
 }

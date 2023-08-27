@@ -1,9 +1,9 @@
 {
   "parent": "block/slab_top",
   "textures": {
-    "bottom": "star_wars:blocks/felucia_yellow_planks",
-    "top": "star_wars:blocks/felucia_yellow_planks",
-    "side": "star_wars:blocks/felucia_yellow_planks"
+    "bottom": "star_wars:block/felucia_yellow_planks",
+    "top": "star_wars:block/felucia_yellow_planks",
+    "side": "star_wars:block/felucia_yellow_planks"
   },
   "render_type": "solid"
 }

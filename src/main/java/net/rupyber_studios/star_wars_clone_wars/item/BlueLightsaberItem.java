@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 
 import net.minecraftforge.api.distmarker.OnlyIn;
@@ -39,7 +38,7 @@ public class BlueLightsaberItem extends SwordItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StarWarsModItems.TITANIUM_INGOT.get()));
 			}
-		}, 3, -2.2f, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
+		}, 3, -2.2f, new Item.Properties());
 	}
 
 	@Override

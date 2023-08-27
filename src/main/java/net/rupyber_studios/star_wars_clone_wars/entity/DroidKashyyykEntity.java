@@ -25,6 +25,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
 public class DroidKashyyykEntity extends Monster implements RangedAttackMob {
@@ -34,13 +35,14 @@ public class DroidKashyyykEntity extends Monster implements RangedAttackMob {
 
 	public DroidKashyyykEntity(EntityType<DroidKashyyykEntity> type, Level world) {
 		super(type, world);
+		maxUpStep = 0.6f;
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();
 	}
 
 	@Override
-	public Packet<?> getAddEntityPacket() {
+	public Packet<ClientGamePacketListener> getAddEntityPacket() {
 		return NetworkHooks.getEntitySpawningPacket(this);
 	}
 
@@ -75,7 +77,7 @@ public class DroidKashyyykEntity extends Monster implements RangedAttackMob {
 		this.goalSelector.addGoal(26, new RandomStrollGoal(this, 1));
 		this.goalSelector.addGoal(27, new RandomLookAroundGoal(this));
 		this.goalSelector.addGoal(28, new FloatGoal(this));
-		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10) {
+		this.goalSelector.addGoal(1, new RangedAttackGoal(this, 1.25, 20, 10f) {
 			@Override
 			public boolean canContinueToUse() {
 				return this.canUse();

@@ -1,6 +1,6 @@
 {
   "parent": "item/handheld",
   "textures": {
-    "layer0": "star_wars:items/plastoid_shovel"
+    "layer0": "star_wars:item/plastoid_shovel"
   }
 }

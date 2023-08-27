@@ -1,6 +1,10 @@
+
 package net.rupyber_studios.star_wars_clone_wars.world.features.treedecorators;
 
+import net.minecraftforge.registries.RegisterEvent;
 import net.minecraftforge.registries.ForgeRegistries;
+import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.eventbus.api.SubscribeEvent;
 
 import net.minecraft.world.level.levelgen.feature.treedecorators.TrunkVineDecorator;
 import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecoratorType;
@@ -8,19 +12,21 @@ import net.minecraft.world.level.levelgen.feature.treedecorators.TreeDecorator;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.core.BlockPos;
 
+import com.mojang.serialization.Codec;
+
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class KashyyykMountainsTrunkDecorator extends TrunkVineDecorator {
-	public static final KashyyykMountainsTrunkDecorator INSTANCE = new KashyyykMountainsTrunkDecorator();
-	public static com.mojang.serialization.Codec<KashyyykMountainsTrunkDecorator> codec;
-	public static TreeDecoratorType<?> tdt;
-	static {
-		codec = com.mojang.serialization.Codec.unit(() -> INSTANCE);
-		tdt = new TreeDecoratorType<>(codec);
-		ForgeRegistries.TREE_DECORATOR_TYPES.register("kashyyyk_mountains_tree_trunk_decorator", tdt);
+	public static Codec<KashyyykMountainsTrunkDecorator> CODEC = Codec.unit(KashyyykMountainsTrunkDecorator::new);
+	public static TreeDecoratorType<?> DECORATOR_TYPE = new TreeDecoratorType<>(CODEC);
+
+	@SubscribeEvent
+	public static void registerPointOfInterest(RegisterEvent event) {
+		event.register(ForgeRegistries.Keys.TREE_DECORATOR_TYPES, registerHelper -> registerHelper.register("kashyyyk_mountains_tree_trunk_decorator", DECORATOR_TYPE));
 	}
 
 	@Override
 	protected TreeDecoratorType<?> type() {
-		return tdt;
+		return DECORATOR_TYPE;
 	}
 
 	@Override

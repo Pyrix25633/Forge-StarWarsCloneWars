@@ -6,7 +6,13 @@
       "sortid": 80,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_munitions"
+      "registry_name": "blaster_munitions",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BlasterMunitionsItem.java",
+          "src/main/resources/assets/star_wars/models/item/blaster_munitions.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperArmorArmor",
@@ -19,7 +25,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_normal_armor_helmet.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperArmorArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_normal_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_normal_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_normal_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -28,7 +41,12 @@
       "sortid": 127,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_armor_armor_helmet_recipe"
+      "registry_name": "clone_trooper_armor_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_trooper_armor_armor_helmet_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperArmorArmorBodyRecipe",
@@ -36,7 +54,12 @@
       "sortid": 128,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_armor_armor_body_recipe"
+      "registry_name": "clone_trooper_armor_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_trooper_armor_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperArmorArmorLeggingsRecipe",
@@ -44,7 +67,12 @@
       "sortid": 129,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_armor_armor_leggings_recipe"
+      "registry_name": "clone_trooper_armor_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_trooper_armor_armor_leggings_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperArmorArmorBootsRecipe",
@@ -52,7 +80,12 @@
       "sortid": 130,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_armor_armor_boots_recipe"
+      "registry_name": "clone_trooper_armor_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_trooper_armor_armor_boots_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderArmor",
@@ -65,7 +98,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderArmorItem.java"
+        ]
       }
     },
     {
@@ -74,7 +114,14 @@
       "sortid": 18,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander"
+      "registry_name": "clone_trooper_commander",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderEntity.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderRenderer.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooper501stArmor",
@@ -87,7 +134,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_501st_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_501st_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_501st_armor_helmet.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper501stArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_501st_armor_leggings.json"
+        ]
       }
     },
     {
@@ -96,7 +150,14 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_501st"
+      "registry_name": "clone_trooper_501st",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_501st_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper501stRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper501stEntity.java"
+        ]
+      }
     },
     {
       "name": "Materials",
@@ -104,7 +165,10 @@
       "sortid": 131,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "materials"
+      "registry_name": "materials",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "RawTitanium",
@@ -112,7 +176,13 @@
       "sortid": 71,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raw_titanium"
+      "registry_name": "raw_titanium",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/raw_titanium.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/RawTitaniumItem.java"
+        ]
+      }
     },
     {
       "name": "TitaniumIngot",
@@ -120,7 +190,13 @@
       "sortid": 72,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_ingot"
+      "registry_name": "titanium_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/titanium_ingot.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/TitaniumIngotItem.java"
+        ]
+      }
     },
     {
       "name": "TitaniumOre",
@@ -128,7 +204,19 @@
       "sortid": 69,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_ore"
+      "registry_name": "titanium_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/titanium_ore.json",
+          "src/main/resources/assets/star_wars/models/block/titanium_ore.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/ores/TitaniumOreFeature.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/TitaniumOreBlock.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/titanium_ore.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/titanium_ore_biome_modifier.json",
+          "src/main/resources/assets/star_wars/models/item/titanium_ore.json",
+          "src/main/resources/assets/star_wars/blockstates/titanium_ore.json"
+        ]
+      }
     },
     {
       "name": "TitaniumIngotRecipe",
@@ -136,7 +224,12 @@
       "sortid": 132,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_ingot_recipe"
+      "registry_name": "titanium_ingot_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/titanium_ingot_recipe.json"
+        ]
+      }
     },
     {
       "name": "TitaniumOreLootTable",
@@ -144,7 +237,12 @@
       "sortid": 133,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_ore_loot_table"
+      "registry_name": "titanium_ore_loot_table",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/loot_tables/blocks/titanium_ore.json"
+        ]
+      }
     },
     {
       "name": "PlastoidScrap",
@@ -152,7 +250,13 @@
       "sortid": 73,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_scrap"
+      "registry_name": "plastoid_scrap",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/plastoid_scrap.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidScrapItem.java"
+        ]
+      }
     },
     {
       "name": "PlastoidPlate",
@@ -160,7 +264,13 @@
       "sortid": 74,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_plate"
+      "registry_name": "plastoid_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/plastoid_plate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidPlateItem.java"
+        ]
+      }
     },
     {
       "name": "PlastoidScrapRecipe",
@@ -168,7 +278,12 @@
       "sortid": 134,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_scrap_recipe"
+      "registry_name": "plastoid_scrap_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_scrap_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidPlateRecipe",
@@ -176,7 +291,12 @@
       "sortid": 135,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_plate_recipe"
+      "registry_name": "plastoid_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "RawTitaniumRecipeBlast",
@@ -184,7 +304,12 @@
       "sortid": 136,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "raw_titanium_recipe_blast"
+      "registry_name": "raw_titanium_recipe_blast",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/raw_titanium_recipe_blast.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooper",
@@ -192,7 +317,14 @@
       "sortid": 13,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper"
+      "registry_name": "clone_trooper",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperEntity.java"
+        ]
+      }
     },
     {
       "name": "Geonosis",
@@ -200,7 +332,12 @@
       "sortid": 137,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis"
+      "registry_name": "geonosis",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/biome/geonosis.json"
+        ]
+      }
     },
     {
       "name": "TitaniumBlock",
@@ -208,7 +345,15 @@
       "sortid": 70,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_block"
+      "registry_name": "titanium_block",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/titanium_block.json",
+          "src/main/resources/assets/star_wars/models/item/titanium_block.json",
+          "src/main/resources/assets/star_wars/blockstates/titanium_block.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/TitaniumBlockBlock.java"
+        ]
+      }
     },
     {
       "name": "CommanderGrade",
@@ -216,7 +361,13 @@
       "sortid": 12,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "commander_grade"
+      "registry_name": "commander_grade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/commander_grade.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CommanderGradeItem.java"
+        ]
+      }
     },
     {
       "name": "CommanderGradeRecipe",
@@ -224,7 +375,12 @@
       "sortid": 139,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "commander_grade_recipe"
+      "registry_name": "commander_grade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/commander_grade_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneArmorCustomizerCustomize",
@@ -234,6 +390,9 @@
       "locked_code": false,
       "registry_name": "clone_armor_customizer_customize",
       "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/CloneArmorCustomizerCustomizeProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -248,7 +407,14 @@
       "sortid": 141,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_armor_customizer_gui"
+      "registry_name": "clone_armor_customizer_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/inventory/CloneArmorCustomizerGuiMenu.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/gui/CloneArmorCustomizerGuiScreen.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/network/CloneArmorCustomizerGuiButtonMessage.java"
+        ]
+      }
     },
     {
       "name": "TitaniumBlockRecipe",
@@ -256,7 +422,12 @@
       "sortid": 142,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_block_recipe"
+      "registry_name": "titanium_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/titanium_block_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneArmorCustomizerRecipe",
@@ -264,7 +435,12 @@
       "sortid": 143,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_armor_customizer_recipe"
+      "registry_name": "clone_armor_customizer_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_armor_customizer_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneArmorCustomizer",
@@ -272,7 +448,15 @@
       "sortid": 67,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_armor_customizer"
+      "registry_name": "clone_armor_customizer",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/clone_armor_customizer.json",
+          "src/main/resources/assets/star_wars/blockstates/clone_armor_customizer.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/CloneArmorCustomizerBlock.java",
+          "src/main/resources/assets/star_wars/models/item/clone_armor_customizer.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperGuardArmor",
@@ -285,7 +469,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperGuardArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_guard_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_guard_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_guard_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_guard_armor_boots.json"
+        ]
       }
     },
     {
@@ -294,7 +485,14 @@
       "sortid": 32,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_guard"
+      "registry_name": "clone_trooper_guard",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_guard_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperGuardEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperGuardRenderer.java"
+        ]
+      }
     },
     {
       "name": "SoldierGrade",
@@ -302,7 +500,13 @@
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soldier_grade"
+      "registry_name": "soldier_grade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/soldier_grade.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/SoldierGradeItem.java"
+        ]
+      }
     },
     {
       "name": "SoldierGradeRecipe",
@@ -310,7 +514,12 @@
       "sortid": 144,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "soldier_grade_recipe"
+      "registry_name": "soldier_grade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/soldier_grade_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCaptainArmor",
@@ -323,7 +532,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCaptainArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_armor_helmet.json"
+        ]
       }
     },
     {
@@ -332,7 +548,13 @@
       "sortid": 11,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "captain_grade"
+      "registry_name": "captain_grade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/captain_grade.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CaptainGradeItem.java"
+        ]
+      }
     },
     {
       "name": "CaptainGradeRecipe",
@@ -340,7 +562,12 @@
       "sortid": 145,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "captain_grade_recipe"
+      "registry_name": "captain_grade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/captain_grade_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCaptain",
@@ -348,7 +575,14 @@
       "sortid": 17,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_captain"
+      "registry_name": "clone_trooper_captain",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCaptainRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCaptainEntity.java"
+        ]
+      }
     },
     {
       "name": "SergeantGrade",
@@ -356,7 +590,13 @@
       "sortid": 9,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sergeant_grade"
+      "registry_name": "sergeant_grade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/sergeant_grade.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/SergeantGradeItem.java"
+        ]
+      }
     },
     {
       "name": "SergeantGradeRecipe",
@@ -364,7 +604,12 @@
       "sortid": 146,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "sergeant_grade_recipe"
+      "registry_name": "sergeant_grade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/sergeant_grade_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperSergeantArmor",
@@ -377,7 +622,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_sergeant_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperSergeantArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_sergeant_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_sergeant_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_sergeant_armor_helmet.json"
+        ]
       }
     },
     {
@@ -386,7 +638,14 @@
       "sortid": 15,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_sergeant"
+      "registry_name": "clone_trooper_sergeant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_sergeant_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperSergeantEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperSergeantRenderer.java"
+        ]
+      }
     },
     {
       "name": "BlasterDc15s",
@@ -394,7 +653,15 @@
       "sortid": 3,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_dc_15s"
+      "registry_name": "blaster_dc_15s",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/BlasterDc15sEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/BlasterDc15sRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/blaster_dc_15s.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BlasterDc15sItem.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooper212thArmor",
@@ -407,7 +674,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_212th_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_212th_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_212th_armor_helmet.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper212thArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_212th_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -416,7 +690,14 @@
       "sortid": 25,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_212th"
+      "registry_name": "clone_trooper_212th",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper212thEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper212thRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_212th_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooper41stArmor",
@@ -429,7 +710,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper41stArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_41st_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_41st_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_41st_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_41st_armor_helmet.json"
+        ]
       }
     },
     {
@@ -443,7 +731,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_91st_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_91st_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper91stArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_91st_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_91st_armor_leggings.json"
+        ]
       }
     },
     {
@@ -457,7 +752,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_104th_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_104th_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_104th_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_104th_armor_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper104thArmorItem.java"
+        ]
       }
     },
     {
@@ -471,7 +773,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_327th_armor_helmet.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper327thArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_327th_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_327th_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_327th_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -485,7 +794,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderCodyArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_cody_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_cody_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_cody_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_cody_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -494,7 +810,14 @@
       "sortid": 19,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_41st"
+      "registry_name": "clone_trooper_41st",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_41st_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper41stRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper41stEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooper91st",
@@ -502,7 +825,14 @@
       "sortid": 21,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_91st"
+      "registry_name": "clone_trooper_91st",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper91stRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_91st_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper91stEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooper104th",
@@ -510,7 +840,14 @@
       "sortid": 23,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_104th"
+      "registry_name": "clone_trooper_104th",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper104thEntity.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_104th_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper104thRenderer.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooper327th",
@@ -518,7 +855,14 @@
       "sortid": 27,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_327th"
+      "registry_name": "clone_trooper_327th",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper327thRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_327th_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper327thEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderCody",
@@ -526,7 +870,14 @@
       "sortid": 26,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_cody"
+      "registry_name": "clone_trooper_commander_cody",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_cody_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderCodyRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderCodyEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderWolffeArmor",
@@ -539,7 +890,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_wolffe_armor_helmet.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderWolffeArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_wolffe_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_wolffe_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_wolffe_armor_boots.json"
+        ]
       }
     },
     {
@@ -548,7 +906,14 @@
       "sortid": 24,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_wolffe"
+      "registry_name": "clone_trooper_commander_wolffe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderWolffeEntity.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_wolffe_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderWolffeRenderer.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderFox",
@@ -556,7 +921,14 @@
       "sortid": 33,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_fox"
+      "registry_name": "clone_trooper_commander_fox",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_fox_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderFoxRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderFoxEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderFoxArmor",
@@ -569,7 +941,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_fox_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_fox_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_fox_armor_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderFoxArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_fox_armor_leggings.json"
+        ]
       }
     },
     {
@@ -583,7 +962,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_appo_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_appo_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_appo_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_appo_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderAppoArmorItem.java"
+        ]
       }
     },
     {
@@ -592,7 +978,14 @@
       "sortid": 31,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_appo"
+      "registry_name": "clone_trooper_commander_appo",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderAppoRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderAppoEntity.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_appo_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderGreeArmor",
@@ -605,7 +998,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_gree_armor_leggings.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderGreeArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_gree_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_gree_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_gree_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -614,7 +1014,14 @@
       "sortid": 20,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_gree"
+      "registry_name": "clone_trooper_commander_gree",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_gree_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderGreeRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderGreeEntity.java"
+        ]
+      }
     },
     {
       "name": "LiutenantGrade",
@@ -622,7 +1029,13 @@
       "sortid": 10,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "liutenant_grade"
+      "registry_name": "liutenant_grade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/LiutenantGradeItem.java",
+          "src/main/resources/assets/star_wars/models/item/liutenant_grade.json"
+        ]
+      }
     },
     {
       "name": "LiutenantGradeRecipe",
@@ -630,7 +1043,12 @@
       "sortid": 147,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "liutenant_grade_recipe"
+      "registry_name": "liutenant_grade_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/liutenant_grade_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperLiutenantArmor",
@@ -643,7 +1061,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_liutenant_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_liutenant_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_liutenant_armor_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperLiutenantArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_liutenant_armor_leggings.json"
+        ]
       }
     },
     {
@@ -652,7 +1077,14 @@
       "sortid": 16,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_liutenant"
+      "registry_name": "clone_trooper_liutenant",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_liutenant_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperLiutenantRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperLiutenantEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperBombArmor",
@@ -665,7 +1097,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_bomb_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_bomb_armor_leggings.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperBombArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_bomb_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_bomb_armor_helmet.json"
+        ]
       }
     },
     {
@@ -674,7 +1113,14 @@
       "sortid": 14,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_bomb"
+      "registry_name": "clone_trooper_bomb",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperBombRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_bomb_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperBombEntity.java"
+        ]
+      }
     },
     {
       "name": "JetpackArmor",
@@ -687,7 +1133,11 @@
         "eh": false,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/JetpackArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/jetpack_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -696,7 +1146,12 @@
       "sortid": 148,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "jetpack_armor_body_recipe"
+      "registry_name": "jetpack_armor_body_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/jetpack_armor_body_recipe.json"
+        ]
+      }
     },
     {
       "name": "HelmetOverlay",
@@ -704,7 +1159,12 @@
       "sortid": 149,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "helmet_overlay"
+      "registry_name": "helmet_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/screens/HelmetOverlayOverlay.java"
+        ]
+      }
     },
     {
       "name": "HelmetOverlayProcedure",
@@ -715,6 +1175,9 @@
       "registry_name": "helmet_overlay_procedure",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/HelmetOverlayProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -734,7 +1197,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_bly_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderBlyArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_bly_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_bly_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_bly_armor_helmet.json"
+        ]
       }
     },
     {
@@ -743,7 +1213,14 @@
       "sortid": 28,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_bly"
+      "registry_name": "clone_trooper_commander_bly",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderBlyRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_bly_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderBlyEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCaptainRexArmor",
@@ -756,7 +1233,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_rex_armor_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCaptainRexArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_rex_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_rex_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_rex_armor_helmet.json"
+        ]
       }
     },
     {
@@ -765,7 +1249,14 @@
       "sortid": 30,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_captain_rex"
+      "registry_name": "clone_trooper_captain_rex",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCaptainRexRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_rex_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCaptainRexEntity.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommanderPondsArmor",
@@ -778,7 +1269,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_ponds_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_ponds_armor_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderPondsArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_ponds_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_ponds_armor_boots.json"
+        ]
       }
     },
     {
@@ -787,7 +1285,14 @@
       "sortid": 22,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_commander_ponds"
+      "registry_name": "clone_trooper_commander_ponds",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooperCommanderPondsEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooperCommanderPondsRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_ponds_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooper25633rdArmor",
@@ -800,7 +1305,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooper25633rdArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_25633rd_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_25633rd_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_25633rd_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_25633rd_armor_leggings.json"
+        ]
       }
     },
     {
@@ -809,7 +1321,14 @@
       "sortid": 34,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_25633rd"
+      "registry_name": "clone_trooper_25633rd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/CloneTrooper25633rdEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/CloneTrooper25633rdRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_25633rd_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCaptainCryptoArmor",
@@ -822,7 +1341,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_crypto_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_crypto_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_crypto_armor_leggings.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_captain_crypto_armor_boots.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCaptainCryptoArmorItem.java"
+        ]
       }
     },
     {
@@ -836,7 +1362,14 @@
         "eh": true,
         "el": true,
         "eb": true,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommanderPyrixArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_pyrix_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_pyrix_armor_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_pyrix_armor_boots.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_commander_pyrix_armor_leggings.json"
+        ]
       }
     },
     {
@@ -845,7 +1378,12 @@
       "sortid": 151,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "helmet_overlay_d"
+      "registry_name": "helmet_overlay_d",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/screens/HelmetOverlayDOverlay.java"
+        ]
+      }
     },
     {
       "name": "HelmetOverlayDProcedure",
@@ -856,6 +1394,9 @@
       "registry_name": "helmet_overlay_d_procedure",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/HelmetOverlayDProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -873,6 +1414,9 @@
       "registry_name": "helmet_overlay_b_procedure",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/HelmetOverlayBProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -887,7 +1431,12 @@
       "sortid": 154,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "helmet_overlay_b"
+      "registry_name": "helmet_overlay_b",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/screens/HelmetOverlayBOverlay.java"
+        ]
+      }
     },
     {
       "name": "GeonosisDimension",
@@ -897,7 +1446,20 @@
       "locked_code": false,
       "registry_name": "geonosis_dimension",
       "metadata": {
-        "ep": true
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/geonosis_dimension_portal_ns.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/GeonosisDimensionPortalBlock.java",
+          "src/main/resources/assets/star_wars/models/item/geonosis_dimension.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/dimension/GeonosisDimensionDimension.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/GeonosisDimensionItem.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/GeonosisDimensionPortalShape.java",
+          "src/main/resources/data/star_wars/dimension/geonosis_dimension.json",
+          "src/main/resources/assets/star_wars/models/block/geonosis_dimension_portal_ew.json",
+          "src/main/resources/assets/star_wars/blockstates/geonosis_dimension_portal.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/GeonosisDimensionTeleporter.java",
+          "src/main/resources/data/star_wars/dimension_type/geonosis_dimension.json"
+        ]
       }
     },
     {
@@ -906,7 +1468,12 @@
       "sortid": 155,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_plains"
+      "registry_name": "geonosis_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/biome/geonosis_plains.json"
+        ]
+      }
     },
     {
       "name": "GeonosisMountains",
@@ -914,7 +1481,12 @@
       "sortid": 156,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_mountains"
+      "registry_name": "geonosis_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/biome/geonosis_mountains.json"
+        ]
+      }
     },
     {
       "name": "MusicDiskSeparatist",
@@ -922,7 +1494,13 @@
       "sortid": 116,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "music_disk_separatist"
+      "registry_name": "music_disk_separatist",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/MusicDiskSeparatistItem.java",
+          "src/main/resources/assets/star_wars/models/item/music_disk_separatist.json"
+        ]
+      }
     },
     {
       "name": "SeparatistPainting",
@@ -930,7 +1508,10 @@
       "sortid": 157,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "separatist_painting"
+      "registry_name": "separatist_painting",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "Droid",
@@ -938,7 +1519,14 @@
       "sortid": 118,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid"
+      "registry_name": "droid",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/droid_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidEntity.java"
+        ]
+      }
     },
     {
       "name": "Separatist",
@@ -946,7 +1534,10 @@
       "sortid": 158,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "separatist"
+      "registry_name": "separatist",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "BlasterE5",
@@ -954,7 +1545,15 @@
       "sortid": 159,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_e_5"
+      "registry_name": "blaster_e_5",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BlasterE5Item.java",
+          "src/main/resources/assets/star_wars/models/item/blaster_e_5.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/BlasterE5Renderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/BlasterE5Entity.java"
+        ]
+      }
     },
     {
       "name": "TankShoot",
@@ -962,7 +1561,12 @@
       "sortid": 160,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "tank_shoot"
+      "registry_name": "tank_shoot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/network/TankShootMessage.java"
+        ]
+      }
     },
     {
       "name": "TankShootProcedure",
@@ -972,6 +1576,9 @@
       "locked_code": false,
       "registry_name": "tank_shoot_procedure",
       "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/TankShootProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -986,7 +1593,13 @@
       "sortid": 162,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "repubblic_tank_gui"
+      "registry_name": "repubblic_tank_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/inventory/RepubblicTankGuiMenu.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/gui/RepubblicTankGuiScreen.java"
+        ]
+      }
     },
     {
       "name": "RepubblicTankShot",
@@ -994,7 +1607,15 @@
       "sortid": 163,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "repubblic_tank_shot"
+      "registry_name": "repubblic_tank_shot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/repubblic_tank_shot.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/RepubblicTankShotEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/RepubblicTankShotRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/RepubblicTankShotItem.java"
+        ]
+      }
     },
     {
       "name": "ThermalDetonatorProcedure",
@@ -1004,6 +1625,9 @@
       "locked_code": false,
       "registry_name": "thermal_detonator_procedure",
       "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/ThermalDetonatorProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1030,7 +1654,14 @@
       "sortid": 81,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thermal_detonator"
+      "registry_name": "thermal_detonator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/ThermalDetonatorItem.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/ThermalDetonatorEntity.java",
+          "src/main/resources/assets/star_wars/models/item/thermal_detonator.json"
+        ]
+      }
     },
     {
       "name": "ThermalDetonatorRecipe",
@@ -1038,7 +1669,12 @@
       "sortid": 165,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thermal_detonator_recipe"
+      "registry_name": "thermal_detonator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/thermal_detonator_recipe.json"
+        ]
+      }
     },
     {
       "name": "BlasterDc15sRecipe",
@@ -1046,7 +1682,12 @@
       "sortid": 166,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_dc_15s_recipe"
+      "registry_name": "blaster_dc_15s_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/blaster_dc_15s_recipe.json"
+        ]
+      }
     },
     {
       "name": "BlasterMunitionsRecipe",
@@ -1054,7 +1695,12 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_munitions_recipe"
+      "registry_name": "blaster_munitions_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/blaster_munitions_recipe.json"
+        ]
+      }
     },
     {
       "name": "BlasterDc17",
@@ -1062,7 +1708,15 @@
       "sortid": 4,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_dc_17"
+      "registry_name": "blaster_dc_17",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/BlasterDc17Renderer.java",
+          "src/main/resources/assets/star_wars/models/item/blaster_dc_17.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BlasterDc17Item.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/BlasterDc17Entity.java"
+        ]
+      }
     },
     {
       "name": "Radar",
@@ -1070,7 +1724,15 @@
       "sortid": 68,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "radar"
+      "registry_name": "radar",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/RadarBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/radar.json",
+          "src/main/resources/assets/star_wars/models/block/radar.json",
+          "src/main/resources/assets/star_wars/models/item/radar.json"
+        ]
+      }
     },
     {
       "name": "BackpackGui",
@@ -1078,7 +1740,13 @@
       "sortid": 168,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "backpack_gui"
+      "registry_name": "backpack_gui",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/inventory/BackpackGuiMenu.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/gui/BackpackGuiScreen.java"
+        ]
+      }
     },
     {
       "name": "Backpack",
@@ -1086,7 +1754,14 @@
       "sortid": 82,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "backpack"
+      "registry_name": "backpack",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BackpackItem.java",
+          "src/main/resources/assets/star_wars/models/item/backpack.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/inventory/BackpackInventoryCapability.java"
+        ]
+      }
     },
     {
       "name": "BackpackRecipe",
@@ -1094,7 +1769,12 @@
       "sortid": 169,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "backpack_recipe"
+      "registry_name": "backpack_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/backpack_recipe.json"
+        ]
+      }
     },
     {
       "name": "RepublicTank",
@@ -1102,7 +1782,14 @@
       "sortid": 35,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic_tank"
+      "registry_name": "republic_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/republic_tank_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/RepublicTankRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/RepublicTankEntity.java"
+        ]
+      }
     },
     {
       "name": "RepublicTankAuto",
@@ -1110,7 +1797,14 @@
       "sortid": 36,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic_tank_auto"
+      "registry_name": "republic_tank_auto",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/RepublicTankAutoRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/RepublicTankAutoEntity.java",
+          "src/main/resources/assets/star_wars/models/item/republic_tank_auto_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "RepublicSpeeder",
@@ -1118,7 +1812,14 @@
       "sortid": 37,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic_speeder"
+      "registry_name": "republic_speeder",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/RepublicSpeederRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/republic_speeder_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/RepublicSpeederEntity.java"
+        ]
+      }
     },
     {
       "name": "RepublicPainting",
@@ -1126,7 +1827,10 @@
       "sortid": 170,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic_painting"
+      "registry_name": "republic_painting",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "MusicDiskRepublic",
@@ -1134,7 +1838,13 @@
       "sortid": 1,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "music_disk_republic"
+      "registry_name": "music_disk_republic",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/MusicDiskRepublicItem.java",
+          "src/main/resources/assets/star_wars/models/item/music_disk_republic.json"
+        ]
+      }
     },
     {
       "name": "Republic",
@@ -1142,7 +1852,10 @@
       "sortid": 171,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic"
+      "registry_name": "republic",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "RepublicOutpostBox",
@@ -1150,7 +1863,15 @@
       "sortid": 7,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "republic_outpost_box"
+      "registry_name": "republic_outpost_box",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/republic_outpost_box.json",
+          "src/main/resources/assets/star_wars/models/block/republic_outpost_box.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/RepublicOutpostBoxBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/republic_outpost_box.json"
+        ]
+      }
     },
     {
       "name": "JetpackEffectProcedureExpire",
@@ -1160,6 +1881,9 @@
       "locked_code": false,
       "registry_name": "jetpack_effect_procedure_expire",
       "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/JetpackEffectProcedureExpireProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1174,7 +1898,14 @@
       "sortid": 119,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_commander"
+      "registry_name": "droid_commander",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidCommanderRenderer.java",
+          "src/main/resources/assets/star_wars/models/item/droid_commander_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidCommanderEntity.java"
+        ]
+      }
     },
     {
       "name": "DroidPilot",
@@ -1182,7 +1913,14 @@
       "sortid": 120,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_pilot"
+      "registry_name": "droid_pilot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidPilotRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidPilotEntity.java",
+          "src/main/resources/assets/star_wars/models/item/droid_pilot_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "DroidSecurity",
@@ -1190,7 +1928,14 @@
       "sortid": 121,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_security"
+      "registry_name": "droid_security",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidSecurityRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidSecurityEntity.java",
+          "src/main/resources/assets/star_wars/models/item/droid_security_spawn_egg.json"
+        ]
+      }
     },
     {
       "name": "SeparatistTank",
@@ -1198,7 +1943,14 @@
       "sortid": 126,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "separatist_tank"
+      "registry_name": "separatist_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/separatist_tank_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/SeparatistTankRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/SeparatistTankEntity.java"
+        ]
+      }
     },
     {
       "name": "SeparatistTankShot",
@@ -1206,7 +1958,15 @@
       "sortid": 173,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "separatist_tank_shot"
+      "registry_name": "separatist_tank_shot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/SeparatistTankShotRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/SeparatistTankShotEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/SeparatistTankShotItem.java",
+          "src/main/resources/assets/star_wars/models/item/separatist_tank_shot.json"
+        ]
+      }
     },
     {
       "name": "MunitionCountProcedure",
@@ -1217,6 +1977,9 @@
       "registry_name": "munition_count_procedure",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/MunitionCountProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1231,7 +1994,12 @@
       "sortid": 175,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "munition_number_overlay"
+      "registry_name": "munition_number_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/screens/MunitionNumberOverlayOverlay.java"
+        ]
+      }
     },
     {
       "name": "ThermalDetonatorCountProcedure",
@@ -1242,6 +2010,9 @@
       "registry_name": "thermal_detonator_count_procedure",
       "metadata": {
         "return_type": "logic",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/ThermalDetonatorCountProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "entity",
@@ -1256,7 +2027,12 @@
       "sortid": 177,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "thermal_detonator_number_overlay"
+      "registry_name": "thermal_detonator_number_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/screens/ThermalDetonatorNumberOverlayOverlay.java"
+        ]
+      }
     },
     {
       "name": "AtAp",
@@ -1264,7 +2040,15 @@
       "sortid": 178,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "at_ap"
+      "registry_name": "at_ap",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/configured_feature/at_ap.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/at_ap_biome_modifier.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/AtApFeature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/at_ap.json"
+        ]
+      }
     },
     {
       "name": "LaatI",
@@ -1272,7 +2056,15 @@
       "sortid": 179,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "laat_i"
+      "registry_name": "laat_i",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/laat_i_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/laat_i.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/LaatIFeature.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/laat_i.json"
+        ]
+      }
     },
     {
       "name": "LaatT",
@@ -1280,7 +2072,15 @@
       "sortid": 180,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "laat_t"
+      "registry_name": "laat_t",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/LaatTFeature.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/laat_t.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/laat_t_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/laat_t.json"
+        ]
+      }
     },
     {
       "name": "BlasterDc17Recipe",
@@ -1288,7 +2088,12 @@
       "sortid": 181,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blaster_dc_17_recipe"
+      "registry_name": "blaster_dc_17_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/blaster_dc_17_recipe.json"
+        ]
+      }
     },
     {
       "name": "GeonosisDimensionPortalIgniterRecipe",
@@ -1296,7 +2101,12 @@
       "sortid": 182,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_dimension_portal_igniter_recipe"
+      "registry_name": "geonosis_dimension_portal_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/geonosis_dimension_portal_igniter_recipe.json"
+        ]
+      }
     },
     {
       "name": "AtTe",
@@ -1304,7 +2114,15 @@
       "sortid": 183,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "at_te"
+      "registry_name": "at_te",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/at_te_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/at_te.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/AtTeFeature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/at_te.json"
+        ]
+      }
     },
     {
       "name": "GeonosisOutpost1",
@@ -1312,7 +2130,15 @@
       "sortid": 184,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_outpost_1"
+      "registry_name": "geonosis_outpost_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/geonosis_outpost_1_biome_modifier.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/GeonosisOutpost1Feature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/geonosis_outpost_1.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/geonosis_outpost_1.json"
+        ]
+      }
     },
     {
       "name": "GeonosisOutpost2",
@@ -1320,7 +2146,15 @@
       "sortid": 185,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_outpost_2"
+      "registry_name": "geonosis_outpost_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/configured_feature/geonosis_outpost_2.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/geonosis_outpost_2.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/geonosis_outpost_2_biome_modifier.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/GeonosisOutpost2Feature.java"
+        ]
+      }
     },
     {
       "name": "GeonosisOutpost3",
@@ -1328,7 +2162,15 @@
       "sortid": 186,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_outpost_3"
+      "registry_name": "geonosis_outpost_3",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/geonosis_outpost_3_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/geonosis_outpost_3.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/geonosis_outpost_3.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/GeonosisOutpost3Feature.java"
+        ]
+      }
     },
     {
       "name": "GeonosisOutpost501st",
@@ -1336,7 +2178,15 @@
       "sortid": 187,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_outpost_501st"
+      "registry_name": "geonosis_outpost_501st",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/geonosis_outpost_501st_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/geonosis_outpost_501st.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/GeonosisOutpost501stFeature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/geonosis_outpost_501st.json"
+        ]
+      }
     },
     {
       "name": "GeonosisSeparatist1",
@@ -1344,7 +2194,15 @@
       "sortid": 188,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "geonosis_separatist_1"
+      "registry_name": "geonosis_separatist_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/geonosis_separatist_1_biome_modifier.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/GeonosisSeparatist1Feature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/geonosis_separatist_1.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/geonosis_separatist_1.json"
+        ]
+      }
     },
     {
       "name": "JetpackArmor104th",
@@ -1357,7 +2215,12 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/jetpack_armor_104th_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/jetpack_armor_104th_chestplate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/JetpackArmor104thItem.java"
+        ]
       }
     },
     {
@@ -1371,7 +2234,12 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/JetpackArmor501stItem.java",
+          "src/main/resources/assets/star_wars/models/item/jetpack_armor_501st_chestplate.json",
+          "src/main/resources/assets/star_wars/models/item/jetpack_armor_501st_helmet.json"
+        ]
       }
     },
     {
@@ -1382,6 +2250,9 @@
       "locked_code": false,
       "registry_name": "tank_shoot_explosion_procedure",
       "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/TankShootExplosionProcedureProcedure.java"
+        ],
         "dependencies": [
           {
             "name": "x",
@@ -1410,7 +2281,20 @@
       "locked_code": false,
       "registry_name": "kashyyyk_dimension",
       "metadata": {
-        "ep": true
+        "ep": true,
+        "files": [
+          "src/main/resources/data/star_wars/dimension_type/kashyyyk_dimension.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/dimension/KashyyykDimensionDimension.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/KashyyykDimensionPortalBlock.java",
+          "src/main/resources/data/star_wars/dimension/kashyyyk_dimension.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/KashyyykDimensionTeleporter.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/KashyyykDimensionPortalShape.java",
+          "src/main/resources/assets/star_wars/models/block/kashyyyk_dimension_portal_ew.json",
+          "src/main/resources/assets/star_wars/models/block/kashyyyk_dimension_portal_ns.json",
+          "src/main/resources/assets/star_wars/models/item/kashyyyk_dimension.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/KashyyykDimensionItem.java",
+          "src/main/resources/assets/star_wars/blockstates/kashyyyk_dimension_portal.json"
+        ]
       }
     },
     {
@@ -1419,7 +2303,16 @@
       "sortid": 190,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk"
+      "registry_name": "kashyyyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/kashyyyk_tree.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/treedecorators/KashyyykLeaveDecorator.java",
+          "src/main/resources/data/star_wars/worldgen/biome/kashyyyk.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/treedecorators/KashyyykTrunkDecorator.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/kashyyyk_tree.json"
+        ]
+      }
     },
     {
       "name": "KashyyykBeaches",
@@ -1427,7 +2320,12 @@
       "sortid": 191,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_beaches"
+      "registry_name": "kashyyyk_beaches",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/biome/kashyyyk_beaches.json"
+        ]
+      }
     },
     {
       "name": "KashyyykMountains",
@@ -1435,7 +2333,16 @@
       "sortid": 192,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_mountains"
+      "registry_name": "kashyyyk_mountains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/kashyyyk_mountains_tree.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/kashyyyk_mountains_tree.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/treedecorators/KashyyykMountainsLeaveDecorator.java",
+          "src/main/resources/data/star_wars/worldgen/biome/kashyyyk_mountains.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/treedecorators/KashyyykMountainsTrunkDecorator.java"
+        ]
+      }
     },
     {
       "name": "CloneTrooperPilotArmor",
@@ -1448,7 +2355,12 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperPilotArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_pilot_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_pilot_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -1462,7 +2374,12 @@
         "eh": true,
         "el": false,
         "eb": false,
-        "ec": true
+        "ec": true,
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperGunnerArmorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_gunner_armor_helmet.json",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_gunner_armor_chestplate.json"
+        ]
       }
     },
     {
@@ -1471,7 +2388,15 @@
       "sortid": 193,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_separatist_landing_cruiser"
+      "registry_name": "kashyyyk_separatist_landing_cruiser",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/KashyyykSeparatistLandingCruiserFeature.java",
+          "src/main/resources/data/star_wars/forge/biome_modifier/kashyyyk_separatist_landing_cruiser_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/kashyyyk_separatist_landing_cruiser.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/kashyyyk_separatist_landing_cruiser.json"
+        ]
+      }
     },
     {
       "name": "KashyyykOutpost1",
@@ -1479,7 +2404,15 @@
       "sortid": 194,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_outpost_1"
+      "registry_name": "kashyyyk_outpost_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/configured_feature/kashyyyk_outpost_1.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/kashyyyk_outpost_1.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/KashyyykOutpost1Feature.java",
+          "src/main/resources/data/star_wars/forge/biome_modifier/kashyyyk_outpost_1_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "KashyyykPillar",
@@ -1487,7 +2420,15 @@
       "sortid": 195,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_pillar"
+      "registry_name": "kashyyyk_pillar",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/kashyyyk_pillar.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/KashyyykPillarFeature.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/kashyyyk_pillar.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/kashyyyk_pillar_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "DroidKashyyyk",
@@ -1495,7 +2436,14 @@
       "sortid": 122,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_kashyyyk"
+      "registry_name": "droid_kashyyyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/droid_kashyyyk_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidKashyyykRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidKashyyykEntity.java"
+        ]
+      }
     },
     {
       "name": "DroidCommanderKashyyyk",
@@ -1503,7 +2451,14 @@
       "sortid": 123,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_commander_kashyyyk"
+      "registry_name": "droid_commander_kashyyyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/droid_commander_kashyyyk_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidCommanderKashyyykEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidCommanderKashyyykRenderer.java"
+        ]
+      }
     },
     {
       "name": "DroidPilotKashyyyk",
@@ -1511,7 +2466,14 @@
       "sortid": 124,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_pilot_kashyyyk"
+      "registry_name": "droid_pilot_kashyyyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/droid_pilot_kashyyyk_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidPilotKashyyykEntity.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidPilotKashyyykRenderer.java"
+        ]
+      }
     },
     {
       "name": "DroidSecurityKashyyyk",
@@ -1519,7 +2481,14 @@
       "sortid": 125,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "droid_security_kashyyyk"
+      "registry_name": "droid_security_kashyyyk",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/droid_security_kashyyyk_spawn_egg.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/client/renderer/DroidSecurityKashyyykRenderer.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/entity/DroidSecurityKashyyykEntity.java"
+        ]
+      }
     },
     {
       "name": "PlastoidPickaxe",
@@ -1527,7 +2496,13 @@
       "sortid": 75,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_pickaxe"
+      "registry_name": "plastoid_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/plastoid_pickaxe.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidPickaxeItem.java"
+        ]
+      }
     },
     {
       "name": "PlastoidAxe",
@@ -1535,7 +2510,13 @@
       "sortid": 76,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_axe"
+      "registry_name": "plastoid_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/plastoid_axe.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidAxeItem.java"
+        ]
+      }
     },
     {
       "name": "PlastoidSword",
@@ -1543,7 +2524,13 @@
       "sortid": 77,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_sword"
+      "registry_name": "plastoid_sword",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidSwordItem.java",
+          "src/main/resources/assets/star_wars/models/item/plastoid_sword.json"
+        ]
+      }
     },
     {
       "name": "PlastoidShovel",
@@ -1551,7 +2538,13 @@
       "sortid": 78,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_shovel"
+      "registry_name": "plastoid_shovel",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidShovelItem.java",
+          "src/main/resources/assets/star_wars/models/item/plastoid_shovel.json"
+        ]
+      }
     },
     {
       "name": "PlastoidHoe",
@@ -1559,7 +2552,13 @@
       "sortid": 79,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_hoe"
+      "registry_name": "plastoid_hoe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/PlastoidHoeItem.java",
+          "src/main/resources/assets/star_wars/models/item/plastoid_hoe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidPickaxeRecipe",
@@ -1567,7 +2566,12 @@
       "sortid": 196,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_pickaxe_recipe"
+      "registry_name": "plastoid_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_pickaxe_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidAxeRecipe",
@@ -1575,7 +2579,12 @@
       "sortid": 197,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_axe_recipe"
+      "registry_name": "plastoid_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_axe_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidSwordRecipe",
@@ -1583,7 +2592,12 @@
       "sortid": 198,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_sword_recipe"
+      "registry_name": "plastoid_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_sword_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidShovelRecipe",
@@ -1591,7 +2605,12 @@
       "sortid": 199,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_shovel_recipe"
+      "registry_name": "plastoid_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_shovel_recipe.json"
+        ]
+      }
     },
     {
       "name": "PlastoidHoeRecipe",
@@ -1599,7 +2618,12 @@
       "sortid": 200,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "plastoid_hoe_recipe"
+      "registry_name": "plastoid_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/plastoid_hoe_recipe.json"
+        ]
+      }
     },
     {
       "name": "CloneTank",
@@ -1607,7 +2631,15 @@
       "sortid": 201,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_tank"
+      "registry_name": "clone_tank",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/configured_feature/clone_tank.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/clone_tank.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/CloneTankFeature.java",
+          "src/main/resources/data/star_wars/forge/biome_modifier/clone_tank_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueWood",
@@ -1615,7 +2647,15 @@
       "sortid": 86,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_wood"
+      "registry_name": "felucia_blue_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_wood.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_wood.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueWoodBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_wood.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueLog",
@@ -1623,7 +2663,15 @@
       "sortid": 87,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_log"
+      "registry_name": "felucia_blue_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_log.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_log.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueLogBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBluePlanks",
@@ -1631,7 +2679,15 @@
       "sortid": 88,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_planks"
+      "registry_name": "felucia_blue_planks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_planks.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBluePlanksBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_planks.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_planks.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueLeaves",
@@ -1639,7 +2695,15 @@
       "sortid": 89,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_leaves"
+      "registry_name": "felucia_blue_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_leaves.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_leaves.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_leaves.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueLeavesBlock.java"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueStairs",
@@ -1647,7 +2711,17 @@
       "sortid": 90,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_stairs"
+      "registry_name": "felucia_blue_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_stairs.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_stairs.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_stairs_inner.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_stairs_outer.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_stairs.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueStairsBlock.java"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueSlab",
@@ -1655,7 +2729,17 @@
       "sortid": 91,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_slab"
+      "registry_name": "felucia_blue_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_slab_full.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_slab_top.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueSlabBlock.java"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueFence",
@@ -1663,7 +2747,17 @@
       "sortid": 92,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence"
+      "registry_name": "felucia_blue_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_fence.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueFenceBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_post.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_inventory.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_fence.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueFenceGate",
@@ -1671,7 +2765,18 @@
       "sortid": 93,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence_gate"
+      "registry_name": "felucia_blue_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_gate_wall_open.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_gate_wall.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_fence_gate_open.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_fence_gate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueFenceGateBlock.java"
+        ]
+      }
     },
     {
       "name": "FeluciaBluePressurePlate",
@@ -1679,7 +2784,16 @@
       "sortid": 94,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_pressure_plate"
+      "registry_name": "felucia_blue_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_pressure_plate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBluePressurePlateBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_pressure_plate.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_pressure_plate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_pressure_plate_down.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueItemsTag",
@@ -1687,7 +2801,12 @@
       "sortid": 202,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_items_tag"
+      "registry_name": "felucia_blue_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/feluciablue_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueWoodRecipe",
@@ -1695,7 +2814,12 @@
       "sortid": 203,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_wood_recipe"
+      "registry_name": "felucia_blue_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_wood_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBluePlanksRecipe",
@@ -1703,7 +2827,12 @@
       "sortid": 204,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_planks_recipe"
+      "registry_name": "felucia_blue_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_planks_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueStairsRecipe",
@@ -1711,7 +2840,12 @@
       "sortid": 205,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_stairs_recipe"
+      "registry_name": "felucia_blue_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_stairs_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueSlabRecipe",
@@ -1719,7 +2853,12 @@
       "sortid": 206,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_slab_recipe"
+      "registry_name": "felucia_blue_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_slab_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueFenceRecipe",
@@ -1727,7 +2866,12 @@
       "sortid": 207,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence_recipe"
+      "registry_name": "felucia_blue_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_fence_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueFenceGateRecipe",
@@ -1735,7 +2879,12 @@
       "sortid": 208,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence_gate_recipe"
+      "registry_name": "felucia_blue_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_fence_gate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBluePressurePlateRecipe",
@@ -1743,7 +2892,12 @@
       "sortid": 209,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_pressure_plate_recipe"
+      "registry_name": "felucia_blue_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_pressure_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueStickRecipe",
@@ -1751,7 +2905,12 @@
       "sortid": 210,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_stick_recipe"
+      "registry_name": "felucia_blue_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_stick_recipe.json"
+        ]
+      }
     },
     {
       "name": "KashyyykPortalIgniterRecipe",
@@ -1759,7 +2918,12 @@
       "sortid": 211,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "kashyyyk_portal_igniter_recipe"
+      "registry_name": "kashyyyk_portal_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/kashyyyk_portal_igniter_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBluePlains",
@@ -1767,7 +2931,14 @@
       "sortid": 212,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_plains"
+      "registry_name": "felucia_blue_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/biome/felucia_blue_plains.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_blue_plains_tree.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_blue_plains_tree.json"
+        ]
+      }
     },
     {
       "name": "FeluciaDimension",
@@ -1777,7 +2948,20 @@
       "locked_code": false,
       "registry_name": "felucia_dimension",
       "metadata": {
-        "ep": true
+        "ep": true,
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_dimension_portal_ns.json",
+          "src/main/resources/data/star_wars/dimension_type/felucia_dimension.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_dimension_portal.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_dimension.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/FeluciaDimensionTeleporter.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/dimension/FeluciaDimensionDimension.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaDimensionPortalBlock.java",
+          "src/main/resources/data/star_wars/dimension/felucia_dimension.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_dimension_portal_ew.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/teleporter/FeluciaDimensionPortalShape.java",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/FeluciaDimensionItem.java"
+        ]
       }
     },
     {
@@ -1786,7 +2970,12 @@
       "sortid": 213,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_portal_igniter_recipe"
+      "registry_name": "felucia_portal_igniter_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_portal_igniter_recipe.json"
+        ]
+      }
     },
     {
       "name": "Logs",
@@ -1794,7 +2983,12 @@
       "sortid": 214,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "logs"
+      "registry_name": "logs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueButton",
@@ -1802,7 +2996,17 @@
       "sortid": 95,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_button"
+      "registry_name": "felucia_blue_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_button_pressed.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaBlueButtonBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_button.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_blue_button.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_blue_button_inventory.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_blue_button.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueButtonRecipe",
@@ -1810,7 +3014,12 @@
       "sortid": 215,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_button_recipe"
+      "registry_name": "felucia_blue_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_blue_button_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedWood",
@@ -1818,7 +3027,15 @@
       "sortid": 96,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_wood"
+      "registry_name": "felucia_red_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_wood.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_wood.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedWoodBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_wood.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedLog",
@@ -1826,7 +3043,15 @@
       "sortid": 97,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_log"
+      "registry_name": "felucia_red_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_log.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_log.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedLogBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedPlanks",
@@ -1834,7 +3059,15 @@
       "sortid": 98,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_planks"
+      "registry_name": "felucia_red_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedPlanksBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_planks.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_planks.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_planks.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedLeaves",
@@ -1842,7 +3075,15 @@
       "sortid": 99,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_leaves"
+      "registry_name": "felucia_red_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_red_leaves.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedLeavesBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_leaves.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_leaves.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedStairs",
@@ -1850,7 +3091,17 @@
       "sortid": 100,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_stairs"
+      "registry_name": "felucia_red_stairs",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedStairsBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_stairs.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_stairs.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_stairs_outer.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_stairs_inner.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_stairs.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedSlab",
@@ -1858,7 +3109,17 @@
       "sortid": 101,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_slab"
+      "registry_name": "felucia_red_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_red_slab.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedSlabBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_slab_top.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_slab.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_slab_full.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedFence",
@@ -1866,7 +3127,17 @@
       "sortid": 102,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence"
+      "registry_name": "felucia_red_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_red_fence.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedFenceBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_inventory.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_fence.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_post.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedFenceGate",
@@ -1874,7 +3145,18 @@
       "sortid": 103,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence_gate"
+      "registry_name": "felucia_red_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedFenceGateBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_gate_open.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_gate_wall.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_fence_gate_wall_open.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_fence_gate.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedPressurePlate",
@@ -1882,7 +3164,16 @@
       "sortid": 104,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_pressure_plate"
+      "registry_name": "felucia_red_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedPressurePlateBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_pressure_plate.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_pressure_plate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_pressure_plate_down.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_pressure_plate.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedButton",
@@ -1890,7 +3181,17 @@
       "sortid": 105,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_button"
+      "registry_name": "felucia_red_button",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaRedButtonBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_button.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_button_pressed.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_red_button.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_red_button.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_red_button_inventory.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedItemsTag",
@@ -1898,7 +3199,12 @@
       "sortid": 216,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_items_tag"
+      "registry_name": "felucia_red_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/feluciared_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedWoodRecipe",
@@ -1906,7 +3212,12 @@
       "sortid": 217,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_wood_recipe"
+      "registry_name": "felucia_red_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_wood_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedPlanksRecipe",
@@ -1914,7 +3225,12 @@
       "sortid": 218,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_planks_recipe"
+      "registry_name": "felucia_red_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_planks_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedStairsRecipe",
@@ -1922,7 +3238,12 @@
       "sortid": 219,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_stairs_recipe"
+      "registry_name": "felucia_red_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_stairs_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedSlabRecipe",
@@ -1930,7 +3251,12 @@
       "sortid": 220,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_slab_recipe"
+      "registry_name": "felucia_red_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_slab_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedFenceRecipe",
@@ -1938,7 +3264,12 @@
       "sortid": 221,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence_recipe"
+      "registry_name": "felucia_red_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_fence_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedFenceGateRecipe",
@@ -1946,7 +3277,12 @@
       "sortid": 222,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence_gate_recipe"
+      "registry_name": "felucia_red_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_fence_gate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedPressurePlateRecipe",
@@ -1954,7 +3290,12 @@
       "sortid": 223,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_pressure_plate_recipe"
+      "registry_name": "felucia_red_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_pressure_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedButtonRecipe",
@@ -1962,7 +3303,12 @@
       "sortid": 224,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_button_recipe"
+      "registry_name": "felucia_red_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_button_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedStickRecipe",
@@ -1970,7 +3316,12 @@
       "sortid": 225,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_stick_recipe"
+      "registry_name": "felucia_red_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_red_stick_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaRedPlains",
@@ -1978,7 +3329,14 @@
       "sortid": 226,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_plains"
+      "registry_name": "felucia_red_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_red_plains_tree.json",
+          "src/main/resources/data/star_wars/worldgen/biome/felucia_red_plains.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_red_plains_tree.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowWood",
@@ -1986,7 +3344,15 @@
       "sortid": 106,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_wood"
+      "registry_name": "felucia_yellow_wood",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowWoodBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_wood.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_wood.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_wood.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowLog",
@@ -1994,7 +3360,15 @@
       "sortid": 107,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_log"
+      "registry_name": "felucia_yellow_log",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowLogBlock.java",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_log.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_log.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowPlanks",
@@ -2002,7 +3376,15 @@
       "sortid": 108,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_planks"
+      "registry_name": "felucia_yellow_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowPlanksBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_planks.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_planks.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_planks.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowLeaves",
@@ -2010,7 +3392,15 @@
       "sortid": 109,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_leaves"
+      "registry_name": "felucia_yellow_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_leaves.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_leaves.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowLeavesBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_leaves.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowStairs",
@@ -2018,7 +3408,17 @@
       "sortid": 110,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_stairs"
+      "registry_name": "felucia_yellow_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_stairs.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_stairs_inner.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowStairsBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_stairs.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_stairs.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_stairs_outer.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowSlab",
@@ -2026,7 +3426,17 @@
       "sortid": 111,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_slab"
+      "registry_name": "felucia_yellow_slab",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowSlabBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_slab_top.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_slab.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_slab_full.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_slab.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowFence",
@@ -2034,7 +3444,17 @@
       "sortid": 112,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence"
+      "registry_name": "felucia_yellow_fence",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_inventory.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_fence.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_post.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowFenceBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_fence.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowFenceGate",
@@ -2042,7 +3462,18 @@
       "sortid": 113,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence_gate"
+      "registry_name": "felucia_yellow_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_gate_wall_open.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_gate_open.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_fence_gate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_fence_gate_wall.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowFenceGateBlock.java"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowPressurePlate",
@@ -2050,7 +3481,16 @@
       "sortid": 114,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_pressure_plate"
+      "registry_name": "felucia_yellow_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_pressure_plate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_pressure_plate.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowPressurePlateBlock.java",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_pressure_plate.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_pressure_plate_down.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowButton",
@@ -2058,7 +3498,17 @@
       "sortid": 115,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_button"
+      "registry_name": "felucia_yellow_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_button.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/block/FeluciaYellowButtonBlock.java",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_button_inventory.json",
+          "src/main/resources/assets/star_wars/blockstates/felucia_yellow_button.json",
+          "src/main/resources/assets/star_wars/models/block/felucia_yellow_button_pressed.json",
+          "src/main/resources/assets/star_wars/models/item/felucia_yellow_button.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowItemsTag",
@@ -2066,7 +3516,12 @@
       "sortid": 243,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_items_tag"
+      "registry_name": "felucia_yellow_items_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/feluciayellow_log.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowWoodRecipe",
@@ -2074,7 +3529,12 @@
       "sortid": 244,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_wood_recipe"
+      "registry_name": "felucia_yellow_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_wood_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowPlanksRecipe",
@@ -2082,7 +3542,12 @@
       "sortid": 245,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_planks_recipe"
+      "registry_name": "felucia_yellow_planks_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_planks_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowStairsRecipe",
@@ -2090,7 +3555,12 @@
       "sortid": 246,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_stairs_recipe"
+      "registry_name": "felucia_yellow_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_stairs_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowSlabRecipe",
@@ -2098,7 +3568,12 @@
       "sortid": 247,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_slab_recipe"
+      "registry_name": "felucia_yellow_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_slab_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowFenceRecipe",
@@ -2106,7 +3581,12 @@
       "sortid": 248,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence_recipe"
+      "registry_name": "felucia_yellow_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_fence_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowFenceGateRecipe",
@@ -2114,7 +3594,12 @@
       "sortid": 249,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence_gate_recipe"
+      "registry_name": "felucia_yellow_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_fence_gate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowPressurePlateRecipe",
@@ -2122,7 +3607,12 @@
       "sortid": 250,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_pressure_plate_recipe"
+      "registry_name": "felucia_yellow_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_pressure_plate_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowButtonRecipe",
@@ -2130,7 +3620,12 @@
       "sortid": 251,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_button_recipe"
+      "registry_name": "felucia_yellow_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_button_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowStickRecipe",
@@ -2138,7 +3633,12 @@
       "sortid": 252,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_stick_recipe"
+      "registry_name": "felucia_yellow_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/felucia_yellow_stick_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaYellowPlains",
@@ -2146,7 +3646,14 @@
       "sortid": 261,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_plains"
+      "registry_name": "felucia_yellow_plains",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_yellow_plains_tree.json",
+          "src/main/resources/data/star_wars/worldgen/biome/felucia_yellow_plains.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_yellow_plains_tree.json"
+        ]
+      }
     },
     {
       "name": "FeluciaSeparatistBase",
@@ -2154,7 +3661,15 @@
       "sortid": 262,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_separatist_base"
+      "registry_name": "felucia_separatist_base",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/forge/biome_modifier/felucia_separatist_base_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_separatist_base.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/FeluciaSeparatistBaseFeature.java",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_separatist_base.json"
+        ]
+      }
     },
     {
       "name": "FeluciaOutpost1",
@@ -2162,7 +3677,15 @@
       "sortid": 263,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_outpost_1"
+      "registry_name": "felucia_outpost_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_outpost_1.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/FeluciaOutpost1Feature.java",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_outpost_1.json",
+          "src/main/resources/data/star_wars/forge/biome_modifier/felucia_outpost_1_biome_modifier.json"
+        ]
+      }
     },
     {
       "name": "FeluciaOutpost2",
@@ -2170,7 +3693,15 @@
       "sortid": 264,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_outpost_2"
+      "registry_name": "felucia_outpost_2",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/world/features/FeluciaOutpost2Feature.java",
+          "src/main/resources/data/star_wars/forge/biome_modifier/felucia_outpost_2_biome_modifier.json",
+          "src/main/resources/data/star_wars/worldgen/placed_feature/felucia_outpost_2.json",
+          "src/main/resources/data/star_wars/worldgen/configured_feature/felucia_outpost_2.json"
+        ]
+      }
     },
     {
       "name": "TitaniumBlockReverseRecipe",
@@ -2178,7 +3709,12 @@
       "sortid": 265,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "titanium_block_reverse_recipe"
+      "registry_name": "titanium_block_reverse_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/titanium_block_reverse_recipe.json"
+        ]
+      }
     },
     {
       "name": "BlueLightsaber",
@@ -2186,7 +3722,13 @@
       "sortid": 5,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_lightsaber"
+      "registry_name": "blue_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/star_wars/models/item/blue_lightsaber.json",
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/BlueLightsaberItem.java"
+        ]
+      }
     },
     {
       "name": "GreenLightsaber",
@@ -2194,7 +3736,13 @@
       "sortid": 6,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "green_lightsaber"
+      "registry_name": "green_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/GreenLightsaberItem.java",
+          "src/main/resources/assets/star_wars/models/item/green_lightsaber.json"
+        ]
+      }
     },
     {
       "name": "RedLightsaber",
@@ -2202,7 +3750,13 @@
       "sortid": 117,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "red_lightsaber"
+      "registry_name": "red_lightsaber",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/RedLightsaberItem.java",
+          "src/main/resources/assets/star_wars/models/item/red_lightsaber.json"
+        ]
+      }
     },
     {
       "name": "BlueLightsaberRecipe",
@@ -2210,7 +3764,12 @@
       "sortid": 266,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "blue_lightsaber_recipe"
+      "registry_name": "blue_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/blue_lightsaber_recipe.json"
+        ]
+      }
     },
     {
       "name": "GreenLightsaberRecipe",
@@ -2218,7 +3777,12 @@
       "sortid": 267,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "green_lightsaber_recipe"
+      "registry_name": "green_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/green_lightsaber_recipe.json"
+        ]
+      }
     },
     {
       "name": "RedLightsaberRecipe",
@@ -2226,7 +3790,12 @@
       "sortid": 268,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "red_lightsaber_recipe"
+      "registry_name": "red_lightsaber_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/red_lightsaber_recipe.json"
+        ]
+      }
     },
     {
       "name": "FeluciaBlueWoodFuel",
@@ -2234,7 +3803,10 @@
       "sortid": 269,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_wood_fuel"
+      "registry_name": "felucia_blue_wood_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBlueLogFuel",
@@ -2242,7 +3814,10 @@
       "sortid": 270,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_log_fuel"
+      "registry_name": "felucia_blue_log_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBluePlanksFuel",
@@ -2250,7 +3825,10 @@
       "sortid": 271,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_planks_fuel"
+      "registry_name": "felucia_blue_planks_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBluePressurePlateFuel",
@@ -2258,7 +3836,10 @@
       "sortid": 272,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_pressure_plate_fuel"
+      "registry_name": "felucia_blue_pressure_plate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBlueFenceFuel",
@@ -2266,7 +3847,10 @@
       "sortid": 273,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence_fuel"
+      "registry_name": "felucia_blue_fence_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBlueFenceGateFuel",
@@ -2274,7 +3858,10 @@
       "sortid": 274,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_fence_gate_fuel"
+      "registry_name": "felucia_blue_fence_gate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBlueStairsFuel",
@@ -2282,7 +3869,10 @@
       "sortid": 275,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_stairs_fuel"
+      "registry_name": "felucia_blue_stairs_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaBlueSlabFuel",
@@ -2290,7 +3880,10 @@
       "sortid": 276,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_blue_slab_fuel"
+      "registry_name": "felucia_blue_slab_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedWoodFuel",
@@ -2298,7 +3891,10 @@
       "sortid": 277,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_wood_fuel"
+      "registry_name": "felucia_red_wood_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedLogFuel",
@@ -2306,7 +3902,10 @@
       "sortid": 278,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_log_fuel"
+      "registry_name": "felucia_red_log_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedPlanksFuel",
@@ -2314,7 +3913,10 @@
       "sortid": 279,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_planks_fuel"
+      "registry_name": "felucia_red_planks_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedPressurePlateFuel",
@@ -2322,7 +3924,10 @@
       "sortid": 280,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_pressure_plate_fuel"
+      "registry_name": "felucia_red_pressure_plate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedFenceFuel",
@@ -2330,7 +3935,10 @@
       "sortid": 281,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence_fuel"
+      "registry_name": "felucia_red_fence_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedFenceGateFuel",
@@ -2338,7 +3946,10 @@
       "sortid": 282,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_fence_gate_fuel"
+      "registry_name": "felucia_red_fence_gate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedStairsFuel",
@@ -2346,7 +3957,10 @@
       "sortid": 283,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_stairs_fuel"
+      "registry_name": "felucia_red_stairs_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaRedSlabFuel",
@@ -2354,7 +3968,10 @@
       "sortid": 284,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_red_slab_fuel"
+      "registry_name": "felucia_red_slab_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowWoodFuel",
@@ -2362,7 +3979,10 @@
       "sortid": 285,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_wood_fuel"
+      "registry_name": "felucia_yellow_wood_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowLogFuel",
@@ -2370,7 +3990,10 @@
       "sortid": 286,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_log_fuel"
+      "registry_name": "felucia_yellow_log_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowPlanksFuel",
@@ -2378,7 +4001,10 @@
       "sortid": 287,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_planks_fuel"
+      "registry_name": "felucia_yellow_planks_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowPressurePlateFuel",
@@ -2386,7 +4012,10 @@
       "sortid": 288,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_pressure_plate_fuel"
+      "registry_name": "felucia_yellow_pressure_plate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowFenceFuel",
@@ -2394,7 +4023,10 @@
       "sortid": 289,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence_fuel"
+      "registry_name": "felucia_yellow_fence_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowFenceGateFuel",
@@ -2402,7 +4034,10 @@
       "sortid": 290,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_fence_gate_fuel"
+      "registry_name": "felucia_yellow_fence_gate_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowStairsFuel",
@@ -2410,7 +4045,10 @@
       "sortid": 291,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_stairs_fuel"
+      "registry_name": "felucia_yellow_stairs_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "FeluciaYellowSlabFuel",
@@ -2418,7 +4056,10 @@
       "sortid": 292,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "felucia_yellow_slab_fuel"
+      "registry_name": "felucia_yellow_slab_fuel",
+      "metadata": {
+        "files": []
+      }
     },
     {
       "name": "CloneTrooperCommunicator",
@@ -2426,7 +4067,13 @@
       "sortid": 293,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_communicator"
+      "registry_name": "clone_trooper_communicator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/item/CloneTrooperCommunicatorItem.java",
+          "src/main/resources/assets/star_wars/models/item/clone_trooper_communicator.json"
+        ]
+      }
     },
     {
       "name": "CloneTrooperCommunicatorRecipe",
@@ -2434,14 +4081,59 @@
       "sortid": 294,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "clone_trooper_communicator_recipe"
+      "registry_name": "clone_trooper_communicator_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/star_wars/recipes/clone_trooper_communicator_recipe.json"
+        ]
+      }
+    },
+    {
+      "name": "ReturnMunitionNum",
+      "type": "procedure",
+      "sortid": 295,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_munition_num",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/ReturnMunitionNumProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ReturnThermalDetonatorNum",
+      "type": "procedure",
+      "sortid": 296,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "return_thermal_detonator_num",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/net/rupyber_studios/star_wars_clone_wars/procedures/ReturnThermalDetonatorNumProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
     {
       "name": "is_wearing_jetpack",
       "type": "logic",
-      "scope": "player_lifetime",
+      "scope": "player_persistent",
       "value": "false"
     },
     {
@@ -2532,7 +4224,6 @@
       "block.star_wars.felucia_red_leaves": "Felucia Red Leaves",
       "item.star_wars.clone_trooper_captain_rex_spawn_egg": "Clone Captain Rex Spawn Egg",
       "block.star_wars.felucia_yellow_stairs": "Felucia Yellow Stairs",
-      "item.star_wars.jetpack_armor_104th_leggings": "Jetpack Leggings",
       "entity.star_wars.clone_trooper_guard": "Clone Guard",
       "item.star_wars.clone_trooper_commander_cody_armor_boots": "Clone Commander Cody Boots",
       "item.star_wars.clone_trooper_commander_pyrix_armor_leggings": "Clone Commander Pyrix Leggings",
@@ -2540,9 +4231,9 @@
       "item.star_wars.music_disk_separatist": "Music Disk",
       "item.star_wars.clone_trooper_327th_armor_leggings": "Clone Trooper 327th Star Corps Leggings",
       "item.star_wars.clone_trooper_commander_appo_armor_chestplate": "Clone Commander Appo Chestplate",
-      "item.star_wars.green_lightsaber": "Green Lightsaber",
-      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
       "item.star_wars.clone_trooper_212th_armor_boots": "Clone Trooper 212th Attach Battalion Boots",
+      "entity.star_wars.clone_trooper_501st": "Clone Troper 501st Legion",
+      "item.star_wars.green_lightsaber": "Green Lightsaber",
       "item.star_wars.clone_trooper_bomb_armor_chestplate": "Clone Bomb Chestplate",
       "item.star_wars.clone_trooper_commander_armor_leggings": "Clone Trooper Commander Leggings",
       "entity.star_wars.clone_trooper_212th": "Clone Troper 212th Attach Battalion",
@@ -2552,20 +4243,22 @@
       "item.star_wars.clone_trooper_commander_wolffe_armor_chestplate": "Clone Commander Wolffe Chestplate",
       "item.star_wars.clone_trooper_212th_armor_helmet": "Clone Trooper 212th Attach Battalion Helmet",
       "entity.star_wars.republic_tank_auto": "Republic Tank",
+      "gui.star_wars.repubblic_tank_gui.label_repubblic_tank": "Repubblic Tank",
       "entity.star_wars.clone_trooper_commander_ponds": "Clone Commander Ponds",
+      "painting.star_wars.separatist_painting.title": "Separatist Painting",
       "item.star_wars.clone_trooper_sergeant_armor_leggings": "Clone Trooper Sergeant Leggings",
       "subtitles.entity.walk.tank": "Tank Floating",
       "item.star_wars.clone_trooper_sergeant_armor_boots": "Clone Trooper Sergeant Boots",
       "block.star_wars.republic_outpost_box": "Republic Outpost Box",
       "item.star_wars.droid_commander_spawn_egg": "Droid Commander Spawn Egg",
-      "item.star_wars.plastoid_hoe": "Plastoid Hoe",
       "item.star_wars.clone_trooper_normal_armor_leggings": "Clone Trooper Leggings",
+      "item.star_wars.plastoid_hoe": "Plastoid Hoe",
       "item.star_wars.kashyyyk_dimension": "Kashyyyk Dimension Portal Igniter",
       "item.star_wars.clone_trooper_guard_armor_chestplate": "Clone Guard Chestplate",
       "item.star_wars.captain_grade": "Captain Grade",
-      "item.star_wars.thermal_detonator": "Thermal Detonator",
-      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
       "entity.star_wars.droid_security_kashyyyk": "Droid Security Kashyyyk",
+      "item.star_wars.clone_trooper_captain_armor_chestplate": "Clone Trooper Captain Chestplate",
+      "item.star_wars.thermal_detonator": "Thermal Detonator",
       "item.star_wars.clone_trooper_liutenant_spawn_egg": "Clone Troper Liutenant Spawn Egg",
       "item.star_wars.clone_trooper_captain_crypto_armor_leggings": "Clone Captain Crypto Leggings",
       "item.star_wars.plastoid_scrap": "Plastoid Scrap",
@@ -2573,24 +4266,25 @@
       "item.star_wars.clone_trooper_commander_bly_armor_helmet": "Clone Commander Bly Helmet",
       "entity.star_wars.separatist_tank": "Separatist Tank",
       "item.star_wars.clone_trooper_pilot_armor_helmet": "Clone Trooper Pilot Helmet",
-      "item.star_wars.clone_trooper_pilot_armor_boots": "Jetpack Boots",
       "subtitles.record.republic": "Republic Army March - Pyrix25633",
       "block.star_wars.felucia_blue_log": "Felucia Blue Log",
+      "gui.star_wars.thermal_detonator_number_overlay.label_varintegertherm_det_num": "\u003cVAR:integer:therm_det_num\u003e",
       "item.star_wars.clone_trooper_captain_armor_boots": "Clone Trooper Captain Boots",
       "item.star_wars.clone_trooper_captain_spawn_egg": "Clone Troper Captain Spawn Egg",
       "item.star_wars.clone_trooper_bomb_armor_helmet": "Clone Bomb Helmet",
       "entity.star_wars.clone_trooper_captain": "Clone Troper Captain",
       "item.star_wars.clone_trooper_25633rd_armor_helmet": "Clone Trooper 25633rd Galactic Marines Helmet",
+      "gui.star_wars.clone_armor_customizer_gui.label_clone_armor_customizer": "Clone Armor Customizer",
       "item.star_wars.clone_trooper_commander_gree_armor_boots": "Clone Commander Gree Boots",
       "item.star_wars.clone_trooper_bomb_armor_leggings": "Clone Bomb Leggings",
       "biome.star_wars.geonosis": "Geonosis",
       "item.star_wars.clone_trooper_501st_armor_chestplate": "Clone Trooper 501st Legion Chestplate",
       "entity.star_wars.clone_trooper_91st": "Clone Trooper 91st Recon Corps",
       "item.star_wars.clone_trooper_commander_gree_armor_helmet": "Clone Commander Gree Helmet",
-      "item.star_wars.jetpack_armor_501st_leggings": "Jetpack Leggings",
       "item.star_wars.red_lightsaber": "Red Lightsaber",
       "item.star_wars.droid_kashyyyk_spawn_egg": "Droid Kashyyyk Spawn Egg",
       "item.star_wars.clone_trooper_commander_bly_spawn_egg": "Clone Commander Bly Spawn Egg",
+      "painting.star_wars.republic_painting.title": "Republic Painting",
       "item.star_wars.droid_pilot_spawn_egg": "Droid Pilot Spawn Egg",
       "item.star_wars.clone_trooper_commander_wolffe_armor_helmet": "Clone Commander Wolffe Helmet",
       "item.star_wars.plastoid_shovel": "Plastoid Shovel",
@@ -2607,13 +4301,12 @@
       "item.star_wars.clone_trooper_guard_armor_helmet": "Clone Guard Helmet",
       "entity.star_wars.clone_trooper_327th": "Clone Trooper 327th Star Corps",
       "item.star_wars.blue_lightsaber": "Blue Lightsaber",
+      "painting.star_wars.separatist_painting.author": "Unknown",
       "item.star_wars.clone_trooper_104th_armor_helmet": "Clone Trooper 104th Battalion Helmet",
       "entity.star_wars.clone_trooper_41st": "Clone Trooper 41st Elite Corps",
       "item.star_wars.clone_trooper_501st_armor_leggings": "Clone Trooper 501st Legion Leggings",
-      "item.star_wars.jetpack_armor_boots": "Jetpack Boots",
       "item.star_wars.clone_trooper_501st_spawn_egg": "Clone Troper 501st Legion Spawn Egg",
       "item.star_wars.clone_trooper_gunner_armor_helmet": "Clone Trooper Gunner Helmet",
-      "item.star_wars.jetpack_armor_501st_boots": "Jetpack Boots",
       "item.star_wars.clone_trooper_sergeant_armor_chestplate": "Clone Trooper Sergeant Chestplate",
       "item.star_wars.jetpack_armor_501st_chestplate": "501st Jetpack",
       "item.star_wars.clone_trooper_guard_spawn_egg": "Clone Guard Spawn Egg",
@@ -2637,6 +4330,8 @@
       "block.star_wars.felucia_yellow_log": "Felucia Yellow Log",
       "item.star_wars.clone_trooper_captain_crypto_armor_boots": "Clone Captain Crypto Boots",
       "entity.star_wars.clone_trooper_commander_fox": "Clone Commander Fox",
+      "painting.star_wars.republic_painting.author": "Unknown",
+      "gui.star_wars.clone_armor_customizer_gui.button_customize": "Customize",
       "item.star_wars.clone_trooper_liutenant_armor_leggings": "Clone Trooper Liutenant Leggings",
       "item.star_wars.clone_trooper_501st_armor_helmet": "Clone Trooper 501st Legion Helmet",
       "entity.star_wars.clone_trooper_commander_cody": "Clone Commander Cody",
@@ -2660,7 +4355,6 @@
       "item.star_wars.clone_trooper_normal_armor_helmet": "Clone Trooper Helmet",
       "item.star_wars.clone_trooper_104th_spawn_egg": "Clone Trooper 104th Battalion Spawn Egg",
       "item.star_wars.separatist_tank_shot": "Separatist Tank Shot",
-      "item.star_wars.jetpack_armor_104th_boots": "Jetpack Boots",
       "subtitles.entity.hurt.tank": "Tank Damage",
       "entity.star_wars.clone_trooper_liutenant": "Clone Troper Liutenant",
       "item.star_wars.droid_commander_kashyyyk_spawn_egg": "Droid Commander Kashyyyk Spawn Egg",
@@ -2671,7 +4365,6 @@
       "biome.star_wars.kashyyyk_beaches": "Kashyyyk Beaches",
       "block.star_wars.titanium_ore": "Titanium Ore",
       "itemGroup.tabmaterials": "Materials",
-      "item.star_wars.clone_trooper_gunner_armor_boots": "Jetpack Boots",
       "item.star_wars.clone_trooper_commander_bly_armor_boots": "Clone Commander Bly Boots",
       "item.star_wars.clone_trooper_sergeant_spawn_egg": "Clone Troper Sergeant Spawn Egg",
       "biome.star_wars.geonosis_plains": "Geonosis",
@@ -2681,18 +4374,19 @@
       "item.star_wars.jetpack_armor_chestplate": "Jetpack",
       "block.star_wars.felucia_red_stairs": "Felucia Red Stairs",
       "item.star_wars.clone_trooper_spawn_egg": "Clone Trooper Spawn Egg",
-      "item.star_wars.jetpack_armor_leggings": "Jetpack Leggings",
       "entity.star_wars.clone_trooper_25633rd": "Clone Trooper 25633rd Galactic Marines",
+      "gui.star_wars.munition_number_overlay.label_varintegermunition_num": "\u003cVAR:integer:munition_num\u003e",
       "item.star_wars.clone_trooper_commander_pyrix_armor_boots": "Clone Commander Pyrix Boots",
       "block.star_wars.radar": "Radar",
       "biome.star_wars.geonosis_mountains": "Geonosis",
       "item.star_wars.clone_trooper_captain_armor_helmet": "Clone Trooper Captain Helmet",
       "item.star_wars.clone_trooper_normal_armor_chestplate": "Clone Trooper Chestplate",
       "item.star_wars.plastoid_plate": "Plastoid Plate",
-      "item.star_wars.jetpack_armor_helmet": "Jetpack Helmet",
+      "gui.star_wars.backpack_gui.label_backpack": "Backpack",
       "block.star_wars.felucia_red_button": "Felucia Red Button",
       "item.star_wars.clone_trooper_commander_gree_spawn_egg": "Clone Commander Gree Spawn Egg",
       "item.star_wars.clone_trooper_commander_fox_armor_leggings": "Clone Commander Fox Leggings",
+      "item_group.star_wars.republic": "Republic",
       "item.star_wars.clone_trooper_91st_armor_leggings": "Clone Trooper 91st Recon Corps Leggings",
       "entity.star_wars.clone_trooper_commander_bly": "Clone Commander Bly",
       "block.star_wars.felucia_yellow_fence": "Felucia Yellow Fence",
@@ -2720,6 +4414,7 @@
       "block.star_wars.felucia_yellow_leaves": "Felucia Yellow Leaves",
       "entity.star_wars.republic_tank": "Republic Tank",
       "entity.star_wars.droid_commander_kashyyyk": "Droid Commander Kashyyyk",
+      "item_group.star_wars.separatist": "Separatist",
       "item.star_wars.backpack": "Backpack",
       "itemGroup.tabseparatist": "Separatist",
       "item.star_wars.clone_trooper_104th_armor_boots": "Clone Trooper 104th Battalion Boots",
@@ -2745,7 +4440,6 @@
       "item.star_wars.droid_security_kashyyyk_spawn_egg": "Droid Security Kashyyyk Spawn Egg",
       "item.star_wars.clone_trooper_commander_cody_spawn_egg": "Clone Commander Cody Spawn Egg",
       "item.star_wars.republic_tank_spawn_egg": "Republic Tank Spawn Egg",
-      "item.star_wars.clone_trooper_gunner_armor_leggings": "Jetpack Leggings",
       "block.star_wars.felucia_blue_button": "Felucia Blue Pressure Button",
       "item.star_wars.droid_pilot_kashyyyk_spawn_egg": "Droid Pilot Kashyyyk Spawn Egg",
       "item.star_wars.clone_trooper_commander_gree_armor_chestplate": "Clone Commander Gree Chestplate",
@@ -2780,6 +4474,7 @@
       "block.star_wars.felucia_blue_leaves": "Felucia Blue Leaves",
       "item.star_wars.plastoid_sword": "Plastoid Sword",
       "block.star_wars.felucia_yellow_button": "Felucia Yellow Button",
+      "item_group.star_wars.materials": "Materials",
       "item.star_wars.clone_trooper_327th_armor_helmet": "Clone Trooper 327th Star Corps Helmet",
       "item.star_wars.clone_trooper_commander_ponds_armor_leggings": "Clone Commander Ponds Leggings",
       "item.star_wars.clone_trooper_gunner_armor_chestplate": "Clone Trooper Gunner Chestplate",
@@ -2791,7 +4486,6 @@
       "subtitles.entity.laser.shot": "Laser Shot",
       "item.star_wars.clone_trooper_commander_pyrix_armor_chestplate": "Clone Commander Pyrix Chestplate",
       "item.star_wars.clone_trooper_commander_gree_armor_leggings": "Clone Commander Gree Leggings",
-      "item.star_wars.clone_trooper_pilot_armor_leggings": "Jetpack Leggings",
       "item.star_wars.clone_trooper_commander_armor_chestplate": "Clone Trooper Commander Chestplate",
       "biome.star_wars.kashyyyk": "Kashyyyk",
       "block.star_wars.felucia_red_log": "Felucia Red Log",
@@ -2809,7 +4503,7 @@
   "workspaceSettings": {
     "modid": "star_wars",
     "modName": "Star Wars Clone Wars",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers",
     "author": "Pyrix25633",
     "websiteURL": "https://rupyberstudios.github.io/website",
@@ -2821,10 +4515,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.2",
+    "currentGenerator": "forge-1.19.4",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.rupyber_studios.star_wars_clone_wars",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202200348217
+  "mcreatorVersion": 202300224119
 }

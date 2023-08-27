@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -7,14 +7,17 @@
       {
         "type": "label",
         "data": {
-          "text": "<VAR:integer:munition_num>",
+          "name": "label_varintegermunition_num",
+          "text": {
+            "fixedValue": "",
+            "name": "ReturnMunitionNum"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "<VAR:integer:munition_num>",
-          "x": 141,
-          "y": 188
+          "x": 139,
+          "y": 184
         }
       },
       {
@@ -22,7 +25,6 @@
         "data": {
           "image": "blaster_munitions.png",
           "use1Xscale": false,
-          "name": "blaster_munitions.png",
           "x": 123,
           "y": 179
         }

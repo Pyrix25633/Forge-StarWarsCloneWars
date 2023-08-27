@@ -1,6 +1,5 @@
 {
   "entity.living.clone": {
-    "category": "neutral",
     "subtitle": "subtitles.entity.living.clone",
     "sounds": [
       {
@@ -10,7 +9,6 @@
     ]
   },
   "record.separatist": {
-    "category": "record",
     "subtitle": "subtitles.record.separatist",
     "sounds": [
       {
@@ -20,7 +18,6 @@
     ]
   },
   "entity.walk.speeder": {
-    "category": "master",
     "subtitle": "subtitles.entity.walk.speeder",
     "sounds": [
       {
@@ -30,7 +27,6 @@
     ]
   },
   "entity.hurt.speeder": {
-    "category": "master",
     "subtitle": "subtitles.entity.hurt.speeder",
     "sounds": [
       {
@@ -40,7 +36,6 @@
     ]
   },
   "record.republic": {
-    "category": "record",
     "subtitle": "subtitles.record.republic",
     "sounds": [
       {
@@ -50,7 +45,6 @@
     ]
   },
   "entity.hurt.tank": {
-    "category": "master",
     "subtitle": "subtitles.entity.hurt.tank",
     "sounds": [
       {
@@ -60,7 +54,6 @@
     ]
   },
   "entity.walk.tank": {
-    "category": "master",
     "subtitle": "subtitles.entity.walk.tank",
     "sounds": [
       {
@@ -70,7 +63,6 @@
     ]
   },
   "entity.laser.shot": {
-    "category": "master",
     "subtitle": "subtitles.entity.laser.shot",
     "sounds": [
       {

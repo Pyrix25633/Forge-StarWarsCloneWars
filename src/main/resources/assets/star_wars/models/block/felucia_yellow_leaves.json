@@ -1,7 +1,7 @@
 {
   "parent": "block/leaves",
   "textures": {
-    "all": "star_wars:blocks/felucia_yellow_leaves",
-    "particle": "star_wars:blocks/felucia_yellow_leaves"
+    "all": "star_wars:block/felucia_yellow_leaves",
+    "particle": "star_wars:block/felucia_yellow_leaves"
   }
 }

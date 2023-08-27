@@ -75,17 +75,17 @@ public class CloneArmorCustomizerGuiMenu extends AbstractContainerMenu implement
 				}
 			}
 		}
-		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 37) {
+		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 8, 29) {
 		}));
-		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 44, 37) {
+		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 54, 29) {
 		}));
-		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 134, 37) {
+		this.customSlots.put(3, this.addSlot(new SlotItemHandler(internal, 3, 152, 29) {
 			@Override
 			public boolean mayPlace(ItemStack stack) {
 				return false;
 			}
 		}));
-		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 80, 37) {
+		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 98, 29) {
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
@@ -189,9 +189,9 @@ public class CloneArmorCustomizerGuiMenu extends AbstractContainerMenu implement
 				ItemStack itemstack1 = slot1.getItem();
 				if (itemstack1.isEmpty() && slot1.mayPlace(p_38904_)) {
 					if (p_38904_.getCount() > slot1.getMaxStackSize()) {
-						slot1.set(p_38904_.split(slot1.getMaxStackSize()));
+						slot1.setByPlayer(p_38904_.split(slot1.getMaxStackSize()));
 					} else {
-						slot1.set(p_38904_.split(p_38904_.getCount()));
+						slot1.setByPlayer(p_38904_.split(p_38904_.getCount()));
 					}
 					slot1.setChanged();
 					flag = true;

@@ -1,7 +1,7 @@
 {
   "parent": "block/template_fence_gate",
   "textures": {
-    "texture": "star_wars:blocks/felucia_yellow_planks"
+    "texture": "star_wars:block/felucia_yellow_planks"
   },
   "render_type": "solid"
 }

@@ -17,7 +17,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class RepubblicTankShotItem extends Item {
 	public RepubblicTankShotItem() {
-		super(new Item.Properties().tab(null).stacksTo(1));
+		super(new Item.Properties().stacksTo(1));
 	}
 
 	@Override

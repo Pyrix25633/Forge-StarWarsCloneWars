@@ -1,8 +1,8 @@
 {
   "parent": "block/cube_all",
   "textures": {
-    "all": "star_wars:blocks/republic_painting",
-    "particle": "star_wars:blocks/republic_painting"
+    "all": "star_wars:block/republic_painting",
+    "particle": "star_wars:block/republic_painting"
   },
   "render_type": "solid"
 }

@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.block.FeluciaDimensionPortalBlock;
 
 import net.minecraft.world.level.Level;
@@ -14,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class FeluciaDimensionItem extends Item {
 	public FeluciaDimensionItem() {
-		super(new Item.Properties().tab(StarWarsModTabs.TAB_MATERIALS).durability(64));
+		super(new Item.Properties().durability(64));
 	}
 
 	@Override

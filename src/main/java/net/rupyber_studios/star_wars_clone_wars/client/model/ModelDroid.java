@@ -43,44 +43,30 @@ public class ModelDroid<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition head = partdefinition.addOrReplaceChild("head",
-				CubeListBuilder.create().texOffs(10, 0).addBox(-2.0F, -7.0F, 0.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 5)
-						.addBox(-2.0F, -6.0F, -2.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 10)
-						.addBox(-2.0F, -5.0F, -4.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(20, 24).mirror()
-						.addBox(1.0F, -6.0F, 2.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(20, 24)
-						.addBox(-2.0F, -6.0F, 2.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(9, 20)
-						.addBox(-1.0F, -5.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(10, 0).addBox(-2.0F, -7.0F, 0.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 5).addBox(-2.0F, -6.0F, -2.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 10)
+						.addBox(-2.0F, -5.0F, -4.0F, 4.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(20, 24).mirror().addBox(1.0F, -6.0F, 2.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(20, 24)
+						.addBox(-2.0F, -6.0F, 2.0F, 1.0F, 2.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(9, 20).addBox(-1.0F, -5.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 		PartDefinition body = partdefinition.addOrReplaceChild("body",
-				CubeListBuilder.create().texOffs(25, 0).addBox(-4.0F, -11.0F, -2.0F, 8.0F, 6.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(37, 25)
-						.addBox(-3.0F, -5.0F, -2.0F, 6.0F, 3.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(19, 28)
-						.addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 28).mirror()
-						.addBox(2.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(10, 28)
-						.addBox(-3.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(9, 16)
-						.addBox(-3.0F, 0.0F, -1.0F, 6.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(27, 13)
-						.addBox(-3.0F, -11.0F, 2.0F, 6.0F, 7.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(29, 24)
-						.addBox(-2.0F, -14.0F, 2.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(25, 0).addBox(-4.0F, -11.0F, -2.0F, 8.0F, 6.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(37, 25).addBox(-3.0F, -5.0F, -2.0F, 6.0F, 3.0F, 4.0F, new CubeDeformation(0.0F)).texOffs(19, 28)
+						.addBox(-1.0F, -2.0F, -1.0F, 2.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(10, 28).mirror().addBox(2.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(10, 28)
+						.addBox(-3.0F, -2.0F, -1.0F, 1.0F, 2.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(9, 16).addBox(-3.0F, 0.0F, -1.0F, 6.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(27, 13)
+						.addBox(-3.0F, -11.0F, 2.0F, 6.0F, 7.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(29, 24).addBox(-2.0F, -14.0F, 2.0F, 1.0F, 3.0F, 1.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 11.0F, 0.0F));
 		PartDefinition right_arm = partdefinition.addOrReplaceChild("right_arm",
-				CubeListBuilder.create().texOffs(0, 0).mirror().addBox(-2.0F, -1.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false)
-						.texOffs(46, 15).addBox(-2.0F, 4.0F, -6.0F, 2.0F, 2.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(58, 26)
-						.addBox(-1.5F, 3.0F, -5.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(46, 4)
-						.addBox(-2.0F, 2.0F, -11.0F, 2.0F, 1.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(52, 8)
-						.addBox(-1.5F, 3.0F, -10.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(49, 6)
-						.addBox(-1.5F, 1.0F, -10.0F, 1.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)),
+				CubeListBuilder.create().texOffs(0, 0).mirror().addBox(-2.0F, -1.0F, -1.0F, 2.0F, 5.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false).texOffs(46, 15).addBox(-2.0F, 4.0F, -6.0F, 2.0F, 2.0F, 7.0F, new CubeDeformation(0.0F))
+						.texOffs(58, 26).addBox(-1.5F, 3.0F, -5.5F, 1.0F, 1.0F, 1.0F, new CubeDeformation(0.0F)).texOffs(46, 4).addBox(-2.0F, 2.0F, -11.0F, 2.0F, 1.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(52, 8)
+						.addBox(-1.5F, 3.0F, -10.0F, 1.0F, 1.0F, 3.0F, new CubeDeformation(0.0F)).texOffs(49, 6).addBox(-1.5F, 1.0F, -10.0F, 1.0F, 1.0F, 5.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(-4.0F, 1.0F, 0.0F));
-		PartDefinition left_arm = partdefinition.addOrReplaceChild("left_arm", CubeListBuilder.create().texOffs(0, 0).mirror()
-				.addBox(0.0F, -1.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(4.0F, 1.0F, 0.0F));
-		PartDefinition right_leg = partdefinition.addOrReplaceChild("right_leg",
-				CubeListBuilder.create().texOffs(0, 18).addBox(-1.0F, 0.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)),
-				PartPose.offset(-2.0F, 12.0F, 0.0F));
-		PartDefinition left_leg = partdefinition.addOrReplaceChild("left_leg", CubeListBuilder.create().texOffs(0, 18).mirror()
-				.addBox(-1.0F, 0.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(2.0F, 12.0F, 0.0F));
+		PartDefinition left_arm = partdefinition.addOrReplaceChild("left_arm", CubeListBuilder.create().texOffs(0, 0).mirror().addBox(0.0F, -1.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false), PartPose.offset(4.0F, 1.0F, 0.0F));
+		PartDefinition right_leg = partdefinition.addOrReplaceChild("right_leg", CubeListBuilder.create().texOffs(0, 18).addBox(-1.0F, 0.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)), PartPose.offset(-2.0F, 12.0F, 0.0F));
+		PartDefinition left_leg = partdefinition.addOrReplaceChild("left_leg", CubeListBuilder.create().texOffs(0, 18).mirror().addBox(-1.0F, 0.0F, -1.0F, 2.0F, 12.0F, 2.0F, new CubeDeformation(0.0F)).mirror(false),
+				PartPose.offset(2.0F, 12.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 32);
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		body.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		right_arm.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);

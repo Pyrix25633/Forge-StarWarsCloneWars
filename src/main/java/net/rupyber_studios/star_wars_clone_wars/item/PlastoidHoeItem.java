@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 
 import net.minecraft.world.item.crafting.Ingredient;
@@ -36,6 +35,6 @@ public class PlastoidHoeItem extends HoeItem {
 			public Ingredient getRepairIngredient() {
 				return Ingredient.of(new ItemStack(StarWarsModItems.PLASTOID_PLATE.get()));
 			}
-		}, 0, 0f, new Item.Properties().tab(StarWarsModTabs.TAB_MATERIALS));
+		}, 0, 0f, new Item.Properties());
 	}
 }

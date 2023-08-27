@@ -1,5 +1,5 @@
 {
-  "_fv": 34,
+  "_fv": 43,
   "_type": "gui",
   "definition": {
     "type": 1,
@@ -13,14 +13,16 @@
       {
         "type": "label",
         "data": {
-          "text": "Clone Armor Customizer",
+          "name": "label_clone_armor_customizer",
+          "text": {
+            "fixedValue": "Clone Armor Customizer"
+          },
           "color": {
             "value": -12829636,
             "falpha": 0.0
           },
-          "name": "Clone Armor Customizer",
           "x": 133,
-          "y": 42
+          "y": 44
         }
       },
       {
@@ -28,13 +30,17 @@
         "data": {
           "inputLimit": {
             "value": ""
+          },
+          "disablePlacement": {
+            "fixedValue": false
           },
           "id": 0,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #0",
           "x": 133,
-          "y": 73
+          "y": 65
         }
       },
       {
@@ -43,37 +49,42 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 1,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #1",
-          "x": 169,
-          "y": 73
+          "x": 179,
+          "y": 65
         }
       },
       {
         "type": "outputslot",
         "data": {
           "id": 3,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #3",
-          "x": 259,
-          "y": 73
+          "x": 277,
+          "y": 65
         }
       },
       {
         "type": "button",
         "data": {
+          "name": "button_customize",
           "text": "Customize",
           "onClick": {
             "name": "CloneArmorCustomizerCustomize"
           },
           "width": 70,
           "height": 20,
-          "name": "Customize",
-          "x": 178,
-          "y": 95
+          "x": 179,
+          "y": 91
         }
       },
       {
@@ -81,9 +92,8 @@
         "data": {
           "image": ".png",
           "use1Xscale": false,
-          "name": ".png",
-          "x": 151,
-          "y": 72
+          "x": 156,
+          "y": 65
         }
       },
       {
@@ -91,9 +101,8 @@
         "data": {
           "image": "arrow.png",
           "use1Xscale": false,
-          "name": "arrow.png",
-          "x": 228,
-          "y": 72
+          "x": 246,
+          "y": 65
         }
       },
       {
@@ -101,9 +110,8 @@
         "data": {
           "image": ".png",
           "use1Xscale": false,
-          "name": ".png",
-          "x": 187,
-          "y": 72
+          "x": 201,
+          "y": 65
         }
       },
       {
@@ -112,12 +120,34 @@
           "inputLimit": {
             "value": ""
           },
+          "disablePlacement": {
+            "fixedValue": false
+          },
           "id": 2,
-          "disableStackInteraction": false,
+          "disablePickup": {
+            "fixedValue": false
+          },
           "dropItemsWhenNotBound": true,
-          "name": "Slot #2",
-          "x": 205,
-          "y": 73
+          "x": 223,
+          "y": 65
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clone_armor_customizer_grade_slot.png",
+          "use1Xscale": false,
+          "x": 180,
+          "y": 66
+        }
+      },
+      {
+        "type": "image",
+        "data": {
+          "image": "clone_armor_customizer_dye_slot.png",
+          "use1Xscale": false,
+          "x": 224,
+          "y": 66
         }
       }
     ],

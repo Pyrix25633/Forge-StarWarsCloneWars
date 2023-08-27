@@ -10,13 +10,10 @@ import net.minecraft.client.renderer.entity.EntityRendererProvider;
 import net.minecraft.client.model.geom.ModelLayers;
 import net.minecraft.client.model.HumanoidModel;
 
-public class CloneTrooperCommanderCodyRenderer
-		extends
-			HumanoidMobRenderer<CloneTrooperCommanderCodyEntity, HumanoidModel<CloneTrooperCommanderCodyEntity>> {
+public class CloneTrooperCommanderCodyRenderer extends HumanoidMobRenderer<CloneTrooperCommanderCodyEntity, HumanoidModel<CloneTrooperCommanderCodyEntity>> {
 	public CloneTrooperCommanderCodyRenderer(EntityRendererProvider.Context context) {
 		super(context, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER)), 0.5f);
-		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)),
-				new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR))));
+		this.addLayer(new HumanoidArmorLayer(this, new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_INNER_ARMOR)), new HumanoidModel(context.bakeLayer(ModelLayers.PLAYER_OUTER_ARMOR)), context.getModelManager()));
 	}
 
 	@Override

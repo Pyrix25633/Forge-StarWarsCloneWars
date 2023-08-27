@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc17Entity;
 
@@ -20,7 +19,7 @@ import net.minecraft.server.level.ServerPlayer;
 
 public class BlasterDc17Item extends Item {
 	public BlasterDc17Item() {
-		super(new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC).durability(512));
+		super(new Item.Properties().durability(512));
 	}
 
 	@Override

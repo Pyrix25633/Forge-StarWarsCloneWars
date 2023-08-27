@@ -1,13 +1,13 @@
 {
   "parent": "block/cube",
   "textures": {
-    "down": "star_wars:blocks/felucia_red_log_top",
-    "up": "star_wars:blocks/felucia_red_log_top",
-    "north": "star_wars:blocks/felucia_red_log",
-    "east": "star_wars:blocks/felucia_red_log",
-    "south": "star_wars:blocks/felucia_red_log",
-    "west": "star_wars:blocks/felucia_red_log",
-    "particle": "star_wars:blocks/felucia_red_log_top"
+    "down": "star_wars:block/felucia_red_log_top",
+    "up": "star_wars:block/felucia_red_log_top",
+    "north": "star_wars:block/felucia_red_log",
+    "east": "star_wars:block/felucia_red_log",
+    "south": "star_wars:block/felucia_red_log",
+    "west": "star_wars:block/felucia_red_log",
+    "particle": "star_wars:block/felucia_red_log_top"
   },
   "render_type": "solid"
 }

@@ -12,14 +12,11 @@ public class HelmetOverlayBProcedureProcedure {
 		if (entity == null)
 			return false;
 		boolean helmet_overlay_b = false;
-		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-				.getItem() == StarWarsModItems.CLONE_TROOPER_91ST_ARMOR_HELMET.get()) {
+		if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == StarWarsModItems.CLONE_TROOPER_91ST_ARMOR_HELMET.get()) {
 			helmet_overlay_b = true;
-		} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-				.getItem() == StarWarsModItems.CLONE_TROOPER_COMMANDER_CODY_ARMOR_HELMET.get()) {
+		} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == StarWarsModItems.CLONE_TROOPER_COMMANDER_CODY_ARMOR_HELMET.get()) {
 			helmet_overlay_b = true;
-		} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY)
-				.getItem() == StarWarsModItems.CLONE_TROOPER_COMMANDER_FOX_ARMOR_HELMET.get()) {
+		} else if ((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.HEAD) : ItemStack.EMPTY).getItem() == StarWarsModItems.CLONE_TROOPER_COMMANDER_FOX_ARMOR_HELMET.get()) {
 			helmet_overlay_b = true;
 		}
 		return helmet_overlay_b;

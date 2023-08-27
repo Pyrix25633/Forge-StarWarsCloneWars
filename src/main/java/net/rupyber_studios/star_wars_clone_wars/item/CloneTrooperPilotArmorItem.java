@@ -1,7 +1,6 @@
 
 package net.rupyber_studios.star_wars_clone_wars.item;
 
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
 import net.rupyber_studios.star_wars_clone_wars.client.model.ModelHelmetPlain;
 import net.rupyber_studios.star_wars_clone_wars.client.model.ModelChestplatePlain;
@@ -30,16 +29,16 @@ import java.util.Map;
 import java.util.Collections;
 
 public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
-	public CloneTrooperPilotArmorItem(EquipmentSlot slot, Item.Properties properties) {
+	public CloneTrooperPilotArmorItem(ArmorItem.Type type, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
-			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 70;
+			public int getDurabilityForType(ArmorItem.Type type) {
+				return new int[]{13, 15, 16, 11}[type.getSlot().getIndex()] * 70;
 			}
 
 			@Override
-			public int getDefenseForSlot(EquipmentSlot slot) {
-				return new int[]{10, 26, 24, 10}[slot.getIndex()];
+			public int getDefenseForType(ArmorItem.Type type) {
+				return new int[]{10, 26, 24, 10}[type.getSlot().getIndex()];
 			}
 
 			@Override
@@ -71,12 +70,12 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 			public float getKnockbackResistance() {
 				return 0.05f;
 			}
-		}, slot, properties);
+		}, type, properties);
 	}
 
 	public static class Helmet extends CloneTrooperPilotArmorItem {
 		public Helmet() {
-			super(EquipmentSlot.HEAD, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
+			super(ArmorItem.Type.HELMET, new Item.Properties());
 		}
 
 		@Override
@@ -85,13 +84,9 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 				@Override
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
 					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("head",
-									new ModelHelmetPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelHelmetPlain.LAYER_LOCATION)).head,
-									"hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
+							Map.of("head", new ModelHelmetPlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelHelmetPlain.LAYER_LOCATION)).head, "hat", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "body",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_arm", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_arm",
+									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
 									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
@@ -109,7 +104,7 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 
 	public static class Chestplate extends CloneTrooperPilotArmorItem {
 		public Chestplate() {
-			super(EquipmentSlot.CHEST, new Item.Properties().tab(StarWarsModTabs.TAB_REPUBLIC));
+			super(ArmorItem.Type.CHESTPLATE, new Item.Properties());
 		}
 
 		@Override
@@ -118,20 +113,10 @@ public abstract class CloneTrooperPilotArmorItem extends ArmorItem {
 				@Override
 				@OnlyIn(Dist.CLIENT)
 				public HumanoidModel getHumanoidArmorModel(LivingEntity living, ItemStack stack, EquipmentSlot slot, HumanoidModel defaultModel) {
-					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(),
-							Map.of("body",
-									new ModelChestplatePlain(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).body,
-									"left_arm",
-									new ModelChestplatePlain(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).left_arm,
-									"right_arm",
-									new ModelChestplatePlain(
-											Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).right_arm,
-									"head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg",
-									new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
+					HumanoidModel armorModel = new HumanoidModel(new ModelPart(Collections.emptyList(), Map.of("body", new ModelChestplatePlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).body,
+							"left_arm", new ModelChestplatePlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).left_arm, "right_arm",
+							new ModelChestplatePlain(Minecraft.getInstance().getEntityModels().bakeLayer(ModelChestplatePlain.LAYER_LOCATION)).right_arm, "head", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "hat",
+							new ModelPart(Collections.emptyList(), Collections.emptyMap()), "right_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()), "left_leg", new ModelPart(Collections.emptyList(), Collections.emptyMap()))));
 					armorModel.crouching = living.isShiftKeyDown();
 					armorModel.riding = defaultModel.riding;
 					armorModel.young = living.isBaby();

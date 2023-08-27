@@ -34,47 +34,39 @@ public class JetpackEffectProcedureExpireProcedure {
 	private static void execute(@Nullable Event event, Entity entity) {
 		if (entity == null)
 			return;
-		if (((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-				.getItem() == StarWarsModItems.JETPACK_ARMOR_CHESTPLATE.get()
-				|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-						.getItem() == StarWarsModItems.JETPACK_ARMOR_104TH_CHESTPLATE.get()
-				|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-						.getItem() == StarWarsModItems.JETPACK_ARMOR_501ST_CHESTPLATE.get())
-				&& new Object() {
+		if (((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_CHESTPLATE.get()
+				|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_104TH_CHESTPLATE.get()
+				|| (entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_501ST_CHESTPLATE.get()) && new Object() {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayer _serverPlayer) {
 							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SURVIVAL;
 						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft
-									.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SURVIVAL;
+							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SURVIVAL;
 						}
 						return false;
 					}
 				}.checkGamemode(entity)) {
 			if (entity instanceof Player _player) {
-				_player.getAbilities().flying = (true);
+				_player.getAbilities().flying = true;
 				_player.onUpdateAbilities();
 			}
 			entity.fallDistance = 0;
-		} else if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-				.getItem() == StarWarsModItems.JETPACK_ARMOR_CHESTPLATE.get())
-				&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-						.getItem() == StarWarsModItems.JETPACK_ARMOR_104TH_CHESTPLATE.get())
-				&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY)
-						.getItem() == StarWarsModItems.JETPACK_ARMOR_501ST_CHESTPLATE.get())
-				&& new Object() {
+		} else if (!((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_CHESTPLATE.get())
+				&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_104TH_CHESTPLATE.get())
+				&& !((entity instanceof LivingEntity _entGetArmor ? _entGetArmor.getItemBySlot(EquipmentSlot.CHEST) : ItemStack.EMPTY).getItem() == StarWarsModItems.JETPACK_ARMOR_501ST_CHESTPLATE.get()) && new Object() {
 					public boolean checkGamemode(Entity _ent) {
 						if (_ent instanceof ServerPlayer _serverPlayer) {
 							return _serverPlayer.gameMode.getGameModeForPlayer() == GameType.SURVIVAL;
 						} else if (_ent.level.isClientSide() && _ent instanceof Player _player) {
-							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null && Minecraft
-									.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SURVIVAL;
+							return Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()) != null
+									&& Minecraft.getInstance().getConnection().getPlayerInfo(_player.getGameProfile().getId()).getGameMode() == GameType.SURVIVAL;
 						}
 						return false;
 					}
 				}.checkGamemode(entity)) {
 			if (entity instanceof Player _player) {
-				_player.getAbilities().flying = (false);
+				_player.getAbilities().flying = false;
 				_player.onUpdateAbilities();
 			}
 		}

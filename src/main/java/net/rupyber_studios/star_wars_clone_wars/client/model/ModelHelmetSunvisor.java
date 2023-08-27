@@ -21,8 +21,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class ModelHelmetSunvisor<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("star_wars", "model_helmet_sunvisor"),
-			"main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("star_wars", "model_helmet_sunvisor"), "main");
 	public final ModelPart head;
 
 	public ModelHelmetSunvisor(ModelPart root) {
@@ -33,18 +32,15 @@ public class ModelHelmetSunvisor<T extends Entity> extends EntityModel<T> {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
 		PartDefinition head = partdefinition.addOrReplaceChild("head",
-				CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(44, 23)
-						.addBox(-1.0F, -9.0F, -3.0F, 2.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(0, 20)
-						.addBox(-4.0F, -6.0F, -6.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(16, 23)
-						.addBox(4.0F, -6.0F, -6.0F, 1.0F, 2.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(0, 23)
+				CubeListBuilder.create().texOffs(0, 0).addBox(-4.0F, -8.0F, -4.0F, 8.0F, 8.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(44, 23).addBox(-1.0F, -9.0F, -3.0F, 2.0F, 1.0F, 8.0F, new CubeDeformation(0.0F)).texOffs(0, 20)
+						.addBox(-4.0F, -6.0F, -6.0F, 8.0F, 1.0F, 2.0F, new CubeDeformation(0.0F)).texOffs(16, 23).addBox(4.0F, -6.0F, -6.0F, 1.0F, 2.0F, 7.0F, new CubeDeformation(0.0F)).texOffs(0, 23)
 						.addBox(-5.0F, -6.0F, -6.0F, 1.0F, 2.0F, 7.0F, new CubeDeformation(0.0F)),
 				PartPose.offset(0.0F, 0.0F, 0.0F));
 		return LayerDefinition.create(meshdefinition, 64, 32);
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 	}
 

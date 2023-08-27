@@ -1,7 +1,7 @@
 {
   "textures": {
-    "particle": "star_wars:blocks/geonosis_portal",
-    "portal": "star_wars:blocks/geonosis_portal"
+    "particle": "star_wars:block/geonosis_portal",
+    "portal": "star_wars:block/geonosis_portal"
   },
   "elements": [
     {
