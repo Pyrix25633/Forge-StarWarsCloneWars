@@ -1,7 +1,7 @@
 ---
-name: 'SWCWS-XXX: Brief suggestion description'
-about: Suggest an idea for this project
-title: 'SWCWS-XXX: Brief suggestion description'
+name: 'Star Wars Clone Wars Suggestion'
+about: 'Suggest an idea for this project'
+title: 'SWCWS-<N>: <Brief suggestion description>'
 labels: "\U0001F4D6 open, \U0001FAA7 suggestion"
 assignees: Pyrix25633
 
