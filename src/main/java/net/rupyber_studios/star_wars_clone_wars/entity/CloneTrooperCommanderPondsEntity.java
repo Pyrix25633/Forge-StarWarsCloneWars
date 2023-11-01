@@ -42,7 +42,7 @@ public class CloneTrooperCommanderPondsEntity extends Monster implements RangedA
 
 	public CloneTrooperCommanderPondsEntity(EntityType<CloneTrooperCommanderPondsEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Commander Ponds"));

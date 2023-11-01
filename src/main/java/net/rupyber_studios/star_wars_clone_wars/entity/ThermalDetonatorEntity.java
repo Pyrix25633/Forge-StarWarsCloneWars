@@ -65,13 +65,13 @@ public class ThermalDetonatorEntity extends AbstractArrow implements ItemSupplie
 	@Override
 	public void onHitEntity(EntityHitResult entityHitResult) {
 		super.onHitEntity(entityHitResult);
-		ThermalDetonatorProcedureProcedure.execute(this.level, this.getX(), this.getY(), this.getZ());
+		ThermalDetonatorProcedureProcedure.execute(this.level(), this.getX(), this.getY(), this.getZ());
 	}
 
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		ThermalDetonatorProcedureProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		ThermalDetonatorProcedureProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
@@ -93,7 +93,7 @@ public class ThermalDetonatorEntity extends AbstractArrow implements ItemSupplie
 	}
 
 	public static ThermalDetonatorEntity shoot(LivingEntity entity, LivingEntity target) {
-		ThermalDetonatorEntity entityarrow = new ThermalDetonatorEntity(StarWarsModEntities.THERMAL_DETONATOR.get(), entity, entity.level);
+		ThermalDetonatorEntity entityarrow = new ThermalDetonatorEntity(StarWarsModEntities.THERMAL_DETONATOR.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
@@ -102,7 +102,7 @@ public class ThermalDetonatorEntity extends AbstractArrow implements ItemSupplie
 		entityarrow.setBaseDamage(0.2);
 		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
-		entity.level.addFreshEntity(entityarrow);
+		entity.level().addFreshEntity(entityarrow);
 		return entityarrow;
 	}
 }

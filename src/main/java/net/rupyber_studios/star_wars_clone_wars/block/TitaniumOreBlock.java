@@ -1,8 +1,8 @@
 
 package net.rupyber_studios.star_wars_clone_wars.block;
 
-import net.minecraft.world.level.material.MaterialColor;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.material.MapColor;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -14,7 +14,7 @@ import net.minecraft.core.BlockPos;
 
 public class TitaniumOreBlock extends Block {
 	public TitaniumOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE, MaterialColor.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).mapColor(MapColor.METAL).sound(SoundType.METAL).strength(5f, 10f).requiresCorrectToolForDrops());
 	}
 
 	@Override

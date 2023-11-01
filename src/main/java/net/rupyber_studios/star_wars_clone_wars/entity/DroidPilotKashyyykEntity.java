@@ -35,7 +35,7 @@ public class DroidPilotKashyyykEntity extends Monster implements RangedAttackMob
 
 	public DroidPilotKashyyykEntity(EntityType<DroidPilotKashyyykEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();

@@ -82,7 +82,7 @@ public class BlasterDc15sEntity extends AbstractArrow implements ItemSupplier {
 	}
 
 	public static BlasterDc15sEntity shoot(LivingEntity entity, LivingEntity target) {
-		BlasterDc15sEntity entityarrow = new BlasterDc15sEntity(StarWarsModEntities.BLASTER_DC_15S.get(), entity, entity.level);
+		BlasterDc15sEntity entityarrow = new BlasterDc15sEntity(StarWarsModEntities.BLASTER_DC_15S.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
@@ -91,8 +91,8 @@ public class BlasterDc15sEntity extends AbstractArrow implements ItemSupplier {
 		entityarrow.setBaseDamage(4.5);
 		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
-		entity.level.addFreshEntity(entityarrow);
-		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("star_wars:entity.laser.shot")), SoundSource.PLAYERS, 1,
+		entity.level().addFreshEntity(entityarrow);
+		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("star_wars:entity.laser.shot")), SoundSource.PLAYERS, 1,
 				1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}

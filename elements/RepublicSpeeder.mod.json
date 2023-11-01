@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "livingentity",
   "definition": {
     "mobName": "Republic Speeder",
@@ -7,6 +7,9 @@
     "mobModelName": "ModelRepublicSpeeder",
     "mobModelTexture": "speeder.png",
     "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 2.0,
     "modelHeight": 1.5,
     "modelShadowSize": 0.9,

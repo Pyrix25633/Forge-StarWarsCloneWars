@@ -35,7 +35,7 @@ public class ThermalDetonatorNumberOverlayOverlay {
 		double z = 0;
 		Player entity = Minecraft.getInstance().player;
 		if (entity != null) {
-			world = entity.level;
+			world = entity.level();
 			x = entity.getX();
 			y = entity.getY();
 			z = entity.getZ();
@@ -47,12 +47,11 @@ public class ThermalDetonatorNumberOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (ThermalDetonatorCountProcedureProcedure.execute(entity)) {
-			RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/thermal_detonator.png"));
-			Minecraft.getInstance().gui.blit(event.getPoseStack(), posX + -90, posY + 59, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("star_wars:textures/screens/thermal_detonator.png"), posX + -90, posY + 59, 0, 0, 16, 16, 16, 16);
 
-			Minecraft.getInstance().font.draw(event.getPoseStack(),
+			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					ReturnThermalDetonatorNumProcedure.execute(entity), posX + -74, posY + 64, -12829636);
+					ReturnThermalDetonatorNumProcedure.execute(entity), posX + -74, posY + 64, -12829636, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

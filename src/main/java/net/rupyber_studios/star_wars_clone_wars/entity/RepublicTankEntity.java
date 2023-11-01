@@ -63,7 +63,7 @@ public class RepublicTankEntity extends Monster {
 
 	public RepublicTankEntity(EntityType<RepublicTankEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setPersistenceRequired();
@@ -162,7 +162,7 @@ public class RepublicTankEntity extends Monster {
 	@Override
 	public InteractionResult mobInteract(Player sourceentity, InteractionHand hand) {
 		ItemStack itemstack = sourceentity.getItemInHand(hand);
-		InteractionResult retval = InteractionResult.sidedSuccess(this.level.isClientSide());
+		InteractionResult retval = InteractionResult.sidedSuccess(this.level().isClientSide());
 		if (sourceentity.isSecondaryUseActive()) {
 			if (sourceentity instanceof ServerPlayer serverPlayer) {
 				NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
@@ -185,7 +185,7 @@ public class RepublicTankEntity extends Monster {
 					buf.writeVarInt(this.getId());
 				});
 			}
-			return InteractionResult.sidedSuccess(this.level.isClientSide());
+			return InteractionResult.sidedSuccess(this.level().isClientSide());
 		}
 		super.mobInteract(sourceentity, hand);
 		sourceentity.startRiding(this);

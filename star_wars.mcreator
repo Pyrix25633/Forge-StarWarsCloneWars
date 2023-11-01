@@ -4503,7 +4503,7 @@
   "workspaceSettings": {
     "modid": "star_wars",
     "modName": "Star Wars Clone Wars",
-    "version": "1.4.2",
+    "version": "1.5.0",
     "description": "A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers",
     "author": "Pyrix25633",
     "websiteURL": "https://rupyberstudios.github.io/website",
@@ -4515,10 +4515,10 @@
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.rupyber_studios.star_wars_clone_wars",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300224119
+  "mcreatorVersion": 202300336712
 }

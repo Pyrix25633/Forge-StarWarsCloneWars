@@ -16,6 +16,7 @@ package net.rupyber_studios.star_wars_clone_wars;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModSounds;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModPaintings;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModMenus;
@@ -56,14 +57,16 @@ public class StarWarsMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		StarWarsModSounds.REGISTRY.register(bus);
 		StarWarsModBlocks.REGISTRY.register(bus);
+
 		StarWarsModItems.REGISTRY.register(bus);
 		StarWarsModEntities.REGISTRY.register(bus);
+
+		StarWarsModTabs.REGISTRY.register(bus);
+		StarWarsModFeatures.REGISTRY.register(bus);
 
 		StarWarsModPaintings.REGISTRY.register(bus);
 
 		StarWarsModMenus.REGISTRY.register(bus);
-		StarWarsModFeatures.REGISTRY.register(bus);
-
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

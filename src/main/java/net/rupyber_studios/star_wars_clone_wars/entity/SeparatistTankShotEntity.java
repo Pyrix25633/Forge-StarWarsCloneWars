@@ -67,7 +67,7 @@ public class SeparatistTankShotEntity extends AbstractArrow implements ItemSuppl
 	@Override
 	public void onHitBlock(BlockHitResult blockHitResult) {
 		super.onHitBlock(blockHitResult);
-		TankShootExplosionProcedureProcedure.execute(this.level, blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
+		TankShootExplosionProcedureProcedure.execute(this.level(), blockHitResult.getBlockPos().getX(), blockHitResult.getBlockPos().getY(), blockHitResult.getBlockPos().getZ());
 	}
 
 	@Override
@@ -90,7 +90,7 @@ public class SeparatistTankShotEntity extends AbstractArrow implements ItemSuppl
 	}
 
 	public static SeparatistTankShotEntity shoot(LivingEntity entity, LivingEntity target) {
-		SeparatistTankShotEntity entityarrow = new SeparatistTankShotEntity(StarWarsModEntities.SEPARATIST_TANK_SHOT.get(), entity, entity.level);
+		SeparatistTankShotEntity entityarrow = new SeparatistTankShotEntity(StarWarsModEntities.SEPARATIST_TANK_SHOT.get(), entity, entity.level());
 		double dx = target.getX() - entity.getX();
 		double dy = target.getY() + target.getEyeHeight() - 1.1;
 		double dz = target.getZ() - entity.getZ();
@@ -99,8 +99,8 @@ public class SeparatistTankShotEntity extends AbstractArrow implements ItemSuppl
 		entityarrow.setBaseDamage(6);
 		entityarrow.setKnockback(0);
 		entityarrow.setCritArrow(false);
-		entity.level.addFreshEntity(entityarrow);
-		entity.level.playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("star_wars:entity.laser.shot")), SoundSource.PLAYERS, 1,
+		entity.level().addFreshEntity(entityarrow);
+		entity.level().playSound(null, entity.getX(), entity.getY(), entity.getZ(), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("star_wars:entity.laser.shot")), SoundSource.PLAYERS, 1,
 				1f / (RandomSource.create().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}

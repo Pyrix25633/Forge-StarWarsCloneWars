@@ -42,7 +42,7 @@ public class SeparatistTankEntity extends Monster implements RangedAttackMob {
 
 	public SeparatistTankEntity(EntityType<SeparatistTankEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 50;
 		setNoAi(false);
 		setPersistenceRequired();

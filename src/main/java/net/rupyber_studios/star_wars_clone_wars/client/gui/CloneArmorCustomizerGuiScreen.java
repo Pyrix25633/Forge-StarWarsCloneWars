@@ -11,10 +11,10 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 import net.minecraft.client.gui.screens.inventory.AbstractContainerScreen;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.gui.GuiGraphics;
 
 import java.util.HashMap;
 
-import com.mojang.blaze3d.vertex.PoseStack;
 import com.mojang.blaze3d.systems.RenderSystem;
 
 public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<CloneArmorCustomizerGuiMenu> {
@@ -38,34 +38,28 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 	private static final ResourceLocation texture = new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_gui.png");
 
 	@Override
-	public void render(PoseStack ms, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(ms);
-		super.render(ms, mouseX, mouseY, partialTicks);
-		this.renderTooltip(ms, mouseX, mouseY);
+	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
+		this.renderBackground(guiGraphics);
+		super.render(guiGraphics, mouseX, mouseY, partialTicks);
+		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
 
 	@Override
-	protected void renderBg(PoseStack ms, float partialTicks, int gx, int gy) {
+	protected void renderBg(GuiGraphics guiGraphics, float partialTicks, int gx, int gy) {
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
-		RenderSystem.setShaderTexture(0, texture);
-		this.blit(ms, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
+		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/.png"));
-		this.blit(ms, this.leftPos + 30, this.topPos + 28, 0, 0, 18, 18, 18, 18);
+		guiGraphics.blit(new ResourceLocation("star_wars:textures/screens/.png"), this.leftPos + 30, this.topPos + 28, 0, 0, 18, 18, 18, 18);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/arrow.png"));
-		this.blit(ms, this.leftPos + 120, this.topPos + 28, 0, 0, 26, 18, 26, 18);
+		guiGraphics.blit(new ResourceLocation("star_wars:textures/screens/arrow.png"), this.leftPos + 120, this.topPos + 28, 0, 0, 26, 18, 26, 18);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/.png"));
-		this.blit(ms, this.leftPos + 75, this.topPos + 28, 0, 0, 18, 18, 18, 18);
+		guiGraphics.blit(new ResourceLocation("star_wars:textures/screens/.png"), this.leftPos + 75, this.topPos + 28, 0, 0, 18, 18, 18, 18);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_grade_slot.png"));
-		this.blit(ms, this.leftPos + 54, this.topPos + 29, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_grade_slot.png"), this.leftPos + 54, this.topPos + 29, 0, 0, 16, 16, 16, 16);
 
-		RenderSystem.setShaderTexture(0, new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_dye_slot.png"));
-		this.blit(ms, this.leftPos + 98, this.topPos + 29, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(new ResourceLocation("star_wars:textures/screens/clone_armor_customizer_dye_slot.png"), this.leftPos + 98, this.topPos + 29, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -85,8 +79,8 @@ public class CloneArmorCustomizerGuiScreen extends AbstractContainerScreen<Clone
 	}
 
 	@Override
-	protected void renderLabels(PoseStack poseStack, int mouseX, int mouseY) {
-		this.font.draw(poseStack, Component.translatable("gui.star_wars.clone_armor_customizer_gui.label_clone_armor_customizer"), 7, 7, -12829636);
+	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.star_wars.clone_armor_customizer_gui.label_clone_armor_customizer"), 7, 7, -12829636, false);
 	}
 
 	@Override

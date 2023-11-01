@@ -42,7 +42,7 @@ public class CloneTrooperLiutenantEntity extends Monster implements RangedAttack
 
 	public CloneTrooperLiutenantEntity(EntityType<CloneTrooperLiutenantEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Clone Liutenant"));

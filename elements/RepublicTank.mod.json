@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 47,
   "_type": "livingentity",
   "definition": {
     "mobName": "Republic Tank",
@@ -7,6 +7,9 @@
     "mobModelName": "ModelRepublicTank",
     "mobModelTexture": "republic_tank.png",
     "mobModelGlowTexture": "",
+    "solidBoundingBox": {
+      "fixedValue": false
+    },
     "modelWidth": 2.0,
     "modelHeight": 2.0,
     "modelShadowSize": 0.9,

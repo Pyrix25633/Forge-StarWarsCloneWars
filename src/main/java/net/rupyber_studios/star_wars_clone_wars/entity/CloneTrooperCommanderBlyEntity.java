@@ -42,7 +42,7 @@ public class CloneTrooperCommanderBlyEntity extends Monster implements RangedAtt
 
 	public CloneTrooperCommanderBlyEntity(EntityType<CloneTrooperCommanderBlyEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 0;
 		setNoAi(false);
 		setCustomName(Component.literal("Commander Bly"));

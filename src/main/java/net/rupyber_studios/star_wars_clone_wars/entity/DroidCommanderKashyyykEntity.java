@@ -35,7 +35,7 @@ public class DroidCommanderKashyyykEntity extends Monster implements RangedAttac
 
 	public DroidCommanderKashyyykEntity(EntityType<DroidCommanderKashyyykEntity> type, Level world) {
 		super(type, world);
-		maxUpStep = 0.6f;
+		setMaxUpStep(0.6f);
 		xpReward = 4;
 		setNoAi(false);
 		setPersistenceRequired();
