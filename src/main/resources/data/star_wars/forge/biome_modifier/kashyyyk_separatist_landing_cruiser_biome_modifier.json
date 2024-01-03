@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "star_wars:kashyyyk_beaches",
-    "star_wars:kashyyyk"
-  ],
-  "features": "star_wars:kashyyyk_separatist_landing_cruiser",
-  "step": "surface_structures"
-}

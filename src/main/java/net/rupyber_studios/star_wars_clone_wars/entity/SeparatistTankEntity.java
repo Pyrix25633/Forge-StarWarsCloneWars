@@ -123,17 +123,17 @@ public class SeparatistTankEntity extends Monster implements RangedAttackMob {
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.CACTUS))
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource.is(DamageTypes.CACTUS))
 			return false;
-		if (source.is(DamageTypes.TRIDENT))
+		if (damagesource.is(DamageTypes.TRIDENT))
 			return false;
-		return super.hurt(source, amount);
+		return super.hurt(damagesource, amount);
 	}
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		SeparatistTankShotEntity.shoot(this, target);
+		SeparatistTankShotProjectileEntity.shoot(this, target);
 	}
 
 	@Override

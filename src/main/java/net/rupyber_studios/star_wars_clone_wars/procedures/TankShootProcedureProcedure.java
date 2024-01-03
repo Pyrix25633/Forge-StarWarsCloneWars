@@ -3,7 +3,7 @@ package net.rupyber_studios.star_wars_clone_wars.procedures;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModEntities;
 import net.rupyber_studios.star_wars_clone_wars.entity.RepublicTankEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.RepublicSpeederEntity;
-import net.rupyber_studios.star_wars_clone_wars.entity.RepubblicTankShotEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.RepubblicTankShotProjectileEntity;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.projectile.Projectile;
@@ -21,7 +21,7 @@ public class TankShootProcedureProcedure {
 				if (!projectileLevel.isClientSide()) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-							AbstractArrow entityToSpawn = new RepubblicTankShotEntity(StarWarsModEntities.REPUBBLIC_TANK_SHOT.get(), level);
+							AbstractArrow entityToSpawn = new RepubblicTankShotProjectileEntity(StarWarsModEntities.REPUBBLIC_TANK_SHOT_PROJECTILE.get(), level);
 							entityToSpawn.setOwner(shooter);
 							entityToSpawn.setBaseDamage(damage);
 							entityToSpawn.setKnockback(knockback);
@@ -42,7 +42,7 @@ public class TankShootProcedureProcedure {
 				if (!projectileLevel.isClientSide()) {
 					Projectile _entityToSpawn = new Object() {
 						public Projectile getArrow(Level level, Entity shooter, float damage, int knockback) {
-							AbstractArrow entityToSpawn = new RepubblicTankShotEntity(StarWarsModEntities.REPUBBLIC_TANK_SHOT.get(), level);
+							AbstractArrow entityToSpawn = new RepubblicTankShotProjectileEntity(StarWarsModEntities.REPUBBLIC_TANK_SHOT_PROJECTILE.get(), level);
 							entityToSpawn.setOwner(shooter);
 							entityToSpawn.setBaseDamage(damage);
 							entityToSpawn.setKnockback(knockback);

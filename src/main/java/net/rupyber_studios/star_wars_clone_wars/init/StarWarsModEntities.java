@@ -4,13 +4,13 @@
  */
 package net.rupyber_studios.star_wars_clone_wars.init;
 
-import net.rupyber_studios.star_wars_clone_wars.entity.ThermalDetonatorEntity;
-import net.rupyber_studios.star_wars_clone_wars.entity.SeparatistTankShotEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.ThermalDetonatorProjectileEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.SeparatistTankShotProjectileEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.SeparatistTankEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.RepublicTankEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.RepublicTankAutoEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.RepublicSpeederEntity;
-import net.rupyber_studios.star_wars_clone_wars.entity.RepubblicTankShotEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.RepubblicTankShotProjectileEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.DroidSecurityKashyyykEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.DroidSecurityEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.DroidPilotKashyyykEntity;
@@ -41,9 +41,9 @@ import net.rupyber_studios.star_wars_clone_wars.entity.CloneTrooper327thEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.CloneTrooper25633rdEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.CloneTrooper212thEntity;
 import net.rupyber_studios.star_wars_clone_wars.entity.CloneTrooper104thEntity;
-import net.rupyber_studios.star_wars_clone_wars.entity.BlasterE5Entity;
-import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc17Entity;
-import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc15sEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.BlasterE5ProjectileEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc17ProjectileEntity;
+import net.rupyber_studios.star_wars_clone_wars.entity.BlasterDc15sProjectileEntity;
 import net.rupyber_studios.star_wars_clone_wars.StarWarsMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -61,10 +61,6 @@ import net.minecraft.world.entity.Entity;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class StarWarsModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, StarWarsMod.MODID);
-	public static final RegistryObject<EntityType<BlasterDc15sEntity>> BLASTER_DC_15S = register("projectile_blaster_dc_15s",
-			EntityType.Builder.<BlasterDc15sEntity>of(BlasterDc15sEntity::new, MobCategory.MISC).setCustomClientFactory(BlasterDc15sEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<BlasterDc17Entity>> BLASTER_DC_17 = register("projectile_blaster_dc_17",
-			EntityType.Builder.<BlasterDc17Entity>of(BlasterDc17Entity::new, MobCategory.MISC).setCustomClientFactory(BlasterDc17Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<CloneTrooperEntity>> CLONE_TROOPER = register("clone_trooper",
 			EntityType.Builder.<CloneTrooperEntity>of(CloneTrooperEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CloneTrooperEntity::new)
 
@@ -176,8 +172,6 @@ public class StarWarsModEntities {
 			EntityType.Builder.<RepublicSpeederEntity>of(RepublicSpeederEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RepublicSpeederEntity::new)
 
 					.sized(2f, 1.5f));
-	public static final RegistryObject<EntityType<ThermalDetonatorEntity>> THERMAL_DETONATOR = register("projectile_thermal_detonator", EntityType.Builder.<ThermalDetonatorEntity>of(ThermalDetonatorEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(ThermalDetonatorEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<DroidEntity>> DROID = register("droid",
 			EntityType.Builder.<DroidEntity>of(DroidEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(DroidEntity::new)
 
@@ -216,12 +210,23 @@ public class StarWarsModEntities {
 			EntityType.Builder.<SeparatistTankEntity>of(SeparatistTankEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SeparatistTankEntity::new)
 
 					.sized(2f, 2f));
-	public static final RegistryObject<EntityType<BlasterE5Entity>> BLASTER_E_5 = register("projectile_blaster_e_5",
-			EntityType.Builder.<BlasterE5Entity>of(BlasterE5Entity::new, MobCategory.MISC).setCustomClientFactory(BlasterE5Entity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<RepubblicTankShotEntity>> REPUBBLIC_TANK_SHOT = register("projectile_repubblic_tank_shot", EntityType.Builder.<RepubblicTankShotEntity>of(RepubblicTankShotEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(RepubblicTankShotEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<SeparatistTankShotEntity>> SEPARATIST_TANK_SHOT = register("projectile_separatist_tank_shot", EntityType.Builder.<SeparatistTankShotEntity>of(SeparatistTankShotEntity::new, MobCategory.MISC)
-			.setCustomClientFactory(SeparatistTankShotEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlasterE5ProjectileEntity>> BLASTER_E_5_PROJECTILE = register("projectile_blaster_e_5_projectile", EntityType.Builder.<BlasterE5ProjectileEntity>of(BlasterE5ProjectileEntity::new, MobCategory.MISC)
+			.setCustomClientFactory(BlasterE5ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlasterDc15sProjectileEntity>> BLASTER_DC_15S_PROJECTILE = register("projectile_blaster_dc_15s_projectile",
+			EntityType.Builder.<BlasterDc15sProjectileEntity>of(BlasterDc15sProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(BlasterDc15sProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RepubblicTankShotProjectileEntity>> REPUBBLIC_TANK_SHOT_PROJECTILE = register("projectile_repubblic_tank_shot_projectile",
+			EntityType.Builder.<RepubblicTankShotProjectileEntity>of(RepubblicTankShotProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(RepubblicTankShotProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<ThermalDetonatorProjectileEntity>> THERMAL_DETONATOR_PROJECTILE = register("projectile_thermal_detonator_projectile",
+			EntityType.Builder.<ThermalDetonatorProjectileEntity>of(ThermalDetonatorProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(ThermalDetonatorProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<BlasterDc17ProjectileEntity>> BLASTER_DC_17_PROJECTILE = register("projectile_blaster_dc_17_projectile",
+			EntityType.Builder.<BlasterDc17ProjectileEntity>of(BlasterDc17ProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(BlasterDc17ProjectileEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64)
+					.setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<SeparatistTankShotProjectileEntity>> SEPARATIST_TANK_SHOT_PROJECTILE = register("projectile_separatist_tank_shot_projectile",
+			EntityType.Builder.<SeparatistTankShotProjectileEntity>of(SeparatistTankShotProjectileEntity::new, MobCategory.MISC).setCustomClientFactory(SeparatistTankShotProjectileEntity::new).setShouldReceiveVelocityUpdates(true)
+					.setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -16,12 +16,12 @@ package net.rupyber_studios.star_wars_clone_wars;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import net.rupyber_studios.star_wars_clone_wars.world.features.StructureFeature;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModTabs;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModSounds;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModPaintings;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModMenus;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModItems;
-import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModFeatures;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModEntities;
 import net.rupyber_studios.star_wars_clone_wars.init.StarWarsModBlocks;
 
@@ -62,7 +62,8 @@ public class StarWarsMod {
 		StarWarsModEntities.REGISTRY.register(bus);
 
 		StarWarsModTabs.REGISTRY.register(bus);
-		StarWarsModFeatures.REGISTRY.register(bus);
+
+		StructureFeature.REGISTRY.register(bus);
 
 		StarWarsModPaintings.REGISTRY.register(bus);
 

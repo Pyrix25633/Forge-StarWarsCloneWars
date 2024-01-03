@@ -112,17 +112,17 @@ public class CloneTrooperCommanderPondsEntity extends Monster implements RangedA
 	}
 
 	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.is(DamageTypes.CACTUS))
+	public boolean hurt(DamageSource damagesource, float amount) {
+		if (damagesource.is(DamageTypes.CACTUS))
 			return false;
-		if (source.is(DamageTypes.DRAGON_BREATH))
+		if (damagesource.is(DamageTypes.DRAGON_BREATH))
 			return false;
-		return super.hurt(source, amount);
+		return super.hurt(damagesource, amount);
 	}
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BlasterDc17Entity.shoot(this, target);
+		BlasterDc17ProjectileEntity.shoot(this, target);
 	}
 
 	public static void init() {

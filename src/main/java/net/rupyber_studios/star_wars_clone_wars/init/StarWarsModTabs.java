@@ -32,7 +32,6 @@ public class StarWarsModTabs {
 				tabData.accept(StarWarsModItems.PLASTOID_SHOVEL.get());
 				tabData.accept(StarWarsModItems.PLASTOID_HOE.get());
 				tabData.accept(StarWarsModItems.BLASTER_MUNITIONS.get());
-				tabData.accept(StarWarsModItems.THERMAL_DETONATOR.get());
 				tabData.accept(StarWarsModItems.BACKPACK.get());
 				tabData.accept(StarWarsModItems.GEONOSIS_DIMENSION.get());
 				tabData.accept(StarWarsModItems.KASHYYYK_DIMENSION.get());
@@ -67,6 +66,7 @@ public class StarWarsModTabs {
 				tabData.accept(StarWarsModBlocks.FELUCIA_YELLOW_FENCE_GATE.get().asItem());
 				tabData.accept(StarWarsModBlocks.FELUCIA_YELLOW_PRESSURE_PLATE.get().asItem());
 				tabData.accept(StarWarsModBlocks.FELUCIA_YELLOW_BUTTON.get().asItem());
+				tabData.accept(StarWarsModItems.THERMAL_DETONATOR.get());
 			})
 
 					.build());
@@ -89,8 +89,6 @@ public class StarWarsModTabs {
 	public static final RegistryObject<CreativeModeTab> REPUBLIC = REGISTRY.register("republic",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.star_wars.republic")).icon(() -> new ItemStack(StarWarsModItems.CLONE_TROOPER_NORMAL_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(StarWarsModItems.MUSIC_DISK_REPUBLIC.get());
-				tabData.accept(StarWarsModItems.BLASTER_DC_15S.get());
-				tabData.accept(StarWarsModItems.BLASTER_DC_17.get());
 				tabData.accept(StarWarsModItems.BLUE_LIGHTSABER.get());
 				tabData.accept(StarWarsModItems.GREEN_LIGHTSABER.get());
 				tabData.accept(StarWarsModBlocks.REPUBLIC_OUTPOST_BOX.get().asItem());
@@ -230,5 +228,7 @@ public class StarWarsModTabs {
 				tabData.accept(StarWarsModItems.CLONE_TROOPER_COMMANDER_PYRIX_ARMOR_LEGGINGS.get());
 				tabData.accept(StarWarsModItems.CLONE_TROOPER_COMMANDER_PYRIX_ARMOR_BOOTS.get());
 				tabData.accept(StarWarsModItems.CLONE_TROOPER_COMMUNICATOR.get());
+				tabData.accept(StarWarsModItems.BLASTER_DC_15S.get());
+				tabData.accept(StarWarsModItems.BLASTER_DC_17.get());
 			}).withSearchBar().build());
 }

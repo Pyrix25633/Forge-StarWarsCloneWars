@@ -2,27 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "star_wars:felucia_blue_planks"
-    },
-    "3": {
-      "item": "star_wars:felucia_blue_planks"
-    },
-    "4": {
-      "item": "star_wars:felucia_blue_planks"
-    },
-    "6": {
-      "item": "star_wars:felucia_blue_planks"
-    },
-    "7": {
-      "item": "star_wars:felucia_blue_planks"
-    },
-    "8": {
+    "a": {
       "item": "star_wars:felucia_blue_planks"
     }
   },

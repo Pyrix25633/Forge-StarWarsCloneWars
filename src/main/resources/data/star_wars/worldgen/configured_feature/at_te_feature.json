@@ -1,0 +1,12 @@
+{
+  "type": "star_wars:structure_feature",
+  "config": {
+    "structure": "star_wars:at_te",
+    "random_rotation": true,
+    "random_mirror": true,
+    "ignored_blocks": [
+      "minecraft:structure_block",
+      "minecraft:air"
+    ]
+  }
+}

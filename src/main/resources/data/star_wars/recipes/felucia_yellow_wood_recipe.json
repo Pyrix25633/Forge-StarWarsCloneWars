@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "star_wars:felucia_yellow_log"
-    },
-    "1": {
-      "item": "star_wars:felucia_yellow_log"
-    },
-    "2": {
-      "item": "star_wars:felucia_yellow_log"
-    },
-    "3": {
+    "a": {
       "item": "star_wars:felucia_yellow_log"
     }
   },

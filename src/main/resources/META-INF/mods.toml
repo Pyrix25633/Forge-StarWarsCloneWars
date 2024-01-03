@@ -4,11 +4,11 @@ license="GNU General Public License version 3 (GPLv3)"
 
 [[mods]]
 modId="star_wars"
-version="1.5.0"
+version="1.5.1"
 displayName="Star Wars Clone Wars"
-credits="Created using mod maker MCreator - https://mcreator.net/about"
 displayURL="https://rupyberstudios.github.io/website"
 logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
 authors="Pyrix25633"
 description="A Star Wars mod, based on Clone Wars, for battles with Clone Troopers against Separatist troopers"
 

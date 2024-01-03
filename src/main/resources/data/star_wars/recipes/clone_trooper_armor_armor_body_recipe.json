@@ -2,33 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "2": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "3": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "4": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "5": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "6": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "7": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "8": {
+    "a": {
       "item": "star_wars:plastoid_plate"
     }
   },

@@ -2,34 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0 2",
-    "345",
-    "678"
+    "a a",
+    "bab",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "star_wars:plastoid_plate"
     },
-    "2": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "3": {
+    "b": {
       "item": "minecraft:firework_rocket"
-    },
-    "4": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "5": {
-      "item": "minecraft:firework_rocket"
-    },
-    "6": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "7": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "8": {
-      "item": "star_wars:plastoid_plate"
     }
   },
   "result": {

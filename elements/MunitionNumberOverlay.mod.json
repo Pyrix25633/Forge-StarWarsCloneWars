@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "overlay",
   "definition": {
     "priority": "NORMAL",
@@ -16,6 +16,7 @@
             "value": -12829636,
             "falpha": 0.0
           },
+          "anchorPoint": "CENTER",
           "x": 139,
           "y": 184
         }
@@ -25,6 +26,7 @@
         "data": {
           "image": "blaster_munitions.png",
           "use1Xscale": false,
+          "anchorPoint": "CENTER",
           "x": 123,
           "y": 179
         }

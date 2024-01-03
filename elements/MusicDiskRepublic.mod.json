@@ -1,15 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disk",
+    "rarity": "RARE",
     "texture": "music_disc_republic",
     "description": "Pyrix25633 - Republic Army March",
     "creativeTab": {
       "value": "CUSTOM:Republic"
     },
-    "specialInfo": [],
-    "hasGlow": false,
+    "specialInformation": {
+      "fixedValue": []
+    },
     "music": {
       "value": "CUSTOM:record.republic"
     },

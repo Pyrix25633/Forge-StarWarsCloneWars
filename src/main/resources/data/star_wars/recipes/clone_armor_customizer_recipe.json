@@ -2,20 +2,14 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "bb"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "star_wars:titanium_ingot"
     },
-    "1": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "2": {
-      "tag": "minecraft:planks"
-    },
-    "3": {
+    "b": {
       "tag": "minecraft:planks"
     }
   },

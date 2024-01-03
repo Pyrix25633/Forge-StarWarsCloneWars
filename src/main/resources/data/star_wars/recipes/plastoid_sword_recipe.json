@@ -2,18 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "a",
+    "b"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "star_wars:plastoid_plate"
     },
-    "1": {
-      "item": "star_wars:plastoid_plate"
-    },
-    "2": {
+    "b": {
       "item": "minecraft:stick"
     }
   },

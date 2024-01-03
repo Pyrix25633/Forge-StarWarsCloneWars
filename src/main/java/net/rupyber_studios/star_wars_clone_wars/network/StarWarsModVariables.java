@@ -131,7 +131,7 @@ public class StarWarsModVariables {
 	}
 
 	public static class PlayerVariablesSyncMessage {
-		public PlayerVariables data;
+		private final PlayerVariables data;
 
 		public PlayerVariablesSyncMessage(FriendlyByteBuf buffer) {
 			this.data = new PlayerVariables();

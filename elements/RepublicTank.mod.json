@@ -1,15 +1,15 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "livingentity",
   "definition": {
     "mobName": "Republic Tank",
     "mobLabel": "",
     "mobModelName": "ModelRepublicTank",
     "mobModelTexture": "republic_tank.png",
-    "mobModelGlowTexture": "",
     "solidBoundingBox": {
       "fixedValue": false
     },
+    "modelLayers": [],
     "modelWidth": 2.0,
     "modelHeight": 2.0,
     "modelShadowSize": 0.9,
@@ -60,6 +60,9 @@
     "health": 600,
     "xpAmount": 0,
     "waterMob": false,
+    "pushedByFluids": {
+      "fixedValue": true
+    },
     "flyingMob": false,
     "guiBoundTo": "RepubblicTankGui",
     "inventorySize": 9,
@@ -96,6 +99,7 @@
     "stepSound": {
       "value": "CUSTOM:entity.walk.tank"
     },
+    "entityDataEntries": [],
     "hasAI": true,
     "aiBase": "(none)",
     "aixml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"aitasks_container\" deletable=\"false\" x=\"40\" y=\"40\"></block></xml>",

@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "1": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "2": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "3": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "4": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "5": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "6": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "7": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "8": {
+    "a": {
       "item": "star_wars:titanium_ingot"
     }
   },

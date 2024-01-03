@@ -27,8 +27,6 @@ public class MunitionNumberOverlayOverlay {
 	public static void eventHandler(RenderGuiEvent.Pre event) {
 		int w = event.getWindow().getGuiScaledWidth();
 		int h = event.getWindow().getGuiScaledHeight();
-		int posX = w / 2;
-		int posY = h / 2;
 		Level world = null;
 		double x = 0;
 		double y = 0;
@@ -47,11 +45,11 @@ public class MunitionNumberOverlayOverlay {
 		RenderSystem.blendFuncSeparate(GlStateManager.SourceFactor.SRC_ALPHA, GlStateManager.DestFactor.ONE_MINUS_SRC_ALPHA, GlStateManager.SourceFactor.ONE, GlStateManager.DestFactor.ZERO);
 		RenderSystem.setShaderColor(1, 1, 1, 1);
 		if (MunitionCountProcedureProcedure.execute(entity)) {
-			event.getGuiGraphics().blit(new ResourceLocation("star_wars:textures/screens/blaster_munitions.png"), posX + -90, posY + 59, 0, 0, 16, 16, 16, 16);
+			event.getGuiGraphics().blit(new ResourceLocation("star_wars:textures/screens/blaster_munitions.png"), w / 2 + -90, h / 2 + 59, 0, 0, 16, 16, 16, 16);
 
 			event.getGuiGraphics().drawString(Minecraft.getInstance().font,
 
-					ReturnMunitionNumProcedure.execute(entity), posX + -74, posY + 64, -12829636, false);
+					ReturnMunitionNumProcedure.execute(entity), w / 2 + -74, h / 2 + 64, -12829636, false);
 		}
 		RenderSystem.depthMask(true);
 		RenderSystem.defaultBlendFunc();

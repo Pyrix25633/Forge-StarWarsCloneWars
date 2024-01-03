@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "plastoid_shovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Plastoid Shovel",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:Materials"
     },
@@ -18,7 +22,6 @@
     "damageVsEntity": 3.25,
     "usageCount": 2032,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:PlastoidPlate"

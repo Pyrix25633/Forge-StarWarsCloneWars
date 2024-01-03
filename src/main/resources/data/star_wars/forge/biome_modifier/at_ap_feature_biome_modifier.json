@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "star_wars:geonosis_plains",
+    "star_wars:geonosis",
+    "star_wars:kashyyyk",
+    "star_wars:felucia_blue_plains",
+    "star_wars:felucia_red_plains",
+    "star_wars:felucia_yellow_plains"
+  ],
+  "features": "star_wars:at_ap_feature",
+  "step": "surface_structures"
+}

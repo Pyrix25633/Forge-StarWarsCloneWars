@@ -2,20 +2,17 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "3  "
+    "abb",
+    "c  "
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:redstone"
     },
-    "1": {
+    "b": {
       "item": "star_wars:titanium_ingot"
     },
-    "2": {
-      "item": "star_wars:titanium_ingot"
-    },
-    "3": {
+    "c": {
       "item": "minecraft:iron_ingot"
     }
   },

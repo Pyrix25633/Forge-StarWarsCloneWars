@@ -78,8 +78,6 @@ import net.minecraft.world.item.BlockItem;
 public class StarWarsModItems {
 	public static final DeferredRegister<Item> REGISTRY = DeferredRegister.create(ForgeRegistries.ITEMS, StarWarsMod.MODID);
 	public static final RegistryObject<Item> MUSIC_DISK_REPUBLIC = REGISTRY.register("music_disk_republic", () -> new MusicDiskRepublicItem());
-	public static final RegistryObject<Item> BLASTER_DC_15S = REGISTRY.register("blaster_dc_15s", () -> new BlasterDc15sItem());
-	public static final RegistryObject<Item> BLASTER_DC_17 = REGISTRY.register("blaster_dc_17", () -> new BlasterDc17Item());
 	public static final RegistryObject<Item> BLUE_LIGHTSABER = REGISTRY.register("blue_lightsaber", () -> new BlueLightsaberItem());
 	public static final RegistryObject<Item> GREEN_LIGHTSABER = REGISTRY.register("green_lightsaber", () -> new GreenLightsaberItem());
 	public static final RegistryObject<Item> REPUBLIC_OUTPOST_BOX = block(StarWarsModBlocks.REPUBLIC_OUTPOST_BOX);
@@ -243,7 +241,6 @@ public class StarWarsModItems {
 	public static final RegistryObject<Item> PLASTOID_SHOVEL = REGISTRY.register("plastoid_shovel", () -> new PlastoidShovelItem());
 	public static final RegistryObject<Item> PLASTOID_HOE = REGISTRY.register("plastoid_hoe", () -> new PlastoidHoeItem());
 	public static final RegistryObject<Item> BLASTER_MUNITIONS = REGISTRY.register("blaster_munitions", () -> new BlasterMunitionsItem());
-	public static final RegistryObject<Item> THERMAL_DETONATOR = REGISTRY.register("thermal_detonator", () -> new ThermalDetonatorItem());
 	public static final RegistryObject<Item> BACKPACK = REGISTRY.register("backpack", () -> new BackpackItem());
 	public static final RegistryObject<Item> GEONOSIS_DIMENSION = REGISTRY.register("geonosis_dimension", () -> new GeonosisDimensionItem());
 	public static final RegistryObject<Item> KASHYYYK_DIMENSION = REGISTRY.register("kashyyyk_dimension", () -> new KashyyykDimensionItem());
@@ -291,10 +288,13 @@ public class StarWarsModItems {
 	public static final RegistryObject<Item> DROID_SECURITY_KASHYYYK_SPAWN_EGG = REGISTRY.register("droid_security_kashyyyk_spawn_egg",
 			() -> new ForgeSpawnEggItem(StarWarsModEntities.DROID_SECURITY_KASHYYYK, -3915493, -12893672, new Item.Properties()));
 	public static final RegistryObject<Item> SEPARATIST_TANK_SPAWN_EGG = REGISTRY.register("separatist_tank_spawn_egg", () -> new ForgeSpawnEggItem(StarWarsModEntities.SEPARATIST_TANK, -5150464, -5154560, new Item.Properties()));
+	public static final RegistryObject<Item> CLONE_TROOPER_COMMUNICATOR = REGISTRY.register("clone_trooper_communicator", () -> new CloneTrooperCommunicatorItem());
+	public static final RegistryObject<Item> BLASTER_DC_15S = REGISTRY.register("blaster_dc_15s", () -> new BlasterDc15sItem());
 	public static final RegistryObject<Item> BLASTER_E_5 = REGISTRY.register("blaster_e_5", () -> new BlasterE5Item());
 	public static final RegistryObject<Item> REPUBBLIC_TANK_SHOT = REGISTRY.register("repubblic_tank_shot", () -> new RepubblicTankShotItem());
+	public static final RegistryObject<Item> THERMAL_DETONATOR = REGISTRY.register("thermal_detonator", () -> new ThermalDetonatorItem());
+	public static final RegistryObject<Item> BLASTER_DC_17 = REGISTRY.register("blaster_dc_17", () -> new BlasterDc17Item());
 	public static final RegistryObject<Item> SEPARATIST_TANK_SHOT = REGISTRY.register("separatist_tank_shot", () -> new SeparatistTankShotItem());
-	public static final RegistryObject<Item> CLONE_TROOPER_COMMUNICATOR = REGISTRY.register("clone_trooper_communicator", () -> new CloneTrooperCommunicatorItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

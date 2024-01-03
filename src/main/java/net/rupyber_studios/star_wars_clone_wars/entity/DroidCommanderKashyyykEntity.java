@@ -107,7 +107,7 @@ public class DroidCommanderKashyyykEntity extends Monster implements RangedAttac
 
 	@Override
 	public void performRangedAttack(LivingEntity target, float flval) {
-		BlasterE5Entity.shoot(this, target);
+		BlasterE5ProjectileEntity.shoot(this, target);
 	}
 
 	public static void init() {

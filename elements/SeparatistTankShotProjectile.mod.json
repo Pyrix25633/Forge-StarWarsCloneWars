@@ -1,0 +1,22 @@
+{
+  "_fv": 57,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:BlasterMunitions"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "CUSTOM:entity.laser.shot"
+    },
+    "igniteFire": false,
+    "power": 8.0,
+    "damage": 6.0,
+    "knockback": 0,
+    "entityModel": "ModelLaserShot",
+    "customModelTexture": "laser_shot.png",
+    "onHitsBlock": {
+      "name": "TankShootExplosionProcedure"
+    }
+  }
+}

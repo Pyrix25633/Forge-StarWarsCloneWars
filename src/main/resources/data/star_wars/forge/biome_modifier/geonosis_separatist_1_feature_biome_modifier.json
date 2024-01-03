@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "star_wars:geonosis_plains",
+    "star_wars:geonosis"
+  ],
+  "features": "star_wars:geonosis_separatist_1_feature",
+  "step": "surface_structures"
+}

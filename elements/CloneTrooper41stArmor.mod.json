@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -18,10 +18,18 @@
     "bodyName": "Clone Trooper 41st Elite Corps Chestplate",
     "leggingsName": "Clone Trooper 41st Elite Corps Leggings",
     "bootsName": "Clone Trooper 41st Elite Corps Boots",
-    "helmetSpecialInfo": [],
-    "bodySpecialInfo": [],
-    "leggingsSpecialInfo": [],
-    "bootsSpecialInfo": [],
+    "helmetSpecialInformation": {
+      "fixedValue": []
+    },
+    "bodySpecialInformation": {
+      "fixedValue": []
+    },
+    "leggingsSpecialInformation": {
+      "fixedValue": []
+    },
+    "bootsSpecialInformation": {
+      "fixedValue": []
+    },
     "helmetModelName": "ModelHelmetPlain",
     "helmetModelPart": "head",
     "helmetModelTexture": "clone_armor_armor_41st_layer_helmet.png",

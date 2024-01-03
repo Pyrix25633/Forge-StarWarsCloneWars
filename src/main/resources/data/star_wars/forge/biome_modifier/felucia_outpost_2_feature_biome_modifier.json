@@ -1,0 +1,10 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "star_wars:felucia_blue_plains",
+    "star_wars:felucia_red_plains",
+    "star_wars:felucia_yellow_plains"
+  ],
+  "features": "star_wars:felucia_outpost_2_feature",
+  "step": "surface_structures"
+}

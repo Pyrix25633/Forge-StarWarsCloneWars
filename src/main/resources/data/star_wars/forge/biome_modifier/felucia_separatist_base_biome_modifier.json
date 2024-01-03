@@ -1,8 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": {
-    "type": "forge:any"
-  },
-  "features": "star_wars:felucia_separatist_base",
-  "step": "surface_structures"
-}

@@ -5,15 +5,24 @@ import net.rupyber_studios.star_wars_clone_wars.block.GeonosisDimensionPortalBlo
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.context.UseOnContext;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.InteractionResult;
+import net.minecraft.network.chat.Component;
 import net.minecraft.core.BlockPos;
+
+import java.util.List;
 
 public class GeonosisDimensionItem extends Item {
 	public GeonosisDimensionItem() {
 		super(new Item.Properties().durability(64));
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
