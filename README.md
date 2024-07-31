@@ -1,12 +1,13 @@
 # Star Wars Clone Wars
 
-### *A mod by Rupyber Studios*
+### *A mod by*
+![Rupyber Studios Logo](https://rupyberstudios.github.io/website/img/rupyber_studios.png)
 
-This is a Forge MCreator mod that adds clones, battle droids and much more to Minecraft!
+TAdds Clones, Battle Droids, Dimensions and much more.
 
 ## Visit our [Website](https://rupyberstudios.github.io/website/)!
 
-![Star Wars Clone Wars Logo](https://github.com/RupyberStudios/website/blob/main/img/star_wars_clone_wars_logo_small.png?raw=true)
+![Star Wars Clone Wars Logo](https://rupyberstudios.github.io/website/img/star_wars_clone_wars.png)
 
 ## [Installation](https://rupyberstudios.github.io/website/pages/installation)
 
